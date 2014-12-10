@@ -5354,12 +5354,11 @@ Wickmann</description>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="-393.7" y1="353.06" x2="-393.7" y2="340.36" width="0.1524" layer="91"/>
 <wire x1="-393.7" y1="340.36" x2="-393.7" y2="335.28" width="0.1524" layer="91"/>
-<wire x1="-403.86" y1="340.36" x2="-401.32" y2="340.36" width="0.1524" layer="91"/>
 <junction x="-393.7" y="340.36"/>
-<pinref part="U2" gate="G$1" pin="OUT"/>
-<wire x1="-401.32" y1="340.36" x2="-393.7" y2="340.36" width="0.1524" layer="91"/>
 <wire x1="-393.7" y1="340.36" x2="-378.46" y2="340.36" width="0.1524" layer="91"/>
 <label x="-378.46" y="340.36" size="1.778" layer="95"/>
+<pinref part="U2" gate="G$1" pin="OUT"/>
+<wire x1="-393.7" y1="340.36" x2="-401.32" y2="340.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3.3V" class="0">
@@ -5369,8 +5368,9 @@ Wickmann</description>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="-393.7" y1="317.5" x2="-393.7" y2="304.8" width="0.1524" layer="91"/>
 <wire x1="-393.7" y1="304.8" x2="-393.7" y2="299.72" width="0.1524" layer="91"/>
-<wire x1="-403.86" y1="304.8" x2="-401.32" y2="304.8" width="0.1524" layer="91"/>
 <junction x="-393.7" y="304.8"/>
+<wire x1="-393.7" y1="304.8" x2="-378.46" y2="304.8" width="0.1524" layer="91"/>
+<label x="-378.46" y="304.8" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="OUT"/>
 <wire x1="-401.32" y1="304.8" x2="-393.7" y2="304.8" width="0.1524" layer="91"/>
 </segment>
@@ -5378,7 +5378,6 @@ Wickmann</description>
 <net name="+12V" class="0">
 <segment>
 <wire x1="-429.26" y1="304.8" x2="-421.64" y2="304.8" width="0.1524" layer="91"/>
-<wire x1="-421.64" y1="304.8" x2="-419.1" y2="304.8" width="0.1524" layer="91"/>
 <junction x="-429.26" y="304.8"/>
 <wire x1="-429.26" y1="299.72" x2="-429.26" y2="304.8" width="0.1524" layer="91"/>
 <wire x1="-429.26" y1="304.8" x2="-429.26" y2="317.5" width="0.1524" layer="91"/>
@@ -5388,7 +5387,6 @@ Wickmann</description>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="-429.26" y1="304.8" x2="-441.96" y2="304.8" width="0.1524" layer="91"/>
 <wire x1="-429.26" y1="340.36" x2="-421.64" y2="340.36" width="0.1524" layer="91"/>
-<wire x1="-421.64" y1="340.36" x2="-419.1" y2="340.36" width="0.1524" layer="91"/>
 <junction x="-429.26" y="340.36"/>
 <wire x1="-429.26" y1="335.28" x2="-429.26" y2="340.36" width="0.1524" layer="91"/>
 <wire x1="-429.26" y1="340.36" x2="-429.26" y2="353.06" width="0.1524" layer="91"/>

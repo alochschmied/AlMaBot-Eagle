@@ -5403,8 +5403,8 @@ Wickmann</description>
 <junction x="-459.74" y="340.36"/>
 <pinref part="F1" gate="G$1" pin="2"/>
 <wire x1="-469.9" y1="340.36" x2="-459.74" y2="340.36" width="0.1524" layer="91"/>
-<wire x1="-459.74" y1="340.36" x2="-459.74" y2="350.52" width="0.1524" layer="91"/>
-<label x="-459.74" y="350.52" size="1.778" layer="95"/>
+<wire x1="-459.74" y1="340.36" x2="-459.74" y2="353.06" width="0.1524" layer="91"/>
+<label x="-459.74" y="353.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">

@@ -5319,7 +5319,6 @@ Wickmann</description>
 <part name="D6" library="diode" deviceset="1N4004" device=""/>
 <part name="C3" library="rcl" deviceset="C-EU" device="025-040X050" value="10uF Tant."/>
 <part name="C4" library="rcl" deviceset="C-EU" device="025-040X050" value="10uF Tant."/>
-<part name="FRAME2" library="frames" deviceset="DINA4_L" device=""/>
 <part name="D1" library="diode" deviceset="1N4004" device=""/>
 <part name="F1" library="fuse" deviceset="FUSE" device="BLANK_5X20MM" value="10A"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
@@ -5341,8 +5340,6 @@ Wickmann</description>
 <instance part="D6" gate="1" x="-411.48" y="317.5" rot="MR0"/>
 <instance part="C3" gate="G$1" x="-429.26" y="297.18"/>
 <instance part="C4" gate="G$1" x="-393.7" y="297.18"/>
-<instance part="FRAME2" gate="G$1" x="-502.92" y="27.94"/>
-<instance part="FRAME2" gate="G$2" x="-340.36" y="27.94"/>
 <instance part="D1" gate="1" x="-459.74" y="332.74" rot="R90"/>
 <instance part="F1" gate="G$1" x="-474.98" y="340.36"/>
 <instance part="GND1" gate="1" x="-459.74" y="312.42"/>
@@ -5405,13 +5402,11 @@ Wickmann</description>
 <wire x1="-441.96" y1="304.8" x2="-441.96" y2="340.36" width="0.1524" layer="91"/>
 <junction x="-441.96" y="340.36"/>
 <wire x1="-459.74" y1="340.36" x2="-441.96" y2="340.36" width="0.1524" layer="91"/>
-<label x="-459.74" y="353.06" size="2.1844" layer="95" xref="yes"/>
 <pinref part="D1" gate="1" pin="C"/>
 <wire x1="-459.74" y1="340.36" x2="-459.74" y2="335.28" width="0.1524" layer="91"/>
 <junction x="-459.74" y="340.36"/>
 <pinref part="F1" gate="G$1" pin="2"/>
 <wire x1="-469.9" y1="340.36" x2="-459.74" y2="340.36" width="0.1524" layer="91"/>
-<wire x1="-459.74" y1="353.06" x2="-459.74" y2="340.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
