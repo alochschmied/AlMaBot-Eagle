@@ -5702,24 +5702,26 @@ Grid 5.08 mm&lt;p&gt;
 <part name="D6" library="diode" deviceset="1N4004" device=""/>
 <part name="C3" library="rcl" deviceset="C-EU" device="025-040X050" value="10uF Tant."/>
 <part name="C4" library="rcl" deviceset="C-EU" device="025-040X050" value="10uF Tant."/>
+<part name="FRAME2" library="frames" deviceset="DINA4_L" device=""/>
+<part name="FRAME3" library="frames" deviceset="DINA4_L" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="U1" gate="G$1" x="-375.92" y="271.78"/>
-<instance part="IC1" gate="B" x="-477.52" y="363.22"/>
-<instance part="PCB1" gate="G$1" x="-266.7" y="358.14"/>
-<instance part="D1" gate="1" x="-426.72" y="279.4"/>
-<instance part="D2" gate="1" x="-426.72" y="274.32"/>
-<instance part="D3" gate="1" x="-426.72" y="269.24"/>
-<instance part="D4" gate="1" x="-426.72" y="264.16"/>
-<instance part="SUPPLY2" gate="+12V" x="-457.2" y="363.22"/>
-<instance part="SUPPLY3" gate="GND" x="-449.58" y="363.22"/>
-<instance part="MOTOR" gate="-1" x="-454.66" y="274.32"/>
-<instance part="MOTOR" gate="-2" x="-454.66" y="269.24"/>
-<instance part="IC2" gate="G$1" x="-264.16" y="281.94"/>
+<instance part="U1" gate="G$1" x="-363.22" y="472.44"/>
+<instance part="IC1" gate="B" x="-482.6" y="434.34"/>
+<instance part="PCB1" gate="G$1" x="-269.24" y="490.22"/>
+<instance part="D1" gate="1" x="-408.94" y="449.58"/>
+<instance part="D2" gate="1" x="-408.94" y="444.5"/>
+<instance part="D3" gate="1" x="-408.94" y="439.42"/>
+<instance part="D4" gate="1" x="-408.94" y="434.34"/>
+<instance part="SUPPLY2" gate="+12V" x="-469.9" y="411.48"/>
+<instance part="SUPPLY3" gate="GND" x="-457.2" y="416.56"/>
+<instance part="MOTOR" gate="-1" x="-436.88" y="439.42"/>
+<instance part="MOTOR" gate="-2" x="-436.88" y="431.8"/>
+<instance part="IC2" gate="G$1" x="-314.96" y="485.14"/>
 <instance part="U2" gate="G$1" x="-411.48" y="340.36"/>
 <instance part="D5" gate="1" x="-411.48" y="353.06" rot="MR0"/>
 <instance part="C1" gate="G$1" x="-429.26" y="332.74"/>
@@ -5732,11 +5734,15 @@ Grid 5.08 mm&lt;p&gt;
 <instance part="D6" gate="1" x="-411.48" y="317.5" rot="MR0"/>
 <instance part="C3" gate="G$1" x="-429.26" y="297.18"/>
 <instance part="C4" gate="G$1" x="-393.7" y="297.18"/>
+<instance part="FRAME2" gate="G$1" x="-502.92" y="27.94"/>
+<instance part="FRAME2" gate="G$2" x="-340.36" y="27.94"/>
+<instance part="FRAME3" gate="G$1" x="-502.92" y="406.4"/>
+<instance part="FRAME3" gate="G$2" x="-340.36" y="406.4"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="N$2" class="0">
+<net name="+5V" class="0">
 <segment>
 <pinref part="D5" gate="1" pin="A"/>
 <wire x1="-408.94" y1="353.06" x2="-393.7" y2="353.06" width="0.1524" layer="91"/>
@@ -5748,9 +5754,11 @@ Grid 5.08 mm&lt;p&gt;
 <pinref part="U2" gate="G$1" pin="OUT"/>
 <wire x1="-401.32" y1="340.36" x2="-393.7" y2="340.36" width="0.1524" layer="91"/>
 <junction x="-401.32" y="340.36"/>
+<wire x1="-393.7" y1="340.36" x2="-368.3" y2="340.36" width="0.1524" layer="91"/>
+<label x="-365.76" y="340.36" size="2.1844" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="+3.3V" class="0">
 <segment>
 <pinref part="D6" gate="1" pin="A"/>
 <wire x1="-408.94" y1="317.5" x2="-393.7" y2="317.5" width="0.1524" layer="91"/>
@@ -5762,6 +5770,8 @@ Grid 5.08 mm&lt;p&gt;
 <pinref part="U3" gate="G$1" pin="OUT"/>
 <wire x1="-401.32" y1="304.8" x2="-393.7" y2="304.8" width="0.1524" layer="91"/>
 <junction x="-401.32" y="304.8"/>
+<wire x1="-393.7" y1="304.8" x2="-368.3" y2="304.8" width="0.1524" layer="91"/>
+<label x="-365.76" y="304.8" size="2.1844" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$6" class="0">
