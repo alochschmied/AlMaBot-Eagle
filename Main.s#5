@@ -3797,7 +3797,7 @@ Grid 5.08 mm&lt;p&gt;
 <instance part="C4" gate="G$1" x="-393.7" y="297.18"/>
 <instance part="FRAME2" gate="G$1" x="-502.92" y="27.94"/>
 <instance part="FRAME2" gate="G$2" x="-340.36" y="27.94"/>
-<instance part="GND1" gate="1" x="-467.36" y="317.5"/>
+<instance part="GND1" gate="1" x="-459.74" y="314.96"/>
 <instance part="D1" gate="1" x="-469.9" y="340.36"/>
 <instance part="D2" gate="1" x="-469.9" y="325.12" rot="R180"/>
 </instances>
@@ -3861,8 +3861,13 @@ Grid 5.08 mm&lt;p&gt;
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="-441.96" y1="340.36" x2="-429.26" y2="340.36" width="0.1524" layer="91"/>
 <wire x1="-441.96" y1="304.8" x2="-441.96" y2="340.36" width="0.1524" layer="91"/>
-<wire x1="-464.82" y1="340.36" x2="-441.96" y2="340.36" width="0.1524" layer="91"/>
 <junction x="-441.96" y="340.36"/>
+<wire x1="-459.74" y1="340.36" x2="-441.96" y2="340.36" width="0.1524" layer="91"/>
+<wire x1="-459.74" y1="340.36" x2="-459.74" y2="350.52" width="0.1524" layer="91"/>
+<label x="-459.74" y="353.06" size="2.1844" layer="95" xref="yes"/>
+<pinref part="D1" gate="1" pin="C"/>
+<wire x1="-459.74" y1="340.36" x2="-467.36" y2="340.36" width="0.1524" layer="91"/>
+<junction x="-459.74" y="340.36"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -3895,8 +3900,11 @@ Grid 5.08 mm&lt;p&gt;
 <wire x1="-447.04" y1="289.56" x2="-447.04" y2="325.12" width="0.1524" layer="91"/>
 <junction x="-429.26" y="289.56"/>
 <pinref part="D2" gate="1" pin="A"/>
-<wire x1="-467.36" y1="325.12" x2="-447.04" y2="325.12" width="0.1524" layer="91"/>
+<wire x1="-467.36" y1="325.12" x2="-459.74" y2="325.12" width="0.1524" layer="91"/>
 <junction x="-447.04" y="325.12"/>
+<wire x1="-459.74" y1="325.12" x2="-447.04" y2="325.12" width="0.1524" layer="91"/>
+<wire x1="-459.74" y1="314.96" x2="-459.74" y2="325.12" width="0.1524" layer="91"/>
+<junction x="-459.74" y="325.12"/>
 </segment>
 </net>
 <net name="N$2" class="0">
