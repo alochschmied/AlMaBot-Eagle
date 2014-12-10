@@ -3861,12 +3861,13 @@ Grid 5.08 mm&lt;p&gt;
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="-441.96" y1="340.36" x2="-429.26" y2="340.36" width="0.1524" layer="91"/>
 <wire x1="-441.96" y1="304.8" x2="-441.96" y2="340.36" width="0.1524" layer="91"/>
-<wire x1="-464.82" y1="340.36" x2="-459.74" y2="340.36" width="0.1524" layer="91"/>
 <junction x="-441.96" y="340.36"/>
 <wire x1="-459.74" y1="340.36" x2="-441.96" y2="340.36" width="0.1524" layer="91"/>
 <wire x1="-459.74" y1="340.36" x2="-459.74" y2="350.52" width="0.1524" layer="91"/>
-<junction x="-459.74" y="340.36"/>
 <label x="-459.74" y="353.06" size="2.1844" layer="95" xref="yes"/>
+<pinref part="D1" gate="1" pin="C"/>
+<wire x1="-459.74" y1="340.36" x2="-467.36" y2="340.36" width="0.1524" layer="91"/>
+<junction x="-459.74" y="340.36"/>
 </segment>
 </net>
 <net name="N$3" class="0">

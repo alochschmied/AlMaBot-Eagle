@@ -3871,7 +3871,7 @@ Grid 5.08 mm&lt;p&gt;
 <junction x="-467.36" y="325.12"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="+12V" class="0">
 <segment>
 <wire x1="-429.26" y1="304.8" x2="-421.64" y2="304.8" width="0.1524" layer="91"/>
 <wire x1="-421.64" y1="304.8" x2="-419.1" y2="304.8" width="0.1524" layer="91"/>
@@ -3901,6 +3901,9 @@ Grid 5.08 mm&lt;p&gt;
 <wire x1="-441.96" y1="340.36" x2="-429.26" y2="340.36" width="0.1524" layer="91"/>
 <wire x1="-441.96" y1="304.8" x2="-441.96" y2="340.36" width="0.1524" layer="91"/>
 <junction x="-441.96" y="340.36"/>
+<wire x1="-467.36" y1="340.36" x2="-467.36" y2="347.98" width="0.1524" layer="91"/>
+<junction x="-467.36" y="340.36"/>
+<label x="-467.36" y="350.52" size="2.1844" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

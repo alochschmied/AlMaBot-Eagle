@@ -3741,7 +3741,6 @@ Grid 5.08 mm&lt;p&gt;
 <part name="C3" library="rcl" deviceset="C-EU" device="025-040X050" value="10uF Tant."/>
 <part name="C4" library="rcl" deviceset="C-EU" device="025-040X050" value="10uF Tant."/>
 <part name="FRAME2" library="frames" deviceset="DINA4_L" device=""/>
-<part name="FRAME3" library="frames" deviceset="DINA4_L" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3762,8 +3761,6 @@ Grid 5.08 mm&lt;p&gt;
 <instance part="C4" gate="G$1" x="-393.7" y="297.18"/>
 <instance part="FRAME2" gate="G$1" x="-502.92" y="27.94"/>
 <instance part="FRAME2" gate="G$2" x="-340.36" y="27.94"/>
-<instance part="FRAME3" gate="G$1" x="-502.92" y="406.4"/>
-<instance part="FRAME3" gate="G$2" x="-340.36" y="406.4"/>
 </instances>
 <busses>
 </busses>

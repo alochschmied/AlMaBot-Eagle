@@ -5361,7 +5361,6 @@ Wickmann</description>
 <junction x="-393.7" y="340.36"/>
 <pinref part="U2" gate="G$1" pin="OUT"/>
 <wire x1="-401.32" y1="340.36" x2="-393.7" y2="340.36" width="0.1524" layer="91"/>
-<junction x="-401.32" y="340.36"/>
 <wire x1="-393.7" y1="340.36" x2="-368.3" y2="340.36" width="0.1524" layer="91"/>
 <label x="-365.76" y="340.36" size="2.1844" layer="95" xref="yes"/>
 </segment>
@@ -5377,7 +5376,6 @@ Wickmann</description>
 <junction x="-393.7" y="304.8"/>
 <pinref part="U3" gate="G$1" pin="OUT"/>
 <wire x1="-401.32" y1="304.8" x2="-393.7" y2="304.8" width="0.1524" layer="91"/>
-<junction x="-401.32" y="304.8"/>
 <wire x1="-393.7" y1="304.8" x2="-368.3" y2="304.8" width="0.1524" layer="91"/>
 <label x="-365.76" y="304.8" size="2.1844" layer="95" xref="yes"/>
 </segment>
@@ -5392,7 +5390,6 @@ Wickmann</description>
 <pinref part="D6" gate="1" pin="C"/>
 <wire x1="-429.26" y1="317.5" x2="-414.02" y2="317.5" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="IN"/>
-<junction x="-421.64" y="304.8"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="-429.26" y1="304.8" x2="-441.96" y2="304.8" width="0.1524" layer="91"/>
 <wire x1="-429.26" y1="340.36" x2="-421.64" y2="340.36" width="0.1524" layer="91"/>
@@ -5403,7 +5400,6 @@ Wickmann</description>
 <pinref part="D5" gate="1" pin="C"/>
 <wire x1="-429.26" y1="353.06" x2="-414.02" y2="353.06" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="IN"/>
-<junction x="-421.64" y="340.36"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="-441.96" y1="340.36" x2="-429.26" y2="340.36" width="0.1524" layer="91"/>
 <wire x1="-441.96" y1="304.8" x2="-441.96" y2="340.36" width="0.1524" layer="91"/>
