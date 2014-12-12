@@ -6193,7 +6193,7 @@ Stand: 05.06.2009
 <part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="SV1" library="con-lsta" deviceset="FE20-2" device=""/>
+<part name="SV1" library="con-lsta" deviceset="FE20-2" device="" value="Raspberry Pi B Plus Connector"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="D2" library="diode" deviceset="P600" device="" value="1N4007"/>
 <part name="D3" library="diode" deviceset="P600" device="" value="1N4007"/>

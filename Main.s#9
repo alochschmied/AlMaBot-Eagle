@@ -6411,6 +6411,8 @@ Positive Adjustable Regulators</description>
 <part name="D11" library="diode" deviceset="P600" device="" value="1N4007"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
+<part name="FRAME3" library="frames" deviceset="DINA4_L" device=""/>
+<part name="FRAME4" library="frames" deviceset="DINA4_L" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6440,8 +6442,8 @@ Positive Adjustable Regulators</description>
 <instance part="GND1" gate="1" x="-459.74" y="312.42"/>
 <instance part="GND3" gate="1" x="-487.68" y="137.16"/>
 <instance part="X2" gate="G$1" x="-261.62" y="124.46"/>
-<instance part="SV1" gate="G$1" x="-299.72" y="322.58"/>
-<instance part="GND4" gate="1" x="-281.94" y="299.72"/>
+<instance part="SV1" gate="G$1" x="-388.62" y="518.16"/>
+<instance part="GND4" gate="1" x="-370.84" y="495.3"/>
 <instance part="D2" gate="G$1" x="-381" y="167.64" rot="R90"/>
 <instance part="D3" gate="G$1" x="-398.78" y="167.64" rot="R90"/>
 <instance part="D4" gate="G$1" x="-398.78" y="147.32" rot="R90"/>
@@ -6458,6 +6460,10 @@ Positive Adjustable Regulators</description>
 <instance part="D11" gate="G$1" x="-381" y="81.28" rot="R90"/>
 <instance part="GND7" gate="1" x="-398.78" y="71.12"/>
 <instance part="GND8" gate="1" x="-381" y="71.12"/>
+<instance part="FRAME3" gate="G$1" x="-513.08" y="408.94"/>
+<instance part="FRAME3" gate="G$2" x="-350.52" y="408.94"/>
+<instance part="FRAME4" gate="G$1" x="-513.08" y="-172.72"/>
+<instance part="FRAME4" gate="G$2" x="-350.52" y="-172.72"/>
 </instances>
 <busses>
 </busses>
@@ -6624,7 +6630,7 @@ Positive Adjustable Regulators</description>
 <segment>
 <pinref part="SV1" gate="G$1" pin="6"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="-292.1" y1="302.26" x2="-281.94" y2="302.26" width="0.1524" layer="91"/>
+<wire x1="-381" y1="497.84" x2="-370.84" y2="497.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>

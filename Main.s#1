@@ -6214,7 +6214,7 @@ Stand: 05.06.2009
 <part name="FRAME3" library="frames" deviceset="DINA4_L" device=""/>
 <part name="FRAME4" library="frames" deviceset="DINA4_L" device=""/>
 <part name="X3" library="con-ria-59" deviceset="AKL59-02" device="" value="Battery"/>
-<part name="X1" library="con-ria-59" deviceset="AKL59-08" device=""/>
+<part name="X1" library="con-ria-59" deviceset="AKL59-08" device="" value="Motors"/>
 </parts>
 <sheets>
 <sheet>

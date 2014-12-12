@@ -6185,8 +6185,8 @@ Stand: 05.06.2009
 <part name="C4" library="rcl" deviceset="C-EU" device="025-040X050" value="10uF Tant."/>
 <part name="D1" library="semicon-smd-ipc" deviceset="D-" device="MLL-41" value="1N4007"/>
 <part name="F1" library="fuse" deviceset="FUSE" device="BLANK_5X20MM" value="10A"/>
-<part name="FRAME1" library="frames" deviceset="DINA4_L" device=""/>
-<part name="FRAME2" library="frames" deviceset="DINA4_L" device=""/>
+<part name="FRAME1" library="frames" deviceset="DINA4_L" device="" value="Power"/>
+<part name="FRAME2" library="frames" deviceset="DINA4_L" device="" value="Motor"/>
 <part name="U1" library="SparkFun-PowerIC" deviceset="L298" device=""/>
 <part name="C3" library="rcl" deviceset="C-EU" device="025-040X050" value="10uF Tant."/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
@@ -6211,8 +6211,8 @@ Stand: 05.06.2009
 <part name="D11" library="diode" deviceset="P600" device="" value="1N4007"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="FRAME3" library="frames" deviceset="DINA4_L" device=""/>
-<part name="FRAME4" library="frames" deviceset="DINA4_L" device=""/>
+<part name="FRAME3" library="frames" deviceset="DINA4_L" device="" value="Raspberry Pi B plus Connector"/>
+<part name="FRAME4" library="frames" deviceset="DINA4_L" device="" value="TBD"/>
 <part name="X3" library="con-ria-59" deviceset="AKL59-02" device="" value="Battery"/>
 <part name="X1" library="con-ria-59" deviceset="AKL59-08" device="" value="Motors"/>
 </parts>

@@ -6159,27 +6159,26 @@ http://www.kosemi.com/product/diosr.html</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="linear-technology-3">
-<description>&lt;b&gt;Linear Technology Devices&lt;/b&gt;&lt;p&gt;
-http://www.linear.com&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;br&gt;
-&lt;author&gt;Modified by szczepan@stud.fh-hannover.de&lt;/author&gt;</description>
+<library name="v-reg-2">
+<description>&lt;b&gt;Voltage Regulators&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="TO220S">
-<wire x1="4.826" y1="-4.318" x2="5.08" y2="-4.064" width="0.1524" layer="21"/>
-<wire x1="4.826" y1="-4.318" x2="-4.826" y2="-4.318" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-4.064" x2="-4.826" y2="-4.318" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-1.143" x2="5.08" y2="-4.064" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-4.064" x2="-5.08" y2="-1.143" width="0.1524" layer="21"/>
+<package name="317TS">
+<description>&lt;b&gt;VOLTAGE REGULATOR&lt;/b&gt;</description>
+<wire x1="5.08" y1="-1.143" x2="5.08" y2="-4.064" width="0.1778" layer="21"/>
+<wire x1="4.826" y1="-4.318" x2="5.08" y2="-4.064" width="0.1778" layer="21"/>
+<wire x1="4.826" y1="-4.318" x2="-4.826" y2="-4.318" width="0.1778" layer="21"/>
+<wire x1="-5.08" y1="-4.064" x2="-4.826" y2="-4.318" width="0.1778" layer="21"/>
+<wire x1="-5.08" y1="-4.064" x2="-5.08" y2="-1.143" width="0.1778" layer="21"/>
 <circle x="-4.6228" y="-3.7084" radius="0.254" width="0" layer="21"/>
 <pad name="1" x="-2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
 <pad name="2" x="0" y="-2.54" drill="1.016" shape="long" rot="R90"/>
 <pad name="3" x="2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
-<text x="-5.08" y="-5.9182" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-6.0452" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-7.62" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-3.175" y="-3.81" size="1.27" layer="51" ratio="10">1</text>
-<text x="-0.635" y="-3.81" size="1.27" layer="51" ratio="10">2</text>
-<text x="1.905" y="-3.81" size="1.27" layer="51" ratio="10">3</text>
+<text x="-0.635" y="-3.81" size="1.27" layer="51" ratio="10">O</text>
+<text x="1.905" y="-3.81" size="1.27" layer="51" ratio="10">I</text>
+<text x="-3.175" y="-3.81" size="1.27" layer="51" ratio="10">A</text>
 <rectangle x1="-5.334" y1="-1.27" x2="-3.429" y2="0" layer="21"/>
 <rectangle x1="-3.429" y1="-0.762" x2="-1.651" y2="0" layer="21"/>
 <rectangle x1="-1.651" y1="-1.27" x2="-0.889" y2="0" layer="21"/>
@@ -6191,90 +6190,25 @@ http://www.linear.com&lt;p&gt;
 <rectangle x1="-0.889" y1="-1.27" x2="0.889" y2="-0.762" layer="51"/>
 <rectangle x1="1.651" y1="-1.27" x2="3.429" y2="-0.762" layer="51"/>
 </package>
-<package name="TO247L">
-<wire x1="-7.874" y1="-6.35" x2="7.874" y2="-6.35" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="-6.096" x2="7.62" y2="-6.096" width="0.0508" layer="21"/>
-<wire x1="7.874" y1="5.461" x2="7.874" y2="-6.35" width="0.1524" layer="21"/>
-<wire x1="7.874" y1="14.605" x2="-7.874" y2="14.605" width="0.1524" layer="21"/>
-<wire x1="-7.874" y1="-6.35" x2="-7.874" y2="5.461" width="0.1524" layer="21"/>
-<wire x1="-7.874" y1="5.461" x2="-7.874" y2="9.271" width="0.1524" layer="21"/>
-<wire x1="-7.874" y1="9.271" x2="-7.874" y2="14.605" width="0.1524" layer="21"/>
-<wire x1="7.874" y1="9.271" x2="7.874" y2="5.461" width="0.1524" layer="21" curve="180"/>
-<wire x1="7.62" y1="-6.096" x2="7.62" y2="4.953" width="0.0508" layer="21"/>
-<wire x1="-7.874" y1="9.271" x2="-7.874" y2="5.461" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-7.62" y1="-6.096" x2="-7.62" y2="4.953" width="0.0508" layer="21"/>
-<wire x1="-7.62" y1="9.779" x2="-7.62" y2="13.97" width="0.0508" layer="21"/>
-<wire x1="7.874" y1="14.605" x2="7.62" y2="13.97" width="0.0508" layer="21"/>
-<wire x1="7.62" y1="13.97" x2="-7.62" y2="13.97" width="0.0508" layer="21"/>
-<wire x1="-7.62" y1="13.97" x2="-7.874" y2="14.605" width="0.0508" layer="21"/>
-<wire x1="-7.62" y1="4.953" x2="-7.874" y2="5.461" width="0.0508" layer="21"/>
-<wire x1="7.874" y1="5.461" x2="7.62" y2="4.953" width="0.0508" layer="21"/>
-<wire x1="-7.62" y1="-6.096" x2="-7.874" y2="-6.35" width="0.0508" layer="21"/>
-<wire x1="7.874" y1="-6.35" x2="7.62" y2="-6.096" width="0.0508" layer="21"/>
-<wire x1="7.62" y1="9.779" x2="7.62" y2="4.953" width="0.0508" layer="21" curve="167.981988"/>
-<wire x1="7.874" y1="14.605" x2="7.874" y2="9.271" width="0.1524" layer="21"/>
-<wire x1="7.874" y1="9.271" x2="7.874" y2="5.461" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="4.953" x2="-7.62" y2="9.779" width="0.0508" layer="21" curve="167.981988"/>
-<wire x1="7.874" y1="9.271" x2="7.62" y2="9.779" width="0.0508" layer="21"/>
-<wire x1="7.62" y1="9.779" x2="7.62" y2="13.97" width="0.0508" layer="21"/>
-<wire x1="-7.62" y1="9.779" x2="-7.874" y2="9.271" width="0.0508" layer="21"/>
-<circle x="0" y="9.144" radius="1.905" width="0.1524" layer="21"/>
-<pad name="1" x="-5.588" y="-10.16" drill="1.4986" shape="long" rot="R90"/>
-<pad name="2" x="0" y="-10.16" drill="1.4986" shape="long" rot="R90"/>
-<pad name="3" x="5.588" y="-10.16" drill="1.4986" shape="long" rot="R90"/>
-<text x="-5.08" y="0.635" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="-1.905" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="4.572" y1="-8.001" x2="6.223" y2="-6.35" layer="21"/>
-<rectangle x1="-1.524" y1="-8.001" x2="1.524" y2="-6.35" layer="21"/>
-<rectangle x1="-6.223" y1="-8.001" x2="-4.572" y2="-6.35" layer="21"/>
-<rectangle x1="-6.223" y1="-10.033" x2="-4.572" y2="-8.001" layer="51"/>
-<rectangle x1="-6.223" y1="-10.541" x2="-4.953" y2="-10.033" layer="51"/>
-<rectangle x1="-1.524" y1="-10.033" x2="1.524" y2="-8.001" layer="51"/>
-<rectangle x1="-0.635" y1="-10.541" x2="0.635" y2="-10.033" layer="51"/>
-<rectangle x1="4.572" y1="-10.033" x2="6.223" y2="-8.001" layer="51"/>
-<rectangle x1="4.953" y1="-10.541" x2="6.223" y2="-10.033" layer="51"/>
-<hole x="0" y="9.144" drill="4.1148"/>
-</package>
-<package name="TO247S">
-<wire x1="-6.985" y1="-5.08" x2="6.985" y2="-5.08" width="0.1524" layer="21"/>
-<wire x1="6.985" y1="-5.08" x2="7.366" y2="-4.699" width="0.1524" layer="21"/>
-<wire x1="-6.985" y1="-5.08" x2="-7.366" y2="-4.699" width="0.1524" layer="21"/>
-<wire x1="7.366" y1="-4.699" x2="7.874" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-7.366" y1="-4.699" x2="-7.874" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="7.874" y1="-1.524" x2="7.62" y2="0" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="0" x2="-7.62" y2="0" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="0" x2="-7.874" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-7.874" y1="-1.524" x2="-6.731" y2="-1.524" width="0.0508" layer="21"/>
-<wire x1="-6.731" y1="-1.524" x2="-4.445" y2="-1.524" width="0.0508" layer="51"/>
-<wire x1="-4.445" y1="-1.524" x2="-1.27" y2="-1.524" width="0.0508" layer="21"/>
-<wire x1="-1.27" y1="-1.524" x2="1.143" y2="-1.524" width="0.0508" layer="51"/>
-<wire x1="1.143" y1="-1.524" x2="4.445" y2="-1.524" width="0.0508" layer="21"/>
-<wire x1="4.445" y1="-1.524" x2="6.731" y2="-1.524" width="0.0508" layer="51"/>
-<wire x1="6.731" y1="-1.524" x2="7.874" y2="-1.524" width="0.0508" layer="21"/>
-<pad name="1" x="-5.588" y="-2.921" drill="1.4986" shape="long" rot="R90"/>
-<pad name="2" x="0" y="-2.921" drill="1.4986" shape="long" rot="R90"/>
-<pad name="3" x="5.588" y="-2.921" drill="1.4986" shape="long" rot="R90"/>
-<text x="-7.62" y="-6.858" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.524" y="-6.858" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="TO220L1">
-<wire x1="-5.207" y1="-1.27" x2="5.207" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="5.207" y1="14.605" x2="-5.207" y2="14.605" width="0.1524" layer="21"/>
-<wire x1="5.207" y1="-1.27" x2="5.207" y2="11.176" width="0.1524" layer="21"/>
-<wire x1="5.207" y1="11.176" x2="4.318" y2="11.176" width="0.1524" layer="21"/>
-<wire x1="4.318" y1="11.176" x2="4.318" y2="12.7" width="0.1524" layer="21"/>
-<wire x1="4.318" y1="12.7" x2="5.207" y2="12.7" width="0.1524" layer="21"/>
-<wire x1="5.207" y1="12.7" x2="5.207" y2="14.605" width="0.1524" layer="21"/>
-<wire x1="-5.207" y1="-1.27" x2="-5.207" y2="11.176" width="0.1524" layer="21"/>
-<wire x1="-5.207" y1="11.176" x2="-4.318" y2="11.176" width="0.1524" layer="21"/>
-<wire x1="-4.318" y1="11.176" x2="-4.318" y2="12.7" width="0.1524" layer="21"/>
-<wire x1="-4.318" y1="12.7" x2="-5.207" y2="12.7" width="0.1524" layer="21"/>
-<wire x1="-5.207" y1="12.7" x2="-5.207" y2="14.605" width="0.1524" layer="21"/>
-<wire x1="-4.572" y1="-0.635" x2="4.572" y2="-0.635" width="0.0508" layer="21"/>
-<wire x1="4.572" y1="7.62" x2="4.572" y2="-0.635" width="0.0508" layer="21"/>
-<wire x1="4.572" y1="7.62" x2="-4.572" y2="7.62" width="0.0508" layer="21"/>
-<wire x1="-4.572" y1="-0.635" x2="-4.572" y2="7.62" width="0.0508" layer="21"/>
-<circle x="0" y="11.176" radius="1.8034" width="0.1524" layer="21"/>
+<package name="317TL">
+<description>&lt;b&gt;VOLTAGE REGULATOR&lt;/b&gt;</description>
+<wire x1="-5.207" y1="-1.27" x2="5.207" y2="-1.27" width="0.1778" layer="21"/>
+<wire x1="5.207" y1="14.605" x2="-5.207" y2="14.605" width="0.1778" layer="21"/>
+<wire x1="5.207" y1="-1.27" x2="5.207" y2="11.176" width="0.1778" layer="21"/>
+<wire x1="5.207" y1="11.176" x2="4.318" y2="11.176" width="0.1778" layer="21"/>
+<wire x1="4.318" y1="11.176" x2="4.318" y2="12.7" width="0.1778" layer="21"/>
+<wire x1="4.318" y1="12.7" x2="5.207" y2="12.7" width="0.1778" layer="21"/>
+<wire x1="5.207" y1="12.7" x2="5.207" y2="14.605" width="0.1778" layer="21"/>
+<wire x1="-5.207" y1="-1.27" x2="-5.207" y2="11.176" width="0.1778" layer="21"/>
+<wire x1="-5.207" y1="11.176" x2="-4.318" y2="11.176" width="0.1778" layer="21"/>
+<wire x1="-4.318" y1="11.176" x2="-4.318" y2="12.7" width="0.1778" layer="21"/>
+<wire x1="-4.318" y1="12.7" x2="-5.207" y2="12.7" width="0.1778" layer="21"/>
+<wire x1="-5.207" y1="12.7" x2="-5.207" y2="14.605" width="0.1778" layer="21"/>
+<wire x1="-4.572" y1="-0.635" x2="4.572" y2="-0.635" width="0.1778" layer="21"/>
+<wire x1="4.572" y1="7.62" x2="4.572" y2="-0.635" width="0.1778" layer="21"/>
+<wire x1="4.572" y1="7.62" x2="-4.572" y2="7.62" width="0.1778" layer="21"/>
+<wire x1="-4.572" y1="-0.635" x2="-4.572" y2="7.62" width="0.1778" layer="21"/>
+<circle x="0" y="11.176" radius="1.8034" width="0.1778" layer="21"/>
 <circle x="0" y="11.176" radius="4.191" width="0" layer="42"/>
 <circle x="0" y="11.176" radius="4.191" width="0" layer="43"/>
 <pad name="1" x="-2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
@@ -6282,20 +6216,38 @@ http://www.linear.com&lt;p&gt;
 <pad name="3" x="2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
 <text x="-3.81" y="5.08" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.937" y="2.54" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-4.445" y="7.874" size="0.9906" layer="21" ratio="10">A15,2mm</text>
-<text x="-3.048" y="0" size="1.27" layer="51" ratio="10">1</text>
-<text x="-0.508" y="0" size="1.27" layer="51" ratio="10">2</text>
-<text x="2.032" y="0" size="1.27" layer="51" ratio="10">3</text>
+<text x="-4.445" y="7.874" size="0.9906" layer="51" ratio="10">A15,2mm</text>
+<text x="-0.508" y="0" size="1.27" layer="51" ratio="10">O</text>
+<text x="2.032" y="0" size="1.27" layer="51" ratio="10">I</text>
+<text x="-3.048" y="0" size="1.27" layer="51" ratio="10">A</text>
 <rectangle x1="1.905" y1="-2.159" x2="3.175" y2="-1.27" layer="21"/>
 <rectangle x1="1.905" y1="-3.81" x2="3.175" y2="-2.159" layer="51"/>
 <rectangle x1="-0.635" y1="-2.159" x2="0.635" y2="-1.27" layer="21"/>
 <rectangle x1="-3.175" y1="-2.159" x2="-1.905" y2="-1.27" layer="21"/>
 <rectangle x1="-0.635" y1="-3.81" x2="0.635" y2="-2.159" layer="51"/>
 <rectangle x1="-3.175" y1="-3.81" x2="-1.905" y2="-2.159" layer="51"/>
+<hole x="0" y="11.176" drill="3.302"/>
+</package>
+<package name="317L">
+<description>&lt;b&gt;VOLTAGE REGULATOR&lt;/b&gt;</description>
+<wire x1="-2.0946" y1="-1.651" x2="-0.7863" y2="2.5485" width="0.1778" layer="21" curve="-111.098957" cap="flat"/>
+<wire x1="0.7868" y1="2.5484" x2="2.095" y2="-1.651" width="0.1778" layer="21" curve="-111.09954" cap="flat"/>
+<wire x1="-2.095" y1="-1.651" x2="2.095" y2="-1.651" width="0.1778" layer="21"/>
+<wire x1="-2.655" y1="-0.254" x2="-2.254" y2="-0.254" width="0.1778" layer="21"/>
+<wire x1="2.254" y1="-0.254" x2="2.655" y2="-0.254" width="0.1778" layer="21"/>
+<wire x1="-0.7863" y1="2.5485" x2="0.7863" y2="2.5485" width="0.1524" layer="51" curve="-34.293591" cap="flat"/>
+<pad name="1" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
+<pad name="2" x="0" y="1.905" drill="0.8128" shape="octagon"/>
+<pad name="3" x="1.27" y="0" drill="0.8128" shape="octagon"/>
+<text x="-0.635" y="0.889" size="1.27" layer="51" ratio="10">O</text>
+<text x="0.635" y="-0.635" size="1.27" layer="51" ratio="10">I</text>
+<text x="3.175" y="0.635" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="3.175" y="-1.27" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-1.905" y="-0.635" size="1.27" layer="51" ratio="10">A</text>
 </package>
 </packages>
 <symbols>
-<symbol name="LT108X">
+<symbol name="78ADJ">
 <wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.4064" layer="94"/>
 <wire x1="5.08" y1="-5.08" x2="5.08" y2="2.54" width="0.4064" layer="94"/>
 <wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.4064" layer="94"/>
@@ -6311,53 +6263,35 @@ http://www.linear.com&lt;p&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LT1085*" prefix="IC">
-<description>3A Low Dropout
-Positive Adjustable Regulators</description>
+<deviceset name="LM1084" prefix="IC">
+<description>&lt;b&gt;VOLTAGE REGULATOR&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="LT108X" x="0" y="0"/>
+<gate name="G$1" symbol="78ADJ" x="0" y="0"/>
 </gates>
 <devices>
-<device name="P-H" package="TO247L">
+<device name="-H" package="317TL">
 <connects>
 <connect gate="G$1" pin="ADJ" pad="1"/>
 <connect gate="G$1" pin="IN" pad="3"/>
 <connect gate="G$1" pin="OUT" pad="2"/>
 </connects>
 <technologies>
-<technology name="C"/>
+<technology name=""/>
 </technologies>
 </device>
-<device name="P-V" package="TO247S">
+<device name="-V" package="317TS">
 <connects>
 <connect gate="G$1" pin="ADJ" pad="1"/>
 <connect gate="G$1" pin="IN" pad="3"/>
 <connect gate="G$1" pin="OUT" pad="2"/>
 </connects>
 <technologies>
-<technology name="C"/>
+<technology name=""/>
 </technologies>
 </device>
-<device name="T-H" package="TO220L1">
-<connects>
-<connect gate="G$1" pin="ADJ" pad="1"/>
-<connect gate="G$1" pin="IN" pad="3"/>
-<connect gate="G$1" pin="OUT" pad="2"/>
-</connects>
+<device name="IS" package="317L">
 <technologies>
-<technology name="C"/>
-<technology name="I"/>
-</technologies>
-</device>
-<device name="T-V" package="TO220S">
-<connects>
-<connect gate="G$1" pin="ADJ" pad="1"/>
-<connect gate="G$1" pin="IN" pad="3"/>
-<connect gate="G$1" pin="OUT" pad="2"/>
-</connects>
-<technologies>
-<technology name="C"/>
-<technology name="I"/>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -6374,12 +6308,12 @@ Positive Adjustable Regulators</description>
 </class>
 </classes>
 <parts>
-<part name="U2" library="linear-technology-3" deviceset="LT1085*" device="T-V" technology="I" value="LM 1085 IT5,0"/>
+<part name="U2" library="v-reg-2" deviceset="LM1084" device="-V" value="LM 1084 IT5,0"/>
 <part name="D5" library="semicon-smd-ipc" deviceset="D-" device="MLL-41" value="1N4007"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="025-040X050" value="10uF Tant."/>
 <part name="C2" library="rcl" deviceset="C-EU" device="025-040X050" value="10uF Tant."/>
 <part name="X1" library="con-wago-508" deviceset="W237-02P" device="" value="12V"/>
-<part name="U3" library="linear-technology-3" deviceset="LT1085*" device="T-V" technology="I" value="LM 1085 IT3,3"/>
+<part name="U3" library="v-reg-2" deviceset="LM1084" device="-V" value="LM 1084 IT3,3"/>
 <part name="D6" library="semicon-smd-ipc" deviceset="D-" device="MLL-41" value="1N4007"/>
 <part name="C4" library="rcl" deviceset="C-EU" device="025-040X050" value="10uF Tant."/>
 <part name="D1" library="semicon-smd-ipc" deviceset="D-" device="MLL-41" value="1N4007"/>
