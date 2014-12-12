@@ -6185,36 +6185,36 @@ Stand: 05.06.2009
 <part name="C4" library="rcl" deviceset="C-EU" device="025-040X050" value="10uF Tant."/>
 <part name="D1" library="semicon-smd-ipc" deviceset="D-" device="MLL-41" value="1N4007"/>
 <part name="F1" library="fuse" deviceset="FUSE" device="BLANK_5X20MM" value="10A"/>
-<part name="FRAME1" library="frames" deviceset="DINA4_L" device=""/>
-<part name="FRAME2" library="frames" deviceset="DINA4_L" device=""/>
+<part name="FRAME1" library="frames" deviceset="DINA4_L" device="" value="Power"/>
+<part name="FRAME2" library="frames" deviceset="DINA4_L" device="" value="Motor"/>
 <part name="U1" library="SparkFun-PowerIC" deviceset="L298" device=""/>
 <part name="C3" library="rcl" deviceset="C-EU" device="025-040X050" value="10uF Tant."/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="SV1" library="con-lsta" deviceset="FE20-2" device=""/>
+<part name="SV1" library="con-lsta" deviceset="FE20-2" device="" value="Raspberry Pi B Plus Connector"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="D2" library="diode" deviceset="P600" device="" value="1N4007"/>
-<part name="D3" library="diode" deviceset="P600" device="" value="1N4007"/>
-<part name="D4" library="diode" deviceset="P600" device="" value="1N4007"/>
-<part name="D7" library="diode" deviceset="P600" device="" value="1N4007"/>
+<part name="D2" library="diode" deviceset="P600" device="" value="P600"/>
+<part name="D3" library="diode" deviceset="P600" device="" value="P600"/>
+<part name="D4" library="diode" deviceset="P600" device="" value="P600"/>
+<part name="D7" library="diode" deviceset="P600" device="" value="P600"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="U4" library="SparkFun-PowerIC" deviceset="L298" device=""/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="D8" library="diode" deviceset="P600" device="" value="1N4007"/>
-<part name="D9" library="diode" deviceset="P600" device="" value="1N4007"/>
-<part name="D10" library="diode" deviceset="P600" device="" value="1N4007"/>
-<part name="D11" library="diode" deviceset="P600" device="" value="1N4007"/>
+<part name="D8" library="diode" deviceset="P600" device="" value="P600"/>
+<part name="D9" library="diode" deviceset="P600" device="" value="P600"/>
+<part name="D10" library="diode" deviceset="P600" device="" value="P600"/>
+<part name="D11" library="diode" deviceset="P600" device="" value="P600"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="FRAME3" library="frames" deviceset="DINA4_L" device=""/>
-<part name="FRAME4" library="frames" deviceset="DINA4_L" device=""/>
-<part name="X3" library="con-ria-59" deviceset="AKL59-02" device=""/>
-<part name="X1" library="con-ria-59" deviceset="AKL59-08" device=""/>
+<part name="FRAME3" library="frames" deviceset="DINA4_L" device="" value="Raspberry Pi B plus Connector"/>
+<part name="FRAME4" library="frames" deviceset="DINA4_L" device="" value="TBD"/>
+<part name="X3" library="con-ria-59" deviceset="AKL59-02" device="" value="Battery"/>
+<part name="X1" library="con-ria-59" deviceset="AKL59-08" device="" value="Motors"/>
 </parts>
 <sheets>
 <sheet>
@@ -6548,10 +6548,12 @@ Stand: 05.06.2009
 <segment>
 <pinref part="X1" gate="-2" pin="1"/>
 <wire x1="-327.66" y1="134.62" x2="-332.74" y2="134.62" width="0.1524" layer="91"/>
+<label x="-340.36" y="134.62" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="X1" gate="-4" pin="1"/>
 <wire x1="-327.66" y1="124.46" x2="-332.74" y2="124.46" width="0.1524" layer="91"/>
+<label x="-340.36" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ML_OUT_A" class="0">
@@ -6580,10 +6582,12 @@ Stand: 05.06.2009
 <segment>
 <pinref part="X1" gate="-1" pin="1"/>
 <wire x1="-327.66" y1="139.7" x2="-332.74" y2="139.7" width="0.1524" layer="91"/>
+<label x="-340.36" y="139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="X1" gate="-3" pin="1"/>
 <wire x1="-327.66" y1="129.54" x2="-332.74" y2="129.54" width="0.1524" layer="91"/>
+<label x="-340.36" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MR_A" class="0">
@@ -6650,10 +6654,12 @@ Stand: 05.06.2009
 <segment>
 <pinref part="X1" gate="-5" pin="1"/>
 <wire x1="-327.66" y1="119.38" x2="-332.74" y2="119.38" width="0.1524" layer="91"/>
+<label x="-340.36" y="119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="X1" gate="-7" pin="1"/>
 <wire x1="-327.66" y1="109.22" x2="-332.74" y2="109.22" width="0.1524" layer="91"/>
+<label x="-340.36" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MR_OUT_B" class="0">
@@ -6676,10 +6682,12 @@ Stand: 05.06.2009
 <segment>
 <pinref part="X1" gate="-6" pin="1"/>
 <wire x1="-327.66" y1="114.3" x2="-332.74" y2="114.3" width="0.1524" layer="91"/>
+<label x="-340.36" y="114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="X1" gate="-8" pin="1"/>
 <wire x1="-327.66" y1="104.14" x2="-332.74" y2="104.14" width="0.1524" layer="91"/>
+<label x="-340.36" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
