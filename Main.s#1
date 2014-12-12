@@ -6136,6 +6136,80 @@ W = angled&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="diode">
+<description>&lt;b&gt;Diodes&lt;/b&gt;&lt;p&gt;
+Based on the following sources:
+&lt;ul&gt;
+&lt;li&gt;Motorola : www.onsemi.com
+&lt;li&gt;Fairchild : www.fairchildsemi.com
+&lt;li&gt;Philips : www.semiconductors.com
+&lt;li&gt;Vishay : www.vishay.de
+&lt;/ul&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="P6-15">
+<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
+diameter 9 mm, horizontal, grid 15.24 mm</description>
+<wire x1="-4.699" y1="-4.572" x2="-4.699" y2="4.572" width="0.1524" layer="21"/>
+<wire x1="4.699" y1="4.572" x2="4.699" y2="-4.572" width="0.1524" layer="21"/>
+<wire x1="-4.699" y1="4.572" x2="4.699" y2="4.572" width="0.1524" layer="21"/>
+<wire x1="4.699" y1="-4.572" x2="-4.699" y2="-4.572" width="0.1524" layer="21"/>
+<wire x1="-1.143" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="0" x2="6.223" y2="0" width="1.27" layer="51"/>
+<wire x1="-7.62" y1="0" x2="-6.223" y2="0" width="1.27" layer="51"/>
+<pad name="C" x="-7.62" y="0" drill="1.6002" shape="long"/>
+<pad name="A" x="7.62" y="0" drill="1.6002" shape="long"/>
+<text x="-4.6736" y="4.8514" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.3622" y="-3.302" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-3.429" y1="-4.572" x2="-2.921" y2="4.572" layer="21"/>
+<rectangle x1="4.699" y1="-0.635" x2="5.969" y2="0.635" layer="21"/>
+<rectangle x1="-5.969" y1="-0.635" x2="-4.699" y2="0.635" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="D">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<text x="2.54" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.3114" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="-2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
+<text x="2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="P600" prefix="D">
+<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
+high voltage diode, silicon rectifier&lt;p&gt;
+1.0 A to 6.0 A, 50 V to 1300 V&lt;p&gt;
+http://www.kosemi.com/product/diosr.html</description>
+<gates>
+<gate name="G$1" symbol="D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="P6-15">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6167,10 +6241,10 @@ W = angled&lt;p&gt;
 <part name="X2" library="con-wago255" deviceset="233-504" device=""/>
 <part name="SV1" library="con-lsta" deviceset="FE20-2" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="D2" library="semicon-smd-ipc" deviceset="D-" device="MLL-41" value="1N4007"/>
-<part name="D3" library="semicon-smd-ipc" deviceset="D-" device="MLL-41" value="1N4007"/>
-<part name="D4" library="semicon-smd-ipc" deviceset="D-" device="MLL-41" value="1N4007"/>
-<part name="D7" library="semicon-smd-ipc" deviceset="D-" device="MLL-41" value="1N4007"/>
+<part name="D2" library="diode" deviceset="P600" device="" value="1N4007"/>
+<part name="D3" library="diode" deviceset="P600" device="" value="1N4007"/>
+<part name="D4" library="diode" deviceset="P600" device="" value="1N4007"/>
+<part name="D7" library="diode" deviceset="P600" device="" value="1N4007"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 </parts>
@@ -6413,7 +6487,7 @@ W = angled&lt;p&gt;
 <label x="-490.22" y="172.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="ML_OUT_B" class="0">
 <segment>
 <pinref part="D3" gate="G$1" pin="A"/>
 <pinref part="D4" gate="G$1" pin="C"/>
@@ -6427,15 +6501,18 @@ W = angled&lt;p&gt;
 <wire x1="-429.26" y1="149.86" x2="-426.72" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="-426.72" y1="149.86" x2="-426.72" y2="152.4" width="0.1524" layer="91"/>
 <junction x="-426.72" y="152.4"/>
+<wire x1="-398.78" y1="152.4" x2="-353.06" y2="152.4" width="0.1524" layer="91"/>
+<label x="-353.06" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="ML_OUT_A" class="0">
 <segment>
 <pinref part="D2" gate="G$1" pin="A"/>
 <pinref part="D7" gate="G$1" pin="C"/>
 <wire x1="-381" y1="165.1" x2="-381" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="OUT1"/>
-<wire x1="-381" y1="162.56" x2="-381" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="-381" y1="162.56" x2="-381" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="-381" y1="154.94" x2="-381" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="-429.26" y1="154.94" x2="-424.18" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="-424.18" y1="154.94" x2="-408.94" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="-408.94" y1="154.94" x2="-408.94" y2="185.42" width="0.1524" layer="91"/>
@@ -6447,6 +6524,9 @@ W = angled&lt;p&gt;
 <wire x1="-429.26" y1="147.32" x2="-424.18" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="-424.18" y1="147.32" x2="-424.18" y2="154.94" width="0.1524" layer="91"/>
 <junction x="-424.18" y="154.94"/>
+<wire x1="-381" y1="154.94" x2="-353.06" y2="154.94" width="0.1524" layer="91"/>
+<junction x="-381" y="154.94"/>
+<label x="-353.06" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
