@@ -9643,9 +9643,9 @@ Types:&lt;p&gt;
 <label x="-490.22" y="157.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="37"/>
-<wire x1="-396.24" y1="538.48" x2="-421.64" y2="538.48" width="0.1524" layer="91"/>
-<label x="-421.64" y="538.48" size="1.778" layer="95"/>
+<pinref part="SV1" gate="G$1" pin="33"/>
+<wire x1="-396.24" y1="533.4" x2="-421.64" y2="533.4" width="0.1524" layer="91"/>
+<label x="-421.64" y="533.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ML_B" class="0">
@@ -9679,9 +9679,9 @@ Types:&lt;p&gt;
 <label x="-490.22" y="172.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="33"/>
-<wire x1="-396.24" y1="533.4" x2="-421.64" y2="533.4" width="0.1524" layer="91"/>
-<label x="-421.64" y="533.4" size="1.778" layer="95"/>
+<pinref part="SV1" gate="G$1" pin="37"/>
+<wire x1="-396.24" y1="538.48" x2="-421.64" y2="538.48" width="0.1524" layer="91"/>
+<label x="-421.64" y="538.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ML_OUT_B" class="2">
@@ -9759,9 +9759,9 @@ Types:&lt;p&gt;
 <label x="-490.22" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="15"/>
-<wire x1="-396.24" y1="510.54" x2="-421.64" y2="510.54" width="0.1524" layer="91"/>
-<label x="-421.64" y="510.54" size="1.778" layer="95"/>
+<pinref part="SV1" gate="G$1" pin="31"/>
+<wire x1="-396.24" y1="530.86" x2="-421.64" y2="530.86" width="0.1524" layer="91"/>
+<label x="-421.64" y="530.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MR_B" class="0">
@@ -9794,9 +9794,9 @@ Types:&lt;p&gt;
 <label x="-490.22" y="91.44" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="31"/>
-<wire x1="-396.24" y1="530.86" x2="-421.64" y2="530.86" width="0.1524" layer="91"/>
-<label x="-421.64" y="530.86" size="1.778" layer="95"/>
+<pinref part="SV1" gate="G$1" pin="15"/>
+<wire x1="-396.24" y1="510.54" x2="-421.64" y2="510.54" width="0.1524" layer="91"/>
+<label x="-421.64" y="510.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MR_OUT_A" class="2">

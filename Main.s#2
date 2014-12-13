@@ -9643,9 +9643,9 @@ Types:&lt;p&gt;
 <label x="-490.22" y="157.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="37"/>
-<wire x1="-396.24" y1="538.48" x2="-421.64" y2="538.48" width="0.1524" layer="91"/>
-<label x="-421.64" y="538.48" size="1.778" layer="95"/>
+<pinref part="SV1" gate="G$1" pin="33"/>
+<wire x1="-396.24" y1="533.4" x2="-421.64" y2="533.4" width="0.1524" layer="91"/>
+<label x="-421.64" y="533.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ML_B" class="0">
@@ -9679,9 +9679,9 @@ Types:&lt;p&gt;
 <label x="-490.22" y="172.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="33"/>
-<wire x1="-396.24" y1="533.4" x2="-421.64" y2="533.4" width="0.1524" layer="91"/>
-<label x="-421.64" y="533.4" size="1.778" layer="95"/>
+<pinref part="SV1" gate="G$1" pin="37"/>
+<wire x1="-396.24" y1="538.48" x2="-421.64" y2="538.48" width="0.1524" layer="91"/>
+<label x="-421.64" y="538.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ML_OUT_B" class="2">
@@ -9877,9 +9877,9 @@ Types:&lt;p&gt;
 <label x="-429.26" y="-58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="32"/>
-<wire x1="-381" y1="530.86" x2="-355.6" y2="530.86" width="0.1524" layer="91"/>
-<label x="-355.6" y="530.86" size="1.778" layer="95"/>
+<pinref part="SV1" gate="G$1" pin="40"/>
+<wire x1="-381" y1="541.02" x2="-355.6" y2="541.02" width="0.1524" layer="91"/>
+<label x="-355.6" y="541.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PIR2" class="0">
@@ -9913,9 +9913,9 @@ Types:&lt;p&gt;
 <label x="-429.26" y="-81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="40"/>
-<wire x1="-381" y1="541.02" x2="-355.6" y2="541.02" width="0.1524" layer="91"/>
-<label x="-355.6" y="541.02" size="1.778" layer="95"/>
+<pinref part="SV1" gate="G$1" pin="32"/>
+<wire x1="-381" y1="530.86" x2="-355.6" y2="530.86" width="0.1524" layer="91"/>
+<label x="-355.6" y="530.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$6" class="0">

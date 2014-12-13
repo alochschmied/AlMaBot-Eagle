@@ -9329,7 +9329,7 @@ Types:&lt;p&gt;
 <instance part="GND1" gate="1" x="-459.74" y="312.42"/>
 <instance part="GND3" gate="1" x="-487.68" y="137.16"/>
 <instance part="SV1" gate="G$1" x="-388.62" y="518.16"/>
-<instance part="GND4" gate="1" x="-370.84" y="495.3"/>
+<instance part="GND4" gate="1" x="-340.36" y="495.3"/>
 <instance part="D2" gate="G$1" x="-381" y="167.64" rot="R90"/>
 <instance part="D3" gate="G$1" x="-398.78" y="167.64" rot="R90"/>
 <instance part="D4" gate="G$1" x="-398.78" y="147.32" rot="R90"/>
@@ -9419,13 +9419,14 @@ Types:&lt;p&gt;
 <label x="-419.1" y="-91.44" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="4"/>
 <pinref part="SV1" gate="G$1" pin="2"/>
-<wire x1="-381" y1="495.3" x2="-381" y2="492.76" width="0.1524" layer="91"/>
-<wire x1="-381" y1="492.76" x2="-381" y2="490.22" width="0.1524" layer="91"/>
-<junction x="-381" y="492.76"/>
-<wire x1="-381" y1="490.22" x2="-360.68" y2="490.22" width="0.1524" layer="91"/>
-<label x="-363.22" y="490.22" size="1.778" layer="95"/>
+<wire x1="-381" y1="492.76" x2="-375.92" y2="492.76" width="0.1524" layer="91"/>
+<wire x1="-363.22" y1="492.76" x2="-375.92" y2="492.76" width="0.1524" layer="91"/>
+<wire x1="-375.92" y1="492.76" x2="-375.92" y2="495.3" width="0.1524" layer="91"/>
+<junction x="-375.92" y="492.76"/>
+<pinref part="SV1" gate="G$1" pin="4"/>
+<wire x1="-375.92" y1="495.3" x2="-381" y2="495.3" width="0.1524" layer="91"/>
+<label x="-363.22" y="492.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+3.3V" class="0">
@@ -9562,7 +9563,7 @@ Types:&lt;p&gt;
 <segment>
 <pinref part="SV1" gate="G$1" pin="6"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="-381" y1="497.84" x2="-370.84" y2="497.84" width="0.1524" layer="91"/>
+<wire x1="-381" y1="497.84" x2="-340.36" y2="497.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
@@ -10000,10 +10001,6 @@ Types:&lt;p&gt;
 <pinref part="SV1" gate="G$1" pin="8"/>
 <wire x1="-381" y1="500.38" x2="-355.6" y2="500.38" width="0.1524" layer="91"/>
 <label x="-355.6" y="500.38" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="-421.64" y1="492.76" x2="-396.24" y2="492.76" width="0.1524" layer="91"/>
-<label x="-421.64" y="492.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$20" class="0">
