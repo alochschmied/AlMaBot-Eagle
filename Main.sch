@@ -10112,7 +10112,7 @@ SIBA194600A&lt;b&gt;xxx&lt;/b&gt;
 <part name="F4" library="_hhn_PtcFuses_Siba_r500" deviceset="SIBA194600*" device="" value="PTC194600-150"/>
 <part name="F5" library="_hhn_PtcFuses_Siba_r500" deviceset="SIBA194600*" device="" value="PTC194600-150"/>
 <part name="F6" library="_hhn_PtcFuses_Siba_r500" deviceset="SIBA194600*" device="" value="PTC194600-150"/>
-<part name="X4" library="con-wago" deviceset="233-508" device=""/>
+<part name="X4" library="con-wago" deviceset="233-508" device="" value="Ultra Sonics"/>
 <part name="R2" library="resistor" deviceset="R-EU_" device="R0805" value="330"/>
 <part name="R3" library="resistor" deviceset="R-EU_" device="R0805" value="470"/>
 <part name="R4" library="resistor" deviceset="R-EU_" device="R0805" value="330"/>
@@ -10184,11 +10184,11 @@ SIBA194600A&lt;b&gt;xxx&lt;/b&gt;
 <instance part="F4" gate="G$1" x="-292.1" y="132.08"/>
 <instance part="F5" gate="G$1" x="-292.1" y="121.92"/>
 <instance part="F6" gate="G$1" x="-292.1" y="111.76"/>
-<instance part="X4" gate="G$1" x="-360.68" y="-30.48"/>
+<instance part="X4" gate="G$1" x="-355.6" y="-30.48"/>
 <instance part="R2" gate="G$1" x="-381" y="-27.94" rot="R180"/>
-<instance part="R3" gate="G$1" x="-398.78" y="-27.94" rot="R180"/>
+<instance part="R3" gate="G$1" x="-403.86" y="-27.94" rot="R180"/>
 <instance part="R4" gate="G$1" x="-381" y="-38.1" rot="R180"/>
-<instance part="R5" gate="G$1" x="-398.78" y="-38.1" rot="R180"/>
+<instance part="R5" gate="G$1" x="-403.86" y="-38.1" rot="R180"/>
 <instance part="GND10" gate="1" x="-414.02" y="-60.96"/>
 </instances>
 <busses>
@@ -10250,11 +10250,11 @@ SIBA194600A&lt;b&gt;xxx&lt;/b&gt;
 </segment>
 <segment>
 <pinref part="X4" gate="G$1" pin="B-1"/>
-<wire x1="-368.3" y1="-22.86" x2="-426.72" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="-363.22" y1="-22.86" x2="-426.72" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="-426.72" y1="-22.86" x2="-426.72" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="X4" gate="G$1" pin="B-5"/>
 <wire x1="-426.72" y1="-33.02" x2="-426.72" y2="-60.96" width="0.1524" layer="91"/>
-<wire x1="-368.3" y1="-33.02" x2="-426.72" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="-363.22" y1="-33.02" x2="-426.72" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="-426.72" y="-33.02"/>
 <label x="-426.72" y="-63.5" size="1.778" layer="95"/>
 </segment>
@@ -10455,20 +10455,20 @@ SIBA194600A&lt;b&gt;xxx&lt;/b&gt;
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="-403.86" y1="-27.94" x2="-414.02" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="-408.94" y1="-27.94" x2="-414.02" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="-414.02" y1="-27.94" x2="-414.02" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="-414.02" y1="-30.48" x2="-414.02" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="-414.02" y1="-38.1" x2="-414.02" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="-414.02" y1="-40.64" x2="-414.02" y2="-58.42" width="0.1524" layer="91"/>
-<wire x1="-403.86" y1="-38.1" x2="-414.02" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="-408.94" y1="-38.1" x2="-414.02" y2="-38.1" width="0.1524" layer="91"/>
 <junction x="-414.02" y="-38.1"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 <pinref part="X4" gate="G$1" pin="B-8"/>
-<wire x1="-368.3" y1="-40.64" x2="-414.02" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="-363.22" y1="-40.64" x2="-414.02" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="-414.02" y="-40.64"/>
 <pinref part="X4" gate="G$1" pin="B-4"/>
-<wire x1="-368.3" y1="-30.48" x2="-414.02" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-363.22" y1="-30.48" x2="-414.02" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="-414.02" y="-30.48"/>
 </segment>
 </net>
@@ -10964,7 +10964,7 @@ SIBA194600A&lt;b&gt;xxx&lt;/b&gt;
 <segment>
 <pinref part="X4" gate="G$1" pin="B-3"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="-368.3" y1="-27.94" x2="-375.92" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="-363.22" y1="-27.94" x2="-375.92" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USM_A_ECHO" class="0">
@@ -10972,6 +10972,7 @@ SIBA194600A&lt;b&gt;xxx&lt;/b&gt;
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="-386.08" y1="-27.94" x2="-393.7" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="-393.7" y1="-27.94" x2="-398.78" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="-393.7" y1="-27.94" x2="-393.7" y2="-60.96" width="0.1524" layer="91"/>
 <junction x="-393.7" y="-27.94"/>
 <label x="-393.7" y="-60.96" size="1.778" layer="95" rot="R90"/>
@@ -10987,7 +10988,7 @@ SIBA194600A&lt;b&gt;xxx&lt;/b&gt;
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="-386.08" y1="-38.1" x2="-388.62" y2="-38.1" width="0.1524" layer="91"/>
-<wire x1="-388.62" y1="-38.1" x2="-393.7" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="-388.62" y1="-38.1" x2="-398.78" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="-388.62" y1="-38.1" x2="-388.62" y2="-60.96" width="0.1524" layer="91"/>
 <junction x="-388.62" y="-38.1"/>
 <label x="-388.62" y="-60.96" size="1.778" layer="95" rot="R90"/>
@@ -11002,13 +11003,13 @@ SIBA194600A&lt;b&gt;xxx&lt;/b&gt;
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="X4" gate="G$1" pin="B-7"/>
-<wire x1="-375.92" y1="-38.1" x2="-368.3" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="-375.92" y1="-38.1" x2="-363.22" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USM_A_TRIG" class="0">
 <segment>
 <pinref part="X4" gate="G$1" pin="B-2"/>
-<wire x1="-368.3" y1="-25.4" x2="-373.38" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="-363.22" y1="-25.4" x2="-373.38" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="-373.38" y1="-25.4" x2="-373.38" y2="-60.96" width="0.1524" layer="91"/>
 <label x="-373.38" y="-60.96" size="1.778" layer="95" rot="R90"/>
 </segment>
@@ -11020,14 +11021,15 @@ SIBA194600A&lt;b&gt;xxx&lt;/b&gt;
 </net>
 <net name="USM_B_TRIG" class="0">
 <segment>
-<pinref part="X4" gate="G$1" pin="B-6"/>
-<wire x1="-368.3" y1="-35.56" x2="-368.3" y2="-60.96" width="0.1524" layer="91"/>
-<label x="-368.3" y="-60.96" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
 <pinref part="SV1" gate="G$1" pin="16"/>
 <wire x1="-381" y1="510.54" x2="-355.6" y2="510.54" width="0.1524" layer="91"/>
 <label x="-355.6" y="510.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X4" gate="G$1" pin="B-6"/>
+<wire x1="-363.22" y1="-35.56" x2="-368.3" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="-368.3" y1="-35.56" x2="-368.3" y2="-60.96" width="0.1524" layer="91"/>
+<label x="-368.3" y="-60.96" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>

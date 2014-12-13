@@ -9822,6 +9822,10 @@ SIBA194600A&lt;b&gt;xxx&lt;/b&gt;
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="F1" library="Sicherungselemente" deviceset="PTC-SICHERUNG" device="-2.50" value="PFRA 600"/>
 <part name="F2" library="_hhn_PtcFuses_Siba_r500" deviceset="SIBA194600*" device="" value="PTC194600-110"/>
+<part name="F3" library="_hhn_PtcFuses_Siba_r500" deviceset="SIBA194600*" device="" value="PTC194600-150"/>
+<part name="F4" library="_hhn_PtcFuses_Siba_r500" deviceset="SIBA194600*" device="" value="PTC194600-150"/>
+<part name="F5" library="_hhn_PtcFuses_Siba_r500" deviceset="SIBA194600*" device="" value="PTC194600-150"/>
+<part name="F6" library="_hhn_PtcFuses_Siba_r500" deviceset="SIBA194600*" device="" value="PTC194600-150"/>
 </parts>
 <sheets>
 <sheet>
@@ -9869,14 +9873,14 @@ SIBA194600A&lt;b&gt;xxx&lt;/b&gt;
 <instance part="FRAME4" gate="G$2" x="-350.52" y="-172.72"/>
 <instance part="X3" gate="-1" x="-477.52" y="337.82" rot="MR0"/>
 <instance part="X3" gate="-2" x="-477.52" y="322.58" rot="MR0"/>
-<instance part="X1" gate="-1" x="-327.66" y="139.7"/>
-<instance part="X1" gate="-2" x="-327.66" y="134.62"/>
-<instance part="X1" gate="-3" x="-327.66" y="129.54"/>
-<instance part="X1" gate="-4" x="-327.66" y="124.46"/>
-<instance part="X1" gate="-5" x="-327.66" y="119.38"/>
-<instance part="X1" gate="-6" x="-327.66" y="114.3"/>
-<instance part="X1" gate="-7" x="-327.66" y="109.22"/>
-<instance part="X1" gate="-8" x="-327.66" y="104.14"/>
+<instance part="X1" gate="-1" x="-274.32" y="142.24"/>
+<instance part="X1" gate="-2" x="-274.32" y="137.16"/>
+<instance part="X1" gate="-3" x="-274.32" y="132.08"/>
+<instance part="X1" gate="-4" x="-274.32" y="127"/>
+<instance part="X1" gate="-5" x="-274.32" y="121.92"/>
+<instance part="X1" gate="-6" x="-274.32" y="116.84"/>
+<instance part="X1" gate="-7" x="-274.32" y="111.76"/>
+<instance part="X1" gate="-8" x="-274.32" y="106.68"/>
 <instance part="Q1" gate="G$1" x="-419.1" y="340.36" rot="R270"/>
 <instance part="R1" gate="G$1" x="-414.02" y="345.44" rot="R180"/>
 <instance part="D1" gate="G$1" x="-424.18" y="345.44" rot="R180"/>
@@ -9884,6 +9888,10 @@ SIBA194600A&lt;b&gt;xxx&lt;/b&gt;
 <instance part="GND9" gate="1" x="-408.94" y="-88.9"/>
 <instance part="F1" gate="G$1" x="-459.74" y="337.82"/>
 <instance part="F2" gate="G$1" x="-370.84" y="492.76"/>
+<instance part="F3" gate="G$1" x="-292.1" y="142.24"/>
+<instance part="F4" gate="G$1" x="-292.1" y="132.08"/>
+<instance part="F5" gate="G$1" x="-292.1" y="121.92"/>
+<instance part="F6" gate="G$1" x="-292.1" y="111.76"/>
 </instances>
 <busses>
 </busses>
@@ -10210,13 +10218,13 @@ SIBA194600A&lt;b&gt;xxx&lt;/b&gt;
 </segment>
 <segment>
 <pinref part="X1" gate="-2" pin="1"/>
-<wire x1="-327.66" y1="134.62" x2="-332.74" y2="134.62" width="0.1524" layer="91"/>
-<label x="-340.36" y="134.62" size="1.778" layer="95"/>
+<wire x1="-274.32" y1="137.16" x2="-327.66" y2="137.16" width="0.1524" layer="91"/>
+<label x="-327.66" y="137.16" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="X1" gate="-4" pin="1"/>
-<wire x1="-327.66" y1="124.46" x2="-332.74" y2="124.46" width="0.1524" layer="91"/>
-<label x="-340.36" y="124.46" size="1.778" layer="95"/>
+<wire x1="-274.32" y1="127" x2="-327.66" y2="127" width="0.1524" layer="91"/>
+<label x="-327.66" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ML_OUT_A" class="2">
@@ -10243,14 +10251,14 @@ SIBA194600A&lt;b&gt;xxx&lt;/b&gt;
 <label x="-353.06" y="154.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-1" pin="1"/>
-<wire x1="-327.66" y1="139.7" x2="-332.74" y2="139.7" width="0.1524" layer="91"/>
-<label x="-340.36" y="139.7" size="1.778" layer="95"/>
+<pinref part="F3" gate="G$1" pin="1"/>
+<wire x1="-297.18" y1="142.24" x2="-327.66" y2="142.24" width="0.1524" layer="91"/>
+<label x="-327.66" y="142.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-3" pin="1"/>
-<wire x1="-327.66" y1="129.54" x2="-332.74" y2="129.54" width="0.1524" layer="91"/>
-<label x="-340.36" y="129.54" size="1.778" layer="95"/>
+<pinref part="F4" gate="G$1" pin="1"/>
+<wire x1="-297.18" y1="132.08" x2="-327.66" y2="132.08" width="0.1524" layer="91"/>
+<label x="-327.66" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MR_A" class="0">
@@ -10330,14 +10338,14 @@ SIBA194600A&lt;b&gt;xxx&lt;/b&gt;
 <label x="-353.06" y="88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-5" pin="1"/>
-<wire x1="-327.66" y1="119.38" x2="-332.74" y2="119.38" width="0.1524" layer="91"/>
-<label x="-340.36" y="119.38" size="1.778" layer="95"/>
+<pinref part="F5" gate="G$1" pin="1"/>
+<wire x1="-297.18" y1="121.92" x2="-327.66" y2="121.92" width="0.1524" layer="91"/>
+<label x="-327.66" y="121.92" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-7" pin="1"/>
-<wire x1="-327.66" y1="109.22" x2="-332.74" y2="109.22" width="0.1524" layer="91"/>
-<label x="-340.36" y="109.22" size="1.778" layer="95"/>
+<pinref part="F6" gate="G$1" pin="1"/>
+<wire x1="-297.18" y1="111.76" x2="-327.66" y2="111.76" width="0.1524" layer="91"/>
+<label x="-327.66" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MR_OUT_B" class="2">
@@ -10359,13 +10367,13 @@ SIBA194600A&lt;b&gt;xxx&lt;/b&gt;
 </segment>
 <segment>
 <pinref part="X1" gate="-6" pin="1"/>
-<wire x1="-327.66" y1="114.3" x2="-332.74" y2="114.3" width="0.1524" layer="91"/>
-<label x="-340.36" y="114.3" size="1.778" layer="95"/>
+<wire x1="-274.32" y1="116.84" x2="-327.66" y2="116.84" width="0.1524" layer="91"/>
+<label x="-327.66" y="116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="X1" gate="-8" pin="1"/>
-<wire x1="-327.66" y1="104.14" x2="-332.74" y2="104.14" width="0.1524" layer="91"/>
-<label x="-340.36" y="104.14" size="1.778" layer="95"/>
+<wire x1="-274.32" y1="106.68" x2="-327.66" y2="106.68" width="0.1524" layer="91"/>
+<label x="-327.66" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -10624,6 +10632,34 @@ SIBA194600A&lt;b&gt;xxx&lt;/b&gt;
 <junction x="-378.46" y="492.76"/>
 <pinref part="SV1" gate="G$1" pin="4"/>
 <wire x1="-378.46" y1="495.3" x2="-381" y2="495.3" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="2">
+<segment>
+<pinref part="X1" gate="-1" pin="1"/>
+<wire x1="-274.32" y1="142.24" x2="-287.02" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="F3" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$26" class="2">
+<segment>
+<pinref part="X1" gate="-3" pin="1"/>
+<wire x1="-274.32" y1="132.08" x2="-287.02" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="F4" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$34" class="2">
+<segment>
+<pinref part="X1" gate="-5" pin="1"/>
+<wire x1="-274.32" y1="121.92" x2="-287.02" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="F5" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$36" class="2">
+<segment>
+<pinref part="X1" gate="-7" pin="1"/>
+<wire x1="-274.32" y1="111.76" x2="-287.02" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="F6" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
