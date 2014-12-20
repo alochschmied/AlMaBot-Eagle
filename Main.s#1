@@ -4840,7 +4840,7 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BYW96" prefix="D">
+<deviceset name="BYW95" prefix="D">
 <description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 fast soft-recovery rectifier</description>
 <gates>
@@ -10331,20 +10331,20 @@ Based on the following sources:
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="SV1" library="con-lsta" deviceset="FE20-2" device="" value="Raspberry Pi B Plus Connector"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="D2" library="diode" deviceset="BYW96" device="" value="BYW96"/>
-<part name="D3" library="diode" deviceset="BYW96" device="" value="BYW96"/>
-<part name="D4" library="diode" deviceset="BYW96" device="" value="BYW96"/>
-<part name="D7" library="diode" deviceset="BYW96" device="" value="BYW96"/>
+<part name="D2" library="diode" deviceset="BYW95" device="" value="BYW95"/>
+<part name="D3" library="diode" deviceset="BYW95" device="" value="BYW95"/>
+<part name="D4" library="diode" deviceset="BYW95" device="" value="BYW95"/>
+<part name="D7" library="diode" deviceset="BYW95" device="" value="BYW95"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="U4" library="SparkFun-PowerIC" deviceset="L298" device=""/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="D8" library="diode" deviceset="BYW96" device="" value="BYW96"/>
-<part name="D9" library="diode" deviceset="BYW96" device="" value="BYW96"/>
-<part name="D10" library="diode" deviceset="BYW96" device="" value="BYW96"/>
-<part name="D11" library="diode" deviceset="BYW96" device="" value="BYW96"/>
+<part name="D8" library="diode" deviceset="BYW95" device="" value="BYW95"/>
+<part name="D9" library="diode" deviceset="BYW95" device="" value="BYW95"/>
+<part name="D10" library="diode" deviceset="BYW95" device="" value="BYW95"/>
+<part name="D11" library="diode" deviceset="BYW95" device="" value="BYW95"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME3" library="frames" deviceset="DINA4_L" device="" value="Raspberry Pi B plus Connector"/>
@@ -11455,6 +11455,36 @@ probably rather 3.3V)</text>
 <wire x1="-429.26" y1="543.56" x2="-429.26" y2="538.48" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="VID"/>
 <wire x1="-429.26" y1="538.48" x2="-452.12" y2="538.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="U6" gate="A" pin="ALERT/RDY"/>
+<wire x1="-342.9" y1="-436.88" x2="-375.92" y2="-436.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="U6" gate="A" pin="AIN0"/>
+<wire x1="-342.9" y1="-441.96" x2="-375.92" y2="-441.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="U6" gate="A" pin="AIN1"/>
+<wire x1="-342.9" y1="-444.5" x2="-375.92" y2="-444.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="U6" gate="A" pin="AIN2"/>
+<wire x1="-342.9" y1="-449.58" x2="-375.92" y2="-449.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="U6" gate="A" pin="AIN3"/>
+<wire x1="-342.9" y1="-452.12" x2="-375.92" y2="-452.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
