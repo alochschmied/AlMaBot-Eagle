@@ -10297,7 +10297,7 @@ probably rather 3.3V)</text>
 <label x="-452.12" y="500.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="+12V" class="0">
+<net name="+12V" class="1">
 <segment>
 <pinref part="U3" gate="G$1" pin="IN"/>
 <wire x1="-363.22" y1="302.26" x2="-386.08" y2="302.26" width="0.1524" layer="91"/>

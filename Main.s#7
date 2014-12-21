@@ -10338,6 +10338,10 @@ Reference: &lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/22072a.pd
 <part name="IC3" library="74xx-eu" deviceset="74*14" device="D" technology="LS"/>
 <part name="V1" library="supply" deviceset="VCC" device=""/>
 <part name="U$1" library="mes" deviceset="MCP3425" device=""/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="10u"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="GND10" library="supply1" deviceset="GND" device=""/>
+<part name="GND14" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10443,7 +10447,11 @@ probably rather 3.3V)</text>
 <instance part="IC3" gate="A" x="-398.78" y="177.8"/>
 <instance part="IC3" gate="B" x="-398.78" y="111.76"/>
 <instance part="V1" gate="VCC" x="-312.42" y="358.14"/>
-<instance part="U$1" gate="G$1" x="-325.12" y="-487.68"/>
+<instance part="U$1" gate="G$1" x="-307.34" y="-444.5"/>
+<instance part="C3" gate="G$1" x="-342.9" y="-467.36" rot="R180"/>
+<instance part="C10" gate="G$1" x="-332.74" y="-467.36" rot="R180"/>
+<instance part="GND10" gate="1" x="-342.9" y="-477.52"/>
+<instance part="GND14" gate="1" x="-332.74" y="-477.52"/>
 </instances>
 <busses>
 </busses>
@@ -10765,6 +10773,11 @@ probably rather 3.3V)</text>
 <wire x1="-449.58" y1="528.32" x2="-449.58" y2="543.56" width="0.1524" layer="91"/>
 <junction x="-449.58" y="543.56"/>
 </segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+<wire x1="-342.9" y1="-474.98" x2="-342.9" y2="-469.9" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="ML_B" class="0">
 <segment>
@@ -11028,8 +11041,8 @@ probably rather 3.3V)</text>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="SDA"/>
-<wire x1="-309.88" y1="-485.14" x2="-284.48" y2="-485.14" width="0.1524" layer="91"/>
-<label x="-284.48" y="-485.14" size="1.778" layer="95"/>
+<wire x1="-292.1" y1="-441.96" x2="-266.7" y2="-441.96" width="0.1524" layer="91"/>
+<label x="-266.7" y="-441.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL1" class="0">
@@ -11045,8 +11058,8 @@ probably rather 3.3V)</text>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="SCL"/>
-<wire x1="-309.88" y1="-490.22" x2="-284.48" y2="-490.22" width="0.1524" layer="91"/>
-<label x="-284.48" y="-490.22" size="1.778" layer="95"/>
+<wire x1="-292.1" y1="-447.04" x2="-266.7" y2="-447.04" width="0.1524" layer="91"/>
+<label x="-266.7" y="-447.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$30" class="0">
@@ -11348,6 +11361,19 @@ probably rather 3.3V)</text>
 <wire x1="-330.2" y1="350.52" x2="-330.2" y2="337.82" width="0.1524" layer="91"/>
 <junction x="-330.2" y="337.82"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VDD"/>
+<wire x1="-322.58" y1="-436.88" x2="-332.74" y2="-436.88" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="-332.74" y1="-436.88" x2="-342.9" y2="-436.88" width="0.1524" layer="91"/>
+<wire x1="-342.9" y1="-436.88" x2="-353.06" y2="-436.88" width="0.1524" layer="91"/>
+<wire x1="-342.9" y1="-462.28" x2="-342.9" y2="-436.88" width="0.1524" layer="91"/>
+<junction x="-342.9" y="-436.88"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="-332.74" y1="-436.88" x2="-332.74" y2="-462.28" width="0.1524" layer="91"/>
+<junction x="-332.74" y="-436.88"/>
+<label x="-353.06" y="-436.88" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -11387,6 +11413,19 @@ probably rather 3.3V)</text>
 <wire x1="-429.26" y1="543.56" x2="-429.26" y2="538.48" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="VID"/>
 <wire x1="-429.26" y1="538.48" x2="-452.12" y2="538.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VSS" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="VSS"/>
+<wire x1="-322.58" y1="-441.96" x2="-325.12" y2="-441.96" width="0.1524" layer="91"/>
+<wire x1="-325.12" y1="-441.96" x2="-325.12" y2="-472.44" width="0.1524" layer="91"/>
+<pinref part="GND14" gate="1" pin="GND"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="-332.74" y1="-474.98" x2="-332.74" y2="-472.44" width="0.1524" layer="91"/>
+<wire x1="-332.74" y1="-472.44" x2="-332.74" y2="-469.9" width="0.1524" layer="91"/>
+<wire x1="-325.12" y1="-472.44" x2="-332.74" y2="-472.44" width="0.1524" layer="91"/>
+<junction x="-332.74" y="-472.44"/>
 </segment>
 </net>
 </nets>
