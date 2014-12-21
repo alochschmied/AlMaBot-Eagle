@@ -10263,7 +10263,7 @@ Reference: &lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/22072a.pd
 <classes>
 <class number="0" name="default" width="0.4064" drill="0">
 </class>
-<class number="1" name="10A" width="2.032" drill="0">
+<class number="1" name="10A" width="1.524" drill="0">
 </class>
 <class number="2" name="6A" width="1.016" drill="0">
 </class>
