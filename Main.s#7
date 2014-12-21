@@ -4309,29 +4309,33 @@ Based on the following sources:
 &lt;/ul&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="P6-15">
+<package name="SOD64-10">
 <description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-diameter 9 mm, horizontal, grid 15.24 mm</description>
-<wire x1="-4.699" y1="-4.572" x2="-4.699" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="4.699" y1="4.572" x2="4.699" y2="-4.572" width="0.1524" layer="21"/>
-<wire x1="-4.699" y1="4.572" x2="4.699" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="4.699" y1="-4.572" x2="-4.699" y2="-4.572" width="0.1524" layer="21"/>
-<wire x1="-1.143" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="2.54" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="0" x2="6.223" y2="0" width="1.27" layer="51"/>
-<wire x1="-7.62" y1="0" x2="-6.223" y2="0" width="1.27" layer="51"/>
-<pad name="C" x="-7.62" y="0" drill="1.6002" shape="long"/>
-<pad name="A" x="7.62" y="0" drill="1.6002" shape="long"/>
-<text x="-4.6736" y="4.8514" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.3622" y="-3.302" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-3.429" y1="-4.572" x2="-2.921" y2="4.572" layer="21"/>
-<rectangle x1="4.699" y1="-0.635" x2="5.969" y2="0.635" layer="21"/>
-<rectangle x1="-5.969" y1="-0.635" x2="-4.699" y2="0.635" layer="21"/>
+diameter 4.8 mm, vertical, grid 10.16 mm</description>
+<wire x1="5.08" y1="0" x2="3.556" y2="0" width="1.3716" layer="51"/>
+<wire x1="-5.08" y1="0" x2="-3.556" y2="0" width="1.3716" layer="51"/>
+<wire x1="-1.143" y1="0" x2="-0.508" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="0.635" x2="0.508" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="-0.635" x2="-0.508" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.508" y1="0" x2="1.016" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.508" y1="0" x2="0.508" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-0.508" y1="0" x2="-0.508" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="1.397" x2="-2.54" y2="-1.397" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-1.397" x2="2.54" y2="1.397" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="1.397" x2="1.397" y2="1.397" width="0.1524" layer="21" curve="-131.11209"/>
+<wire x1="-1.397" y1="-1.397" x2="1.397" y2="-1.397" width="0.1524" layer="21" curve="131.11209"/>
+<wire x1="-2.54" y1="1.397" x2="-1.397" y2="1.397" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="1.397" x2="1.397" y2="1.397" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-1.397" x2="-1.397" y2="-1.397" width="0.1524" layer="21"/>
+<wire x1="1.397" y1="-1.397" x2="2.54" y2="-1.397" width="0.1524" layer="21"/>
+<wire x1="-0.508" y1="0.635" x2="-0.508" y2="0" width="0.1524" layer="21"/>
+<pad name="C" x="-5.08" y="0" drill="1.6002" shape="long"/>
+<pad name="A" x="5.08" y="0" drill="1.6002" shape="long"/>
+<text x="-2.54" y="2.54" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-3.937" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.905" y1="-1.397" x2="-1.397" y2="1.397" layer="21"/>
+<rectangle x1="2.54" y1="-0.6604" x2="3.3274" y2="0.6604" layer="21"/>
+<rectangle x1="-3.3274" y1="-0.6604" x2="-2.54" y2="0.6604" layer="21"/>
 </package>
 <package name="DO35Z10">
 <description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
@@ -4836,19 +4840,17 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="P600" prefix="D">
+<deviceset name="BYW95" prefix="D">
 <description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-high voltage diode, silicon rectifier&lt;p&gt;
-1.0 A to 6.0 A, 50 V to 1300 V&lt;p&gt;
-http://www.kosemi.com/product/diosr.html</description>
+fast soft-recovery rectifier</description>
 <gates>
-<gate name="G$1" symbol="D" x="0" y="0"/>
+<gate name="1" symbol="D" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="P6-15">
+<device name="" package="SOD64-10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10329,20 +10331,20 @@ Based on the following sources:
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="SV1" library="con-lsta" deviceset="FE20-2" device="" value="Raspberry Pi B Plus Connector"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="D2" library="diode" deviceset="P600" device="" value="P600"/>
-<part name="D3" library="diode" deviceset="P600" device="" value="P600"/>
-<part name="D4" library="diode" deviceset="P600" device="" value="P600"/>
-<part name="D7" library="diode" deviceset="P600" device="" value="P600"/>
+<part name="D2" library="diode" deviceset="BYW95" device="" value="BYW95"/>
+<part name="D3" library="diode" deviceset="BYW95" device="" value="BYW95"/>
+<part name="D4" library="diode" deviceset="BYW95" device="" value="BYW95"/>
+<part name="D7" library="diode" deviceset="BYW95" device="" value="BYW95"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="U4" library="SparkFun-PowerIC" deviceset="L298" device=""/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="D8" library="diode" deviceset="P600" device="" value="P600"/>
-<part name="D9" library="diode" deviceset="P600" device="" value="P600"/>
-<part name="D10" library="diode" deviceset="P600" device="" value="P600"/>
-<part name="D11" library="diode" deviceset="P600" device="" value="P600"/>
+<part name="D8" library="diode" deviceset="BYW95" device="" value="BYW95"/>
+<part name="D9" library="diode" deviceset="BYW95" device="" value="BYW95"/>
+<part name="D10" library="diode" deviceset="BYW95" device="" value="BYW95"/>
+<part name="D11" library="diode" deviceset="BYW95" device="" value="BYW95"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME3" library="frames" deviceset="DINA4_L" device="" value="Raspberry Pi B plus Connector"/>
@@ -10423,20 +10425,20 @@ probably rather 3.3V)</text>
 <instance part="GND3" gate="1" x="-416.56" y="142.24"/>
 <instance part="SV1" gate="G$1" x="-388.62" y="518.16"/>
 <instance part="GND4" gate="1" x="-340.36" y="495.3"/>
-<instance part="D2" gate="G$1" x="-309.88" y="172.72" rot="R90"/>
-<instance part="D3" gate="G$1" x="-327.66" y="172.72" rot="R90"/>
-<instance part="D4" gate="G$1" x="-327.66" y="152.4" rot="R90"/>
-<instance part="D7" gate="G$1" x="-309.88" y="152.4" rot="R90"/>
+<instance part="D2" gate="1" x="-309.88" y="172.72" rot="R90"/>
+<instance part="D3" gate="1" x="-327.66" y="172.72" rot="R90"/>
+<instance part="D4" gate="1" x="-327.66" y="152.4" rot="R90"/>
+<instance part="D7" gate="1" x="-309.88" y="152.4" rot="R90"/>
 <instance part="GND2" gate="1" x="-327.66" y="142.24"/>
 <instance part="GND5" gate="1" x="-309.88" y="142.24"/>
 <instance part="U4" gate="G$1" x="-373.38" y="96.52"/>
 <instance part="C7" gate="G$1" x="-408.94" y="88.9"/>
 <instance part="C8" gate="G$1" x="-398.78" y="88.9"/>
 <instance part="GND6" gate="1" x="-416.56" y="76.2"/>
-<instance part="D8" gate="G$1" x="-309.88" y="106.68" rot="R90"/>
-<instance part="D9" gate="G$1" x="-327.66" y="106.68" rot="R90"/>
-<instance part="D10" gate="G$1" x="-327.66" y="86.36" rot="R90"/>
-<instance part="D11" gate="G$1" x="-309.88" y="86.36" rot="R90"/>
+<instance part="D8" gate="1" x="-309.88" y="106.68" rot="R90"/>
+<instance part="D9" gate="1" x="-327.66" y="106.68" rot="R90"/>
+<instance part="D10" gate="1" x="-327.66" y="86.36" rot="R90"/>
+<instance part="D11" gate="1" x="-309.88" y="86.36" rot="R90"/>
 <instance part="GND7" gate="1" x="-327.66" y="76.2"/>
 <instance part="GND8" gate="1" x="-309.88" y="76.2"/>
 <instance part="FRAME3" gate="G$1" x="-513.08" y="408.94"/>
@@ -10637,12 +10639,12 @@ probably rather 3.3V)</text>
 <junction x="-408.94" y="170.18"/>
 </segment>
 <segment>
-<pinref part="D3" gate="G$1" pin="C"/>
+<pinref part="D3" gate="1" pin="C"/>
 <wire x1="-327.66" y1="175.26" x2="-327.66" y2="182.88" width="0.1524" layer="91"/>
 <label x="-327.66" y="182.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D2" gate="G$1" pin="C"/>
+<pinref part="D2" gate="1" pin="C"/>
 <wire x1="-309.88" y1="175.26" x2="-309.88" y2="182.88" width="0.1524" layer="91"/>
 <label x="-309.88" y="182.88" size="1.778" layer="95"/>
 </segment>
@@ -10656,12 +10658,12 @@ probably rather 3.3V)</text>
 <junction x="-408.94" y="104.14"/>
 </segment>
 <segment>
-<pinref part="D9" gate="G$1" pin="C"/>
+<pinref part="D9" gate="1" pin="C"/>
 <wire x1="-327.66" y1="109.22" x2="-327.66" y2="116.84" width="0.1524" layer="91"/>
 <label x="-327.66" y="116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D8" gate="G$1" pin="C"/>
+<pinref part="D8" gate="1" pin="C"/>
 <wire x1="-309.88" y1="109.22" x2="-309.88" y2="116.84" width="0.1524" layer="91"/>
 <label x="-309.88" y="116.84" size="1.778" layer="95"/>
 </segment>
@@ -10719,12 +10721,12 @@ probably rather 3.3V)</text>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="D4" gate="G$1" pin="A"/>
+<pinref part="D4" gate="1" pin="A"/>
 <wire x1="-327.66" y1="144.78" x2="-327.66" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="D7" gate="G$1" pin="A"/>
+<pinref part="D7" gate="1" pin="A"/>
 <wire x1="-309.88" y1="144.78" x2="-309.88" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -10743,12 +10745,12 @@ probably rather 3.3V)</text>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
-<pinref part="D10" gate="G$1" pin="A"/>
+<pinref part="D10" gate="1" pin="A"/>
 <wire x1="-327.66" y1="78.74" x2="-327.66" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
-<pinref part="D11" gate="G$1" pin="A"/>
+<pinref part="D11" gate="1" pin="A"/>
 <wire x1="-309.88" y1="78.74" x2="-309.88" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -10847,8 +10849,8 @@ probably rather 3.3V)</text>
 </net>
 <net name="ML_OUT_B" class="2">
 <segment>
-<pinref part="D3" gate="G$1" pin="A"/>
-<pinref part="D4" gate="G$1" pin="C"/>
+<pinref part="D3" gate="1" pin="A"/>
+<pinref part="D4" gate="1" pin="C"/>
 <wire x1="-327.66" y1="170.18" x2="-327.66" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="OUT2"/>
 <wire x1="-327.66" y1="157.48" x2="-327.66" y2="154.94" width="0.1524" layer="91"/>
@@ -10875,8 +10877,8 @@ probably rather 3.3V)</text>
 </net>
 <net name="ML_OUT_A" class="2">
 <segment>
-<pinref part="D2" gate="G$1" pin="A"/>
-<pinref part="D7" gate="G$1" pin="C"/>
+<pinref part="D2" gate="1" pin="A"/>
+<pinref part="D7" gate="1" pin="C"/>
 <wire x1="-309.88" y1="170.18" x2="-309.88" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="OUT1"/>
 <wire x1="-309.88" y1="167.64" x2="-309.88" y2="160.02" width="0.1524" layer="91"/>
@@ -10922,8 +10924,8 @@ probably rather 3.3V)</text>
 </net>
 <net name="MR_OUT_A" class="2">
 <segment>
-<pinref part="D8" gate="G$1" pin="A"/>
-<pinref part="D11" gate="G$1" pin="C"/>
+<pinref part="D8" gate="1" pin="A"/>
+<pinref part="D11" gate="1" pin="C"/>
 <wire x1="-309.88" y1="104.14" x2="-309.88" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="OUT1"/>
 <wire x1="-309.88" y1="101.6" x2="-309.88" y2="93.98" width="0.1524" layer="91"/>
@@ -10956,8 +10958,8 @@ probably rather 3.3V)</text>
 </net>
 <net name="MR_OUT_B" class="2">
 <segment>
-<pinref part="D9" gate="G$1" pin="A"/>
-<pinref part="D10" gate="G$1" pin="C"/>
+<pinref part="D9" gate="1" pin="A"/>
+<pinref part="D10" gate="1" pin="C"/>
 <wire x1="-327.66" y1="104.14" x2="-327.66" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="OUT2"/>
 <wire x1="-327.66" y1="91.44" x2="-327.66" y2="88.9" width="0.1524" layer="91"/>
@@ -11453,6 +11455,36 @@ probably rather 3.3V)</text>
 <wire x1="-429.26" y1="543.56" x2="-429.26" y2="538.48" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="VID"/>
 <wire x1="-429.26" y1="538.48" x2="-452.12" y2="538.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="U6" gate="A" pin="ALERT/RDY"/>
+<wire x1="-342.9" y1="-436.88" x2="-375.92" y2="-436.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="U6" gate="A" pin="AIN0"/>
+<wire x1="-342.9" y1="-441.96" x2="-375.92" y2="-441.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="U6" gate="A" pin="AIN1"/>
+<wire x1="-342.9" y1="-444.5" x2="-375.92" y2="-444.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="U6" gate="A" pin="AIN2"/>
+<wire x1="-342.9" y1="-449.58" x2="-375.92" y2="-449.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="U6" gate="A" pin="AIN3"/>
+<wire x1="-342.9" y1="-452.12" x2="-375.92" y2="-452.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
