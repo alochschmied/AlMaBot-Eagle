@@ -10666,7 +10666,7 @@ probably rather 3.3V)</text>
 <label x="-309.88" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <wire x1="-355.6" y1="287.02" x2="-337.82" y2="287.02" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="ADJ"/>
@@ -11313,9 +11313,9 @@ probably rather 3.3V)</text>
 <label x="-419.1" y="96.52" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="VOC"/>
-<wire x1="-485.14" y1="535.94" x2="-510.54" y2="535.94" width="0.1524" layer="91"/>
-<label x="-510.54" y="535.94" size="1.778" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="VOD"/>
+<wire x1="-485.14" y1="538.48" x2="-510.54" y2="538.48" width="0.1524" layer="91"/>
+<label x="-510.54" y="538.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MR_DIR" class="0">
@@ -11336,9 +11336,9 @@ probably rather 3.3V)</text>
 <label x="-419.1" y="121.92" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="VOD"/>
-<wire x1="-485.14" y1="538.48" x2="-510.54" y2="538.48" width="0.1524" layer="91"/>
-<label x="-510.54" y="538.48" size="1.778" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="VOC"/>
+<wire x1="-485.14" y1="535.94" x2="-510.54" y2="535.94" width="0.1524" layer="91"/>
+<label x="-510.54" y="535.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ML_SPEED" class="0">
@@ -11353,9 +11353,9 @@ probably rather 3.3V)</text>
 <label x="-419.1" y="162.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="VOA"/>
-<wire x1="-485.14" y1="530.86" x2="-510.54" y2="530.86" width="0.1524" layer="91"/>
-<label x="-510.54" y="530.86" size="1.778" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="VOB"/>
+<wire x1="-485.14" y1="533.4" x2="-510.54" y2="533.4" width="0.1524" layer="91"/>
+<label x="-510.54" y="533.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ML_DIR" class="0">
@@ -11376,9 +11376,9 @@ probably rather 3.3V)</text>
 <label x="-419.1" y="187.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="VOB"/>
-<wire x1="-485.14" y1="533.4" x2="-510.54" y2="533.4" width="0.1524" layer="91"/>
-<label x="-510.54" y="533.4" size="1.778" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="VOA"/>
+<wire x1="-485.14" y1="530.86" x2="-510.54" y2="530.86" width="0.1524" layer="91"/>
+<label x="-510.54" y="530.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$15" class="0">
