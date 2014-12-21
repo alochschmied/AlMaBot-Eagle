@@ -10075,7 +10075,7 @@ Reference: &lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/22072a.pd
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="IC2" library="adum140x" deviceset="ADUM1400" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="IC3" library="74xx-eu" deviceset="74*14" device="D" technology="LS"/>
+<part name="IC3" library="74xx-eu" deviceset="74*14" device="N" technology="LS" value="74LS14N"/>
 <part name="V1" library="supply" deviceset="VCC" device=""/>
 <part name="U$1" library="mes" deviceset="MCP3425" device=""/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="10u"/>

@@ -4840,7 +4840,7 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BYW96" prefix="D">
+<deviceset name="BYW95" prefix="D">
 <description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 fast soft-recovery rectifier</description>
 <gates>
@@ -10331,20 +10331,20 @@ Based on the following sources:
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="SV1" library="con-lsta" deviceset="FE20-2" device="" value="Raspberry Pi B Plus Connector"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="D2" library="diode" deviceset="BYW96" device="" value="BYW96"/>
-<part name="D3" library="diode" deviceset="BYW96" device="" value="BYW96"/>
-<part name="D4" library="diode" deviceset="BYW96" device="" value="BYW96"/>
-<part name="D7" library="diode" deviceset="BYW96" device="" value="BYW96"/>
+<part name="D2" library="diode" deviceset="BYW95" device="" value="BYW95"/>
+<part name="D3" library="diode" deviceset="BYW95" device="" value="BYW95"/>
+<part name="D4" library="diode" deviceset="BYW95" device="" value="BYW95"/>
+<part name="D7" library="diode" deviceset="BYW95" device="" value="BYW95"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="U4" library="SparkFun-PowerIC" deviceset="L298" device=""/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="D8" library="diode" deviceset="BYW96" device="" value="BYW96"/>
-<part name="D9" library="diode" deviceset="BYW96" device="" value="BYW96"/>
-<part name="D10" library="diode" deviceset="BYW96" device="" value="BYW96"/>
-<part name="D11" library="diode" deviceset="BYW96" device="" value="BYW96"/>
+<part name="D8" library="diode" deviceset="BYW95" device="" value="BYW95"/>
+<part name="D9" library="diode" deviceset="BYW95" device="" value="BYW95"/>
+<part name="D10" library="diode" deviceset="BYW95" device="" value="BYW95"/>
+<part name="D11" library="diode" deviceset="BYW95" device="" value="BYW95"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME3" library="frames" deviceset="DINA4_L" device="" value="Raspberry Pi B plus Connector"/>

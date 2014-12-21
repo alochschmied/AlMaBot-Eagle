@@ -4309,33 +4309,29 @@ Based on the following sources:
 &lt;/ul&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="SOD64-10">
+<package name="DO41-10">
 <description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-diameter 4.8 mm, vertical, grid 10.16 mm</description>
-<wire x1="5.08" y1="0" x2="3.556" y2="0" width="1.3716" layer="51"/>
-<wire x1="-5.08" y1="0" x2="-3.556" y2="0" width="1.3716" layer="51"/>
-<wire x1="-1.143" y1="0" x2="-0.508" y2="0" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="0.635" x2="0.508" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="-0.635" x2="-0.508" y2="0" width="0.1524" layer="21"/>
-<wire x1="-0.508" y1="0" x2="1.016" y2="0" width="0.1524" layer="21"/>
-<wire x1="-0.508" y1="0" x2="0.508" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-0.508" y1="0" x2="-0.508" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="1.397" x2="-2.54" y2="-1.397" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-1.397" x2="2.54" y2="1.397" width="0.1524" layer="21"/>
-<wire x1="-1.397" y1="1.397" x2="1.397" y2="1.397" width="0.1524" layer="21" curve="-131.11209"/>
-<wire x1="-1.397" y1="-1.397" x2="1.397" y2="-1.397" width="0.1524" layer="21" curve="131.11209"/>
-<wire x1="-2.54" y1="1.397" x2="-1.397" y2="1.397" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="1.397" x2="1.397" y2="1.397" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-1.397" x2="-1.397" y2="-1.397" width="0.1524" layer="21"/>
-<wire x1="1.397" y1="-1.397" x2="2.54" y2="-1.397" width="0.1524" layer="21"/>
-<wire x1="-0.508" y1="0.635" x2="-0.508" y2="0" width="0.1524" layer="21"/>
-<pad name="C" x="-5.08" y="0" drill="1.6002" shape="long"/>
-<pad name="A" x="5.08" y="0" drill="1.6002" shape="long"/>
-<text x="-2.54" y="2.54" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.54" y="-3.937" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-1.905" y1="-1.397" x2="-1.397" y2="1.397" layer="21"/>
-<rectangle x1="2.54" y1="-0.6604" x2="3.3274" y2="0.6604" layer="21"/>
-<rectangle x1="-3.3274" y1="-0.6604" x2="-2.54" y2="0.6604" layer="21"/>
+diameter 2.54 mm, horizontal, grid 10.16 mm</description>
+<wire x1="2.032" y1="-1.27" x2="-2.032" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="-1.27" x2="2.032" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="1.27" x2="2.032" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="1.27" x2="-2.032" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0" x2="4.064" y2="0" width="0.762" layer="51"/>
+<wire x1="-5.08" y1="0" x2="-4.064" y2="0" width="0.762" layer="51"/>
+<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<pad name="A" x="5.08" y="0" drill="1.1176"/>
+<pad name="C" x="-5.08" y="0" drill="1.1176"/>
+<text x="-2.032" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.032" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="-1.27" x2="-1.143" y2="1.27" layer="21"/>
+<rectangle x1="2.032" y1="-0.381" x2="3.937" y2="0.381" layer="21"/>
+<rectangle x1="-3.937" y1="-0.381" x2="-2.032" y2="0.381" layer="21"/>
 </package>
 <package name="DO35Z10">
 <description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
@@ -4840,14 +4836,15 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BYW95" prefix="D">
+<deviceset name="UF4003" prefix="D">
 <description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-fast soft-recovery rectifier</description>
+ultrafast recovery diode, 200 V&lt;p&gt;
+rectifier</description>
 <gates>
 <gate name="1" symbol="D" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOD64-10">
+<device name="" package="DO41-10">
 <connects>
 <connect gate="1" pin="A" pad="A"/>
 <connect gate="1" pin="C" pad="C"/>
@@ -10266,7 +10263,7 @@ Reference: &lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/22072a.pd
 <classes>
 <class number="0" name="default" width="0.4064" drill="0">
 </class>
-<class number="1" name="10A" width="2.032" drill="0">
+<class number="1" name="10A" width="1.524" drill="0">
 </class>
 <class number="2" name="6A" width="1.016" drill="0">
 </class>
@@ -10290,20 +10287,20 @@ Reference: &lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/22072a.pd
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="SV1" library="con-lsta" deviceset="FE20-2" device="" value="Raspberry Pi B Plus Connector"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="D2" library="diode" deviceset="BYW95" device="" value="BYW95"/>
-<part name="D3" library="diode" deviceset="BYW95" device="" value="BYW95"/>
-<part name="D4" library="diode" deviceset="BYW95" device="" value="BYW95"/>
-<part name="D7" library="diode" deviceset="BYW95" device="" value="BYW95"/>
+<part name="D2" library="diode" deviceset="UF4003" device="" value="UF4003"/>
+<part name="D3" library="diode" deviceset="UF4003" device="" value="UF4003"/>
+<part name="D4" library="diode" deviceset="UF4003" device="" value="UF4003"/>
+<part name="D7" library="diode" deviceset="UF4003" device="" value="UF4003"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="U4" library="SparkFun-PowerIC" deviceset="L298" device=""/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="D8" library="diode" deviceset="BYW95" device="" value="BYW95"/>
-<part name="D9" library="diode" deviceset="BYW95" device="" value="BYW95"/>
-<part name="D10" library="diode" deviceset="BYW95" device="" value="BYW95"/>
-<part name="D11" library="diode" deviceset="BYW95" device="" value="BYW95"/>
+<part name="D8" library="diode" deviceset="UF4003" device="" value="UF4003"/>
+<part name="D9" library="diode" deviceset="UF4003" device="" value="UF4003"/>
+<part name="D10" library="diode" deviceset="UF4003" device="" value="UF4003"/>
+<part name="D11" library="diode" deviceset="UF4003" device="" value="UF4003"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME3" library="frames" deviceset="DINA4_L" device="" value="Raspberry Pi B plus Connector"/>
