@@ -10996,6 +10996,11 @@ probably rather 3.3V)</text>
 <wire x1="-414.02" y1="513.08" x2="-414.02" y2="490.22" width="0.1524" layer="91"/>
 <label x="-416.56" y="487.68" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="X5" gate="G$1" pin="B-1"/>
+<wire x1="-449.58" y1="-530.86" x2="-487.68" y2="-530.86" width="0.1524" layer="91"/>
+<label x="-487.68" y="-530.86" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="+12V" class="1">
 <segment>
@@ -11224,6 +11229,11 @@ probably rather 3.3V)</text>
 <wire x1="-449.58" y1="-236.22" x2="-449.58" y2="-231.14" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="-449.58" y1="-231.14" x2="-447.04" y2="-231.14" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="X5" gate="G$1" pin="B-2"/>
+<wire x1="-449.58" y1="-533.4" x2="-487.68" y2="-533.4" width="0.1524" layer="91"/>
+<label x="-487.68" y="-533.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ML_B" class="0">
@@ -11491,6 +11501,11 @@ probably rather 3.3V)</text>
 <wire x1="-292.1" y1="-441.96" x2="-266.7" y2="-441.96" width="0.1524" layer="91"/>
 <label x="-266.7" y="-441.96" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="X5" gate="G$1" pin="B-3"/>
+<wire x1="-449.58" y1="-535.94" x2="-487.68" y2="-535.94" width="0.1524" layer="91"/>
+<label x="-487.68" y="-535.94" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SCL1" class="0">
 <segment>
@@ -11507,6 +11522,11 @@ probably rather 3.3V)</text>
 <pinref part="U$1" gate="G$1" pin="SCL"/>
 <wire x1="-292.1" y1="-447.04" x2="-266.7" y2="-447.04" width="0.1524" layer="91"/>
 <label x="-266.7" y="-447.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X5" gate="G$1" pin="B-4"/>
+<wire x1="-449.58" y1="-538.48" x2="-487.68" y2="-538.48" width="0.1524" layer="91"/>
+<label x="-487.68" y="-538.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$30" class="0">
