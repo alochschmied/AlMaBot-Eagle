@@ -9886,20 +9886,20 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="SV1" library="con-lsta" deviceset="FE20-2" device="" value="Raspberry Pi B Plus Connector"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="D2" library="diode" deviceset="ES2D" device="" value="ES2D"/>
-<part name="D3" library="diode" deviceset="ES2D" device="" value="ES2D"/>
-<part name="D4" library="diode" deviceset="ES2D" device="" value="ES2D"/>
-<part name="D7" library="diode" deviceset="ES2D" device="" value="ES2D"/>
+<part name="D2" library="diode" deviceset="ES2D" device="" value="ES 2BA"/>
+<part name="D3" library="diode" deviceset="ES2D" device="" value="ES 2BA"/>
+<part name="D4" library="diode" deviceset="ES2D" device="" value="ES 2BA"/>
+<part name="D7" library="diode" deviceset="ES2D" device="" value="ES 2BA"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="U4" library="SparkFun-PowerIC" deviceset="L298" device=""/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="D8" library="diode" deviceset="ES2D" device="" value="ES2D"/>
-<part name="D9" library="diode" deviceset="ES2D" device="" value="ES2D"/>
-<part name="D10" library="diode" deviceset="ES2D" device="" value="ES2D"/>
-<part name="D11" library="diode" deviceset="ES2D" device="" value="ES2D"/>
+<part name="D8" library="diode" deviceset="ES2D" device="" value="ES 2BA"/>
+<part name="D9" library="diode" deviceset="ES2D" device="" value="ES 2BA"/>
+<part name="D10" library="diode" deviceset="ES2D" device="" value="ES 2BA"/>
+<part name="D11" library="diode" deviceset="ES2D" device="" value="ES 2BA"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME3" library="frames" deviceset="DINA4_L" device="" value="Raspberry Pi B plus Connector"/>
@@ -10112,11 +10112,11 @@ probably rather 3.3V)</text>
 <pinref part="IC2" gate="G$1" pin="VDD2"/>
 <wire x1="-449.58" y1="513.08" x2="-457.2" y2="513.08" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="VE2"/>
-<wire x1="-457.2" y1="513.08" x2="-474.98" y2="513.08" width="0.1524" layer="91"/>
 <wire x1="-449.58" y1="528.32" x2="-457.2" y2="528.32" width="0.1524" layer="91"/>
 <wire x1="-457.2" y1="528.32" x2="-457.2" y2="513.08" width="0.1524" layer="91"/>
+<wire x1="-457.2" y1="513.08" x2="-457.2" y2="490.22" width="0.1524" layer="91"/>
 <junction x="-457.2" y="513.08"/>
-<label x="-474.98" y="513.08" size="1.778" layer="95"/>
+<label x="-459.74" y="487.68" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="OK3" gate="A" pin="COL"/>
@@ -11026,44 +11026,52 @@ probably rather 3.3V)</text>
 <label x="-353.06" y="-436.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="ML_DIR_" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="VIA"/>
-<wire x1="-416.56" y1="518.16" x2="-386.08" y2="518.16" width="0.1524" layer="91"/>
-<wire x1="-386.08" y1="518.16" x2="-386.08" y2="525.78" width="0.1524" layer="91"/>
+<wire x1="-416.56" y1="518.16" x2="-403.86" y2="518.16" width="0.1524" layer="91"/>
+<label x="-403.86" y="518.16" size="1.778" layer="95"/>
+</segment>
+<segment>
 <pinref part="SV1" gate="G$1" pin="37"/>
 <wire x1="-386.08" y1="525.78" x2="-360.68" y2="525.78" width="0.1524" layer="91"/>
+<label x="-386.08" y="525.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="ML_SPEED_" class="0">
 <segment>
 <pinref part="SV1" gate="G$1" pin="35"/>
-<wire x1="-360.68" y1="523.24" x2="-388.62" y2="523.24" width="0.1524" layer="91"/>
-<wire x1="-388.62" y1="523.24" x2="-388.62" y2="520.7" width="0.1524" layer="91"/>
+<wire x1="-360.68" y1="523.24" x2="-386.08" y2="523.24" width="0.1524" layer="91"/>
+<label x="-386.08" y="523.24" size="1.778" layer="95"/>
+</segment>
+<segment>
 <pinref part="IC2" gate="G$1" pin="VIB"/>
-<wire x1="-388.62" y1="520.7" x2="-416.56" y2="520.7" width="0.1524" layer="91"/>
+<wire x1="-403.86" y1="520.7" x2="-416.56" y2="520.7" width="0.1524" layer="91"/>
+<label x="-403.86" y="520.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="MR_DIR_" class="0">
+<segment>
+<pinref part="SV1" gate="G$1" pin="33"/>
+<wire x1="-386.08" y1="520.7" x2="-360.68" y2="520.7" width="0.1524" layer="91"/>
+<label x="-386.08" y="520.7" size="1.778" layer="95"/>
+</segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="VIC"/>
-<wire x1="-416.56" y1="523.24" x2="-391.16" y2="523.24" width="0.1524" layer="91"/>
-<wire x1="-391.16" y1="523.24" x2="-391.16" y2="528.32" width="0.1524" layer="91"/>
-<wire x1="-391.16" y1="528.32" x2="-383.54" y2="528.32" width="0.1524" layer="91"/>
-<wire x1="-383.54" y1="528.32" x2="-383.54" y2="520.7" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="G$1" pin="33"/>
-<wire x1="-383.54" y1="520.7" x2="-360.68" y2="520.7" width="0.1524" layer="91"/>
+<wire x1="-416.56" y1="523.24" x2="-403.86" y2="523.24" width="0.1524" layer="91"/>
+<label x="-403.86" y="523.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="MR_SPEED_" class="0">
 <segment>
 <pinref part="SV1" gate="G$1" pin="31"/>
-<wire x1="-360.68" y1="518.16" x2="-381" y2="518.16" width="0.1524" layer="91"/>
-<wire x1="-381" y1="518.16" x2="-381" y2="530.86" width="0.1524" layer="91"/>
-<wire x1="-381" y1="530.86" x2="-393.7" y2="530.86" width="0.1524" layer="91"/>
-<wire x1="-393.7" y1="530.86" x2="-393.7" y2="525.78" width="0.1524" layer="91"/>
+<wire x1="-360.68" y1="518.16" x2="-386.08" y2="518.16" width="0.1524" layer="91"/>
+<label x="-386.08" y="518.16" size="1.778" layer="95"/>
+</segment>
+<segment>
 <pinref part="IC2" gate="G$1" pin="VID"/>
-<wire x1="-393.7" y1="525.78" x2="-416.56" y2="525.78" width="0.1524" layer="91"/>
+<wire x1="-403.86" y1="525.78" x2="-416.56" y2="525.78" width="0.1524" layer="91"/>
+<label x="-403.86" y="525.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VSS" class="0">
@@ -11117,6 +11125,20 @@ probably rather 3.3V)</text>
 <pinref part="OK3" gate="D" pin="A"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="-401.32" y1="-299.72" x2="-396.24" y2="-299.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CAM_SERVO_AZI" class="0">
+<segment>
+<pinref part="OK3" gate="A" pin="EMIT"/>
+<wire x1="-378.46" y1="-251.46" x2="-363.22" y2="-251.46" width="0.1524" layer="91"/>
+<label x="-363.22" y="-251.46" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CAM_SERVO_ELE" class="0">
+<segment>
+<pinref part="OK3" gate="B" pin="EMIT"/>
+<wire x1="-378.46" y1="-269.24" x2="-363.22" y2="-269.24" width="0.1524" layer="91"/>
+<label x="-363.22" y="-269.24" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
