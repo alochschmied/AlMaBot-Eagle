@@ -9966,8 +9966,7 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="OK3" library="optocoupler" deviceset="PC847" device=""/>
 <part name="X5" library="con-wago" deviceset="233-504" device="" value="ITG-3200"/>
-<part name="X6" library="con-wago" deviceset="233-506" device="" value="PIRs"/>
-<part name="GND17" library="supply1" deviceset="GND" device=""/>
+<part name="X6" library="con-wago" deviceset="233-504" device="" value="PIRs (5V)"/>
 <part name="R10" library="resistor" deviceset="R-EU_" device="R0805" value="120"/>
 <part name="R11" library="resistor" deviceset="R-EU_" device="R0805" value="120"/>
 <part name="R12" library="resistor" deviceset="R-EU_" device="R0805" value="120"/>
@@ -10092,8 +10091,7 @@ probably rather 3.3V)</text>
 <instance part="OK3" gate="C" x="-386.08" y="-284.48"/>
 <instance part="OK3" gate="D" x="-386.08" y="-302.26"/>
 <instance part="X5" gate="G$1" x="-441.96" y="-533.4"/>
-<instance part="X6" gate="G$1" x="-429.26" y="-15.24"/>
-<instance part="GND17" gate="1" x="-454.66" y="-27.94"/>
+<instance part="X6" gate="G$1" x="-429.26" y="-12.7"/>
 <instance part="R10" gate="G$1" x="-406.4" y="-246.38"/>
 <instance part="R11" gate="G$1" x="-406.4" y="-264.16"/>
 <instance part="R12" gate="G$1" x="-406.4" y="-281.94"/>
@@ -10144,11 +10142,6 @@ probably rather 3.3V)</text>
 <wire x1="-457.2" y1="528.32" x2="-457.2" y2="513.08" width="0.1524" layer="91"/>
 <junction x="-457.2" y="513.08"/>
 <label x="-474.98" y="513.08" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="X6" gate="G$1" pin="B-5"/>
-<wire x1="-436.88" y1="-20.32" x2="-454.66" y2="-20.32" width="0.1524" layer="91"/>
-<label x="-454.66" y="-20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="OK3" gate="A" pin="COL"/>
@@ -10423,13 +10416,6 @@ probably rather 3.3V)</text>
 <pinref part="X5" gate="G$1" pin="B-2"/>
 <wire x1="-449.58" y1="-533.4" x2="-487.68" y2="-533.4" width="0.1524" layer="91"/>
 <label x="-487.68" y="-533.4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="X6" gate="G$1" pin="B-6"/>
-<wire x1="-436.88" y1="-22.86" x2="-454.66" y2="-22.86" width="0.1524" layer="91"/>
-<label x="-454.66" y="-22.86" size="1.778" layer="95"/>
-<pinref part="GND17" gate="1" pin="GND"/>
-<wire x1="-454.66" y1="-22.86" x2="-454.66" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="OK3" gate="A" pin="C"/>
@@ -10728,9 +10714,9 @@ probably rather 3.3V)</text>
 <label x="-266.7" y="-441.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X5" gate="G$1" pin="B-3"/>
-<wire x1="-449.58" y1="-535.94" x2="-487.68" y2="-535.94" width="0.1524" layer="91"/>
-<label x="-487.68" y="-535.94" size="1.778" layer="95"/>
+<pinref part="X5" gate="G$1" pin="B-4"/>
+<wire x1="-449.58" y1="-538.48" x2="-487.68" y2="-538.48" width="0.1524" layer="91"/>
+<label x="-487.68" y="-538.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL1" class="0">
@@ -10750,9 +10736,9 @@ probably rather 3.3V)</text>
 <label x="-266.7" y="-447.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X5" gate="G$1" pin="B-4"/>
-<wire x1="-449.58" y1="-538.48" x2="-487.68" y2="-538.48" width="0.1524" layer="91"/>
-<label x="-487.68" y="-538.48" size="1.778" layer="95"/>
+<pinref part="X5" gate="G$1" pin="B-3"/>
+<wire x1="-449.58" y1="-535.94" x2="-487.68" y2="-535.94" width="0.1524" layer="91"/>
+<label x="-487.68" y="-535.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$30" class="0">

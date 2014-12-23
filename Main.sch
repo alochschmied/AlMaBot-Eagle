@@ -10609,14 +10609,14 @@ probably rather 3.3V)</text>
 </net>
 <net name="PIR1" class="0">
 <segment>
-<pinref part="SV1" gate="G$1" pin="40"/>
-<wire x1="-345.44" y1="528.32" x2="-320.04" y2="528.32" width="0.1524" layer="91"/>
-<label x="-320.04" y="528.32" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="X6" gate="G$1" pin="B-1"/>
 <wire x1="-436.88" y1="-10.16" x2="-454.66" y2="-10.16" width="0.1524" layer="91"/>
 <label x="-454.66" y="-10.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="32"/>
+<wire x1="-345.44" y1="518.16" x2="-320.04" y2="518.16" width="0.1524" layer="91"/>
+<label x="-320.04" y="518.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PIR2" class="0">
@@ -10645,14 +10645,14 @@ probably rather 3.3V)</text>
 </net>
 <net name="PIR4" class="0">
 <segment>
-<pinref part="SV1" gate="G$1" pin="32"/>
-<wire x1="-345.44" y1="518.16" x2="-320.04" y2="518.16" width="0.1524" layer="91"/>
-<label x="-320.04" y="518.16" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="X6" gate="G$1" pin="B-4"/>
 <wire x1="-436.88" y1="-17.78" x2="-454.66" y2="-17.78" width="0.1524" layer="91"/>
 <label x="-454.66" y="-17.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="40"/>
+<wire x1="-345.44" y1="528.32" x2="-320.04" y2="528.32" width="0.1524" layer="91"/>
+<label x="-320.04" y="528.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -10714,9 +10714,9 @@ probably rather 3.3V)</text>
 <label x="-266.7" y="-441.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X5" gate="G$1" pin="B-3"/>
-<wire x1="-449.58" y1="-535.94" x2="-487.68" y2="-535.94" width="0.1524" layer="91"/>
-<label x="-487.68" y="-535.94" size="1.778" layer="95"/>
+<pinref part="X5" gate="G$1" pin="B-4"/>
+<wire x1="-449.58" y1="-538.48" x2="-487.68" y2="-538.48" width="0.1524" layer="91"/>
+<label x="-487.68" y="-538.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL1" class="0">
@@ -10736,9 +10736,9 @@ probably rather 3.3V)</text>
 <label x="-266.7" y="-447.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X5" gate="G$1" pin="B-4"/>
-<wire x1="-449.58" y1="-538.48" x2="-487.68" y2="-538.48" width="0.1524" layer="91"/>
-<label x="-487.68" y="-538.48" size="1.778" layer="95"/>
+<pinref part="X5" gate="G$1" pin="B-3"/>
+<wire x1="-449.58" y1="-535.94" x2="-487.68" y2="-535.94" width="0.1524" layer="91"/>
+<label x="-487.68" y="-535.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$30" class="0">
