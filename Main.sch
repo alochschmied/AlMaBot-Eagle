@@ -10045,7 +10045,6 @@ Inexpensive i2c i/o expander - 8 general purpose i/o pins with optional pullups<
 </classes>
 <parts>
 <part name="U2" library="v-reg-2" deviceset="LM1084" device="-V" value="LM 1084 IT5,0"/>
-<part name="C1" library="rcl" deviceset="C-EU" device="025-040X050" value="10uF Tant."/>
 <part name="C2" library="rcl" deviceset="C-EU" device="025-040X050" value="10uF Tant."/>
 <part name="U3" library="v-reg-2" deviceset="LM1084" device="-V" value="LM 1084 IT3,3"/>
 <part name="C4" library="rcl" deviceset="C-EU" device="025-040X050" value="10uF Tant."/>
@@ -10124,6 +10123,8 @@ Inexpensive i2c i/o expander - 8 general purpose i/o pins with optional pullups<
 <part name="X2" library="con-ria-59" deviceset="AKL59-04" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="IC4" library="adafruit" deviceset="MCP2300X" device="/P"/>
+<part name="C11" library="rcl" deviceset="C-EU" device="025-040X050" value="10uF Tant."/>
+<part name="C12" library="rcl" deviceset="C-EU" device="025-040X050" value="10uF Tant."/>
 </parts>
 <sheets>
 <sheet>
@@ -10152,7 +10153,6 @@ probably rather 3.3V)</text>
 </plain>
 <instances>
 <instance part="U2" gate="G$1" x="-355.6" y="337.82"/>
-<instance part="C1" gate="G$1" x="-403.86" y="332.74"/>
 <instance part="C2" gate="G$1" x="-337.82" y="330.2"/>
 <instance part="U3" gate="G$1" x="-355.6" y="302.26"/>
 <instance part="C4" gate="G$1" x="-337.82" y="294.64"/>
@@ -10252,6 +10252,8 @@ probably rather 3.3V)</text>
 <instance part="X2" gate="-4" x="-459.74" y="241.3"/>
 <instance part="GND20" gate="1" x="-464.82" y="233.68"/>
 <instance part="IC4" gate="G$1" x="-431.8" y="-261.62"/>
+<instance part="C11" gate="G$1" x="-373.38" y="332.74"/>
+<instance part="C12" gate="G$1" x="-373.38" y="294.64"/>
 </instances>
 <busses>
 </busses>
@@ -10357,9 +10359,11 @@ probably rather 3.3V)</text>
 <net name="+12V" class="1">
 <segment>
 <pinref part="U3" gate="G$1" pin="IN"/>
-<wire x1="-363.22" y1="302.26" x2="-386.08" y2="302.26" width="0.1524" layer="91"/>
+<wire x1="-363.22" y1="302.26" x2="-373.38" y2="302.26" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="IN"/>
-<wire x1="-386.08" y1="337.82" x2="-363.22" y2="337.82" width="0.1524" layer="91"/>
+<wire x1="-373.38" y1="302.26" x2="-386.08" y2="302.26" width="0.1524" layer="91"/>
+<wire x1="-386.08" y1="337.82" x2="-373.38" y2="337.82" width="0.1524" layer="91"/>
+<wire x1="-373.38" y1="337.82" x2="-363.22" y2="337.82" width="0.1524" layer="91"/>
 <wire x1="-386.08" y1="302.26" x2="-386.08" y2="337.82" width="0.1524" layer="91"/>
 <junction x="-386.08" y="337.82"/>
 <wire x1="-403.86" y1="337.82" x2="-386.08" y2="337.82" width="0.1524" layer="91"/>
@@ -10368,8 +10372,12 @@ probably rather 3.3V)</text>
 <wire x1="-403.86" y1="337.82" x2="-403.86" y2="347.98" width="0.1524" layer="91"/>
 <label x="-403.86" y="347.98" size="1.778" layer="95"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="-403.86" y1="335.28" x2="-403.86" y2="337.82" width="0.1524" layer="91"/>
+<pinref part="C11" gate="G$1" pin="1"/>
+<wire x1="-373.38" y1="335.28" x2="-373.38" y2="337.82" width="0.1524" layer="91"/>
+<junction x="-373.38" y="337.82"/>
+<pinref part="C12" gate="G$1" pin="1"/>
+<wire x1="-373.38" y1="297.18" x2="-373.38" y2="302.26" width="0.1524" layer="91"/>
+<junction x="-373.38" y="302.26"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VS"/>
@@ -10430,8 +10438,10 @@ probably rather 3.3V)</text>
 <pinref part="U2" gate="G$1" pin="ADJ"/>
 <wire x1="-355.6" y1="330.2" x2="-355.6" y2="322.58" width="0.1524" layer="91"/>
 <junction x="-355.6" y="322.58"/>
-<wire x1="-391.16" y1="322.58" x2="-355.6" y2="322.58" width="0.1524" layer="91"/>
-<wire x1="-355.6" y1="287.02" x2="-391.16" y2="287.02" width="0.1524" layer="91"/>
+<wire x1="-391.16" y1="322.58" x2="-373.38" y2="322.58" width="0.1524" layer="91"/>
+<wire x1="-373.38" y1="322.58" x2="-355.6" y2="322.58" width="0.1524" layer="91"/>
+<wire x1="-355.6" y1="287.02" x2="-373.38" y2="287.02" width="0.1524" layer="91"/>
+<wire x1="-373.38" y1="287.02" x2="-391.16" y2="287.02" width="0.1524" layer="91"/>
 <wire x1="-391.16" y1="287.02" x2="-391.16" y2="322.58" width="0.1524" layer="91"/>
 <junction x="-391.16" y="322.58"/>
 <wire x1="-477.52" y1="322.58" x2="-408.94" y2="322.58" width="0.1524" layer="91"/>
@@ -10449,8 +10459,12 @@ probably rather 3.3V)</text>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="-408.94" y1="345.44" x2="-408.94" y2="322.58" width="0.1524" layer="91"/>
 <junction x="-408.94" y="322.58"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="-403.86" y1="327.66" x2="-403.86" y2="322.58" width="0.1524" layer="91"/>
+<pinref part="C11" gate="G$1" pin="2"/>
+<wire x1="-373.38" y1="327.66" x2="-373.38" y2="322.58" width="0.1524" layer="91"/>
+<junction x="-373.38" y="322.58"/>
+<pinref part="C12" gate="G$1" pin="2"/>
+<wire x1="-373.38" y1="289.56" x2="-373.38" y2="287.02" width="0.1524" layer="91"/>
+<junction x="-373.38" y="287.02"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="G$1" pin="6"/>

@@ -9886,20 +9886,20 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="SV1" library="con-lsta" deviceset="FE20-2" device="" value="Raspberry Pi B Plus Connector"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="D2" library="diode" deviceset="ES2D" device="" value="ES2D"/>
-<part name="D3" library="diode" deviceset="ES2D" device="" value="ES2D"/>
-<part name="D4" library="diode" deviceset="ES2D" device="" value="ES2D"/>
-<part name="D7" library="diode" deviceset="ES2D" device="" value="ES2D"/>
+<part name="D2" library="diode" deviceset="ES2D" device="" value="ES 2BA"/>
+<part name="D3" library="diode" deviceset="ES2D" device="" value="ES 2BA"/>
+<part name="D4" library="diode" deviceset="ES2D" device="" value="ES 2BA"/>
+<part name="D7" library="diode" deviceset="ES2D" device="" value="ES 2BA"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="U4" library="SparkFun-PowerIC" deviceset="L298" device=""/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="D8" library="diode" deviceset="ES2D" device="" value="ES2D"/>
-<part name="D9" library="diode" deviceset="ES2D" device="" value="ES2D"/>
-<part name="D10" library="diode" deviceset="ES2D" device="" value="ES2D"/>
-<part name="D11" library="diode" deviceset="ES2D" device="" value="ES2D"/>
+<part name="D8" library="diode" deviceset="ES2D" device="" value="ES 2BA"/>
+<part name="D9" library="diode" deviceset="ES2D" device="" value="ES 2BA"/>
+<part name="D10" library="diode" deviceset="ES2D" device="" value="ES 2BA"/>
+<part name="D11" library="diode" deviceset="ES2D" device="" value="ES 2BA"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME3" library="frames" deviceset="DINA4_L" device="" value="Raspberry Pi B plus Connector"/>
