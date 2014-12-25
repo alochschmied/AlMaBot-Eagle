@@ -10110,7 +10110,7 @@ Inexpensive i2c i/o expander - 8 general purpose i/o pins with optional pullups<
 <part name="R9" library="resistor" deviceset="R-EU_" device="R0805" value="820k"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="OK3" library="optocoupler" deviceset="PC847" device=""/>
-<part name="X5" library="con-wago" deviceset="233-504" device="" value="ITG-3200"/>
+<part name="X5" library="con-wago" deviceset="233-504" device="" value="ITG-3200 (3.3V)"/>
 <part name="X6" library="con-wago" deviceset="233-504" device="" value="PIRs (5V)"/>
 <part name="R10" library="resistor" deviceset="R-EU_" device="R0805" value="120"/>
 <part name="R11" library="resistor" deviceset="R-EU_" device="R0805" value="120"/>
@@ -10145,6 +10145,8 @@ probably rather 3.3V)</text>
 0100 A2 A1A0
 
 here 0100 001</text>
+<text x="-307.34" y="-472.44" size="1.778" layer="91">Address 1101 A2 A1 A0
+preset at factory</text>
 </plain>
 <instances>
 <instance part="U2" gate="G$1" x="-355.6" y="337.82"/>
@@ -10339,11 +10341,6 @@ here 0100 001</text>
 <wire x1="-452.12" y1="121.92" x2="-449.58" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="-449.58" y1="121.92" x2="-449.58" y2="99.06" width="0.1524" layer="91"/>
 <label x="-452.12" y="96.52" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="X5" gate="G$1" pin="B-1"/>
-<wire x1="-449.58" y1="-530.86" x2="-487.68" y2="-530.86" width="0.1524" layer="91"/>
-<label x="-487.68" y="-530.86" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="X2" gate="-3" pin="1"/>
@@ -10547,11 +10544,6 @@ here 0100 001</text>
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="-353.06" y1="-452.12" x2="-353.06" y2="-474.98" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="X5" gate="G$1" pin="B-2"/>
-<wire x1="-449.58" y1="-533.4" x2="-487.68" y2="-533.4" width="0.1524" layer="91"/>
-<label x="-487.68" y="-533.4" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="OK3" gate="A" pin="C"/>
