@@ -8627,6 +8627,83 @@ Types:&lt;p&gt;
  254&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
+<package name="233-502">
+<description>&lt;b&gt;WAGO Cage Clamp&lt;/b&gt;</description>
+<wire x1="-3.52" y1="4.8" x2="-3.52" y2="4.25" width="0.2032" layer="21"/>
+<wire x1="-3.52" y1="4.25" x2="-3.87" y2="4.25" width="0.2032" layer="21"/>
+<wire x1="-3.87" y1="4.25" x2="-3.87" y2="3.25" width="0.2032" layer="21"/>
+<wire x1="-3.87" y1="3.25" x2="-3.52" y2="3.25" width="0.2032" layer="21"/>
+<wire x1="-3.52" y1="3.25" x2="-3.52" y2="-1.25" width="0.2032" layer="21"/>
+<wire x1="-3.52" y1="-1.25" x2="-3.87" y2="-1.25" width="0.2032" layer="21"/>
+<wire x1="-3.87" y1="-1.25" x2="-3.87" y2="-3.25" width="0.2032" layer="21"/>
+<wire x1="-3.87" y1="-3.25" x2="-3.52" y2="-3.25" width="0.2032" layer="21"/>
+<wire x1="-3.52" y1="-3.25" x2="-3.52" y2="-5.25" width="0.2032" layer="21"/>
+<wire x1="-3.52" y1="-5.25" x2="-3.87" y2="-5.25" width="0.2032" layer="21"/>
+<wire x1="-3.87" y1="-5.25" x2="-3.87" y2="-6.25" width="0.2032" layer="21"/>
+<wire x1="-3.87" y1="-6.25" x2="-3.52" y2="-6.25" width="0.2032" layer="21"/>
+<wire x1="-3.52" y1="-6.25" x2="-3.52" y2="-7.1" width="0.2032" layer="21"/>
+<wire x1="-3.52" y1="-7.1" x2="3.295" y2="-7.1" width="0.2032" layer="21"/>
+<wire x1="3.295" y1="-7.1" x2="3.295" y2="-6.25" width="0.2032" layer="21"/>
+<wire x1="3.295" y1="-5.25" x2="3.295" y2="-3.75" width="0.2032" layer="21"/>
+<wire x1="3.295" y1="-3.75" x2="3.295" y2="-3.25" width="0.2032" layer="21"/>
+<wire x1="3.295" y1="-1.25" x2="3.295" y2="3.25" width="0.2032" layer="21"/>
+<wire x1="3.295" y1="4.25" x2="3.295" y2="4.8" width="0.2032" layer="21"/>
+<wire x1="3.295" y1="4.8" x2="-3.52" y2="4.8" width="0.2032" layer="21"/>
+<wire x1="-2.02" y1="3.75" x2="-2.02" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="-2.02" y1="1.25" x2="-1.77" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="-1.77" y1="1.25" x2="-0.77" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="-0.77" y1="1.25" x2="-0.52" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="-0.52" y1="1.25" x2="-0.52" y2="3.75" width="0.2032" layer="51"/>
+<wire x1="-0.52" y1="3.75" x2="-2.02" y2="3.75" width="0.2032" layer="51"/>
+<wire x1="-3.52" y1="-3.75" x2="3.295" y2="-3.75" width="0.2032" layer="21"/>
+<wire x1="-1.77" y1="-4.25" x2="-1.77" y2="-5.75" width="0.2032" layer="21"/>
+<wire x1="-1.77" y1="-5.75" x2="-0.77" y2="-5.75" width="0.2032" layer="21"/>
+<wire x1="-0.77" y1="-5.75" x2="-0.77" y2="-4.25" width="0.2032" layer="21"/>
+<wire x1="-0.77" y1="-4.25" x2="-1.77" y2="-4.25" width="0.2032" layer="21"/>
+<wire x1="3.295" y1="4.25" x2="2.945" y2="4.25" width="0.2032" layer="21"/>
+<wire x1="2.945" y1="4.25" x2="2.945" y2="3.25" width="0.2032" layer="21"/>
+<wire x1="2.945" y1="3.25" x2="3.295" y2="3.25" width="0.2032" layer="21"/>
+<wire x1="3.295" y1="-1.25" x2="2.945" y2="-1.25" width="0.2032" layer="21"/>
+<wire x1="2.945" y1="-1.25" x2="2.945" y2="-3.25" width="0.2032" layer="21"/>
+<wire x1="2.945" y1="-3.25" x2="3.295" y2="-3.25" width="0.2032" layer="21"/>
+<wire x1="3.295" y1="-5.25" x2="2.945" y2="-5.25" width="0.2032" layer="21"/>
+<wire x1="2.945" y1="-5.25" x2="2.945" y2="-6.25" width="0.2032" layer="21"/>
+<wire x1="2.945" y1="-6.25" x2="3.295" y2="-6.25" width="0.2032" layer="21"/>
+<wire x1="-1.77" y1="3.25" x2="-1.77" y2="1.75" width="0.2032" layer="51"/>
+<wire x1="-1.77" y1="1.75" x2="-0.77" y2="1.75" width="0.2032" layer="51"/>
+<wire x1="-0.77" y1="1.75" x2="-0.77" y2="3.25" width="0.2032" layer="51"/>
+<wire x1="-0.77" y1="3.25" x2="-1.77" y2="3.25" width="0.2032" layer="51"/>
+<wire x1="-1.77" y1="1.25" x2="-1.77" y2="-1" width="0.2032" layer="51"/>
+<wire x1="-1.77" y1="-1" x2="-0.77" y2="-1" width="0.2032" layer="51"/>
+<wire x1="-0.77" y1="-1" x2="-0.77" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="-2.54" y1="-6.985" x2="-2.54" y2="4.699" width="0.2032" layer="21"/>
+<wire x1="0.52" y1="3.75" x2="0.52" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="0.52" y1="1.25" x2="0.77" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="0.77" y1="1.25" x2="1.77" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="1.77" y1="1.25" x2="2.02" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="2.02" y1="1.25" x2="2.02" y2="3.75" width="0.2032" layer="51"/>
+<wire x1="2.02" y1="3.75" x2="0.52" y2="3.75" width="0.2032" layer="51"/>
+<wire x1="0.77" y1="-4.25" x2="0.77" y2="-5.75" width="0.2032" layer="21"/>
+<wire x1="0.77" y1="-5.75" x2="1.77" y2="-5.75" width="0.2032" layer="21"/>
+<wire x1="1.77" y1="-5.75" x2="1.77" y2="-4.25" width="0.2032" layer="21"/>
+<wire x1="1.77" y1="-4.25" x2="0.77" y2="-4.25" width="0.2032" layer="21"/>
+<wire x1="0.77" y1="3.25" x2="0.77" y2="1.75" width="0.2032" layer="51"/>
+<wire x1="0.77" y1="1.75" x2="1.77" y2="1.75" width="0.2032" layer="51"/>
+<wire x1="1.77" y1="1.75" x2="1.77" y2="3.25" width="0.2032" layer="51"/>
+<wire x1="1.77" y1="3.25" x2="0.77" y2="3.25" width="0.2032" layer="51"/>
+<wire x1="0.77" y1="1.25" x2="0.77" y2="-1" width="0.2032" layer="51"/>
+<wire x1="0.77" y1="-1" x2="1.77" y2="-1" width="0.2032" layer="51"/>
+<wire x1="1.77" y1="-1" x2="1.77" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="0" y1="-6.985" x2="0" y2="4.699" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-6.985" x2="2.54" y2="4.699" width="0.2032" layer="21"/>
+<pad name="A1" x="-1.27" y="2.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="B1" x="-1.27" y="-2.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="A2" x="1.27" y="2.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="B2" x="1.27" y="-2.5" drill="1.2" shape="long" rot="R90"/>
+<text x="-2.64" y="5.25" size="1.27" layer="25">&gt;NAME</text>
+<text x="4.91" y="-6.09" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<text x="-1.42" y="-6.85" size="0.8128" layer="21">1</text>
+</package>
 <package name="233-504">
 <description>&lt;b&gt;WAGO Cage Clamp&lt;/b&gt;</description>
 <wire x1="-6.06" y1="4.8" x2="-6.06" y2="4.25" width="0.2032" layer="21"/>
@@ -8904,6 +8981,22 @@ Types:&lt;p&gt;
 </package>
 </packages>
 <symbols>
+<symbol name="KL-2">
+<wire x1="-2.54" y1="0.254" x2="-2.54" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-0.254" x2="-1.016" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-0.254" x2="-1.016" y2="0.254" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="0.254" x2="-2.54" y2="0.254" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.286" x2="-2.54" y2="-2.794" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.794" x2="-1.016" y2="-2.794" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-2.794" x2="-1.016" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-2.286" x2="-2.54" y2="-2.286" width="0.254" layer="94"/>
+<text x="-5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="-1" x="-5.08" y="0" visible="pin" length="short" direction="pas"/>
+<pin name="-2" x="-5.08" y="-2.54" visible="pin" length="short" direction="pas"/>
+<pin name="B-2" x="-7.62" y="-2.54" visible="off" length="short" direction="pas"/>
+<pin name="B-1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
 <symbol name="KL-4">
 <wire x1="-2.54" y1="2.794" x2="-2.54" y2="2.286" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="2.286" x2="-1.016" y2="2.286" width="0.254" layer="94"/>
@@ -8974,6 +9067,30 @@ Types:&lt;p&gt;
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="233-502" prefix="X" uservalue="yes">
+<description>&lt;b&gt;WAGO Cage Clamp&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="KL-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="233-502">
+<connects>
+<connect gate="G$1" pin="-1" pad="A1"/>
+<connect gate="G$1" pin="-2" pad="A2"/>
+<connect gate="G$1" pin="B-1" pad="B1"/>
+<connect gate="G$1" pin="B-2" pad="B2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="233-502" constant="no"/>
+<attribute name="OC_FARNELL" value="1777096" constant="no"/>
+<attribute name="OC_NEWARK" value="58M2630" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="233-504" prefix="X" uservalue="yes">
 <description>&lt;b&gt;WAGO Cage Clamp&lt;/b&gt;</description>
 <gates>
@@ -10028,6 +10145,117 @@ Inexpensive i2c i/o expander - 8 general purpose i/o pins with optional pullups<
 </deviceset>
 </devicesets>
 </library>
+<library name="TLC59108">
+<packages>
+<package name="TSSOP20">
+<wire x1="-3.2" y1="2.25" x2="-3.2" y2="-2.25" width="0.127" layer="51"/>
+<wire x1="3.2" y1="2.25" x2="3.2" y2="-2.25" width="0.127" layer="51"/>
+<wire x1="-3.2" y1="2.25" x2="3.2" y2="2.25" width="0.127" layer="51"/>
+<wire x1="-3.2" y1="-2.25" x2="3.2" y2="-2.25" width="0.127" layer="51"/>
+<smd name="1" x="-2.925" y="-2.8" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="2" x="-2.275" y="-2.8" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="3" x="-1.625" y="-2.8" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="4" x="-0.975" y="-2.8" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="5" x="-0.325" y="-2.8" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="6" x="0.325" y="-2.8" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="7" x="0.975" y="-2.8" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="8" x="1.625" y="-2.8" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="9" x="2.275" y="-2.8" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="10" x="2.925" y="-2.8" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="11" x="2.925" y="2.8" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="12" x="2.275" y="2.8" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="13" x="1.625" y="2.8" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="14" x="0.975" y="2.8" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="15" x="0.325" y="2.8" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="16" x="-0.325" y="2.8" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="17" x="-0.975" y="2.8" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="18" x="-1.625" y="2.8" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="19" x="-2.275" y="2.8" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="20" x="-2.925" y="2.8" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<text x="-5" y="-2.6" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="5.2" y="-3.2" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<polygon width="0.127" layer="21">
+<vertex x="-3.7" y="-3.1"/>
+<vertex x="-3.7" y="-2.8"/>
+<vertex x="-3.9" y="-2.6"/>
+<vertex x="-4.2" y="-2.6"/>
+<vertex x="-4.4" y="-2.8"/>
+<vertex x="-4.4" y="-3.2"/>
+<vertex x="-4.2" y="-3.4"/>
+<vertex x="-3.9" y="-3.4"/>
+<vertex x="-3.7" y="-3.2"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="TLC59108">
+<description>8-Bit Fast Mode Plus (FM+) I2C Bus Constant-Current LED Sink Driver</description>
+<wire x1="-10.16" y1="25.4" x2="-10.16" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-25.4" x2="10.16" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-25.4" x2="10.16" y2="25.4" width="0.254" layer="94"/>
+<wire x1="10.16" y1="25.4" x2="-10.16" y2="25.4" width="0.254" layer="94"/>
+<pin name="!OUT0" x="-15.24" y="-2.54" length="middle"/>
+<pin name="!OUT1" x="-15.24" y="-7.62" length="middle"/>
+<pin name="!OUT2" x="-15.24" y="-17.78" length="middle"/>
+<pin name="!OUT3" x="-15.24" y="-22.86" length="middle"/>
+<pin name="!OUT4" x="15.24" y="-22.86" length="middle" rot="R180"/>
+<pin name="!OUT5" x="15.24" y="-17.78" length="middle" rot="R180"/>
+<pin name="!OUT6" x="15.24" y="-7.62" length="middle" rot="R180"/>
+<pin name="!OUT7" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="!RESET" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="A0" x="-15.24" y="17.78" length="middle"/>
+<pin name="A1" x="-15.24" y="12.7" length="middle"/>
+<pin name="A2" x="-15.24" y="7.62" length="middle"/>
+<pin name="A3" x="-15.24" y="2.54" length="middle"/>
+<pin name="GND@1" x="-15.24" y="-12.7" length="middle"/>
+<pin name="GND@2" x="15.24" y="-12.7" length="middle" rot="R180"/>
+<pin name="GND@3" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="REXT" x="-15.24" y="22.86" length="middle"/>
+<pin name="SCL" x="15.24" y="12.7" length="middle" rot="R180"/>
+<pin name="SDA" x="15.24" y="17.78" length="middle" rot="R180"/>
+<pin name="VCC" x="15.24" y="22.86" length="middle" rot="R180"/>
+<text x="-10.16" y="27.94" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-30.48" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TLC59108" prefix="IC">
+<description>8-Bit Fast Mode Plus (FM+) I2C Bus Constant-Current LED Sink Driver</description>
+<gates>
+<gate name="G$1" symbol="TLC59108" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TSSOP20">
+<connects>
+<connect gate="G$1" pin="!OUT0" pad="6"/>
+<connect gate="G$1" pin="!OUT1" pad="7"/>
+<connect gate="G$1" pin="!OUT2" pad="9"/>
+<connect gate="G$1" pin="!OUT3" pad="10"/>
+<connect gate="G$1" pin="!OUT4" pad="11"/>
+<connect gate="G$1" pin="!OUT5" pad="12"/>
+<connect gate="G$1" pin="!OUT6" pad="14"/>
+<connect gate="G$1" pin="!OUT7" pad="15"/>
+<connect gate="G$1" pin="!RESET" pad="17"/>
+<connect gate="G$1" pin="A0" pad="2"/>
+<connect gate="G$1" pin="A1" pad="3"/>
+<connect gate="G$1" pin="A2" pad="4"/>
+<connect gate="G$1" pin="A3" pad="5"/>
+<connect gate="G$1" pin="GND@1" pad="8"/>
+<connect gate="G$1" pin="GND@2" pad="13"/>
+<connect gate="G$1" pin="GND@3" pad="16"/>
+<connect gate="G$1" pin="REXT" pad="1"/>
+<connect gate="G$1" pin="SCL" pad="18"/>
+<connect gate="G$1" pin="SDA" pad="19"/>
+<connect gate="G$1" pin="VCC" pad="20"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10110,7 +10338,7 @@ Inexpensive i2c i/o expander - 8 general purpose i/o pins with optional pullups<
 <part name="R9" library="resistor" deviceset="R-EU_" device="R0805" value="820k"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="OK3" library="optocoupler" deviceset="PC847" device=""/>
-<part name="X5" library="con-wago" deviceset="233-504" device="" value="ITG-3200 (3.3V)"/>
+<part name="X5" library="con-wago" deviceset="233-502" device="" value="ITG-3200 (3.3V)"/>
 <part name="X6" library="con-wago" deviceset="233-504" device="" value="PIRs (5V)"/>
 <part name="R10" library="resistor" deviceset="R-EU_" device="R0805" value="120"/>
 <part name="R11" library="resistor" deviceset="R-EU_" device="R0805" value="120"/>
@@ -10125,6 +10353,9 @@ Inexpensive i2c i/o expander - 8 general purpose i/o pins with optional pullups<
 <part name="IC4" library="adafruit" deviceset="MCP2300X" device="/P"/>
 <part name="C11" library="rcl" deviceset="C-EU" device="025-040X050" value="10uF Tant."/>
 <part name="C12" library="rcl" deviceset="C-EU" device="025-040X050" value="10uF Tant."/>
+<part name="X7" library="con-wago" deviceset="233-504" device=""/>
+<part name="FRAME7" library="frames" deviceset="DINA4_L" device="" value="lala"/>
+<part name="IC5" library="TLC59108" deviceset="TLC59108" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10147,6 +10378,10 @@ probably rather 3.3V)</text>
 here 0100 001</text>
 <text x="-307.34" y="-472.44" size="1.778" layer="91">Address 1101 A2 A1 A0
 preset at factory</text>
+<text x="-467.36" y="-543.56" size="1.778" layer="91">Address 
+Deafault 0x69= 1101 001</text>
+<text x="-416.56" y="-673.1" size="1.778" layer="91">Address 100 A3 A2 A1 A0 (RW)
+here 1001111</text>
 </plain>
 <instances>
 <instance part="U2" gate="G$1" x="-355.6" y="337.82"/>
@@ -10233,7 +10468,7 @@ preset at factory</text>
 <instance part="OK3" gate="B" x="-457.2" y="-241.3"/>
 <instance part="OK3" gate="C" x="-457.2" y="-259.08"/>
 <instance part="OK3" gate="D" x="-457.2" y="-276.86"/>
-<instance part="X5" gate="G$1" x="-441.96" y="-533.4"/>
+<instance part="X5" gate="G$1" x="-441.96" y="-530.86"/>
 <instance part="X6" gate="G$1" x="-429.26" y="-12.7"/>
 <instance part="R10" gate="G$1" x="-477.52" y="-220.98"/>
 <instance part="R11" gate="G$1" x="-477.52" y="-238.76"/>
@@ -10251,6 +10486,10 @@ preset at factory</text>
 <instance part="IC4" gate="G$1" x="-408.94" y="-337.82"/>
 <instance part="C11" gate="G$1" x="-373.38" y="332.74"/>
 <instance part="C12" gate="G$1" x="-373.38" y="294.64"/>
+<instance part="X7" gate="G$1" x="-457.2" y="-304.8"/>
+<instance part="FRAME7" gate="G$1" x="-510.54" y="-741.68"/>
+<instance part="FRAME7" gate="G$2" x="-347.98" y="-741.68"/>
+<instance part="IC5" gate="G$1" x="-396.24" y="-632.46"/>
 </instances>
 <busses>
 </busses>
@@ -10303,6 +10542,30 @@ preset at factory</text>
 <pinref part="X2" gate="-2" pin="1"/>
 <wire x1="-459.74" y1="251.46" x2="-474.98" y2="251.46" width="0.1524" layer="91"/>
 <label x="-474.98" y="251.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="VCC"/>
+<wire x1="-381" y1="-609.6" x2="-378.46" y2="-609.6" width="0.1524" layer="91"/>
+<label x="-327.66" y="-609.6" size="1.778" layer="95"/>
+<wire x1="-378.46" y1="-609.6" x2="-327.66" y2="-609.6" width="0.1524" layer="91"/>
+<wire x1="-378.46" y1="-609.6" x2="-378.46" y2="-596.9" width="0.1524" layer="91"/>
+<junction x="-378.46" y="-609.6"/>
+<wire x1="-378.46" y1="-596.9" x2="-419.1" y2="-596.9" width="0.1524" layer="91"/>
+<wire x1="-419.1" y1="-596.9" x2="-419.1" y2="-614.68" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="G$1" pin="A3"/>
+<wire x1="-419.1" y1="-614.68" x2="-419.1" y2="-619.76" width="0.1524" layer="91"/>
+<wire x1="-419.1" y1="-619.76" x2="-419.1" y2="-624.84" width="0.1524" layer="91"/>
+<wire x1="-419.1" y1="-624.84" x2="-419.1" y2="-629.92" width="0.1524" layer="91"/>
+<wire x1="-419.1" y1="-629.92" x2="-411.48" y2="-629.92" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="G$1" pin="A2"/>
+<wire x1="-419.1" y1="-624.84" x2="-411.48" y2="-624.84" width="0.1524" layer="91"/>
+<junction x="-419.1" y="-624.84"/>
+<pinref part="IC5" gate="G$1" pin="A1"/>
+<wire x1="-419.1" y1="-619.76" x2="-411.48" y2="-619.76" width="0.1524" layer="91"/>
+<junction x="-419.1" y="-619.76"/>
+<pinref part="IC5" gate="G$1" pin="A0"/>
+<wire x1="-419.1" y1="-614.68" x2="-411.48" y2="-614.68" width="0.1524" layer="91"/>
+<junction x="-419.1" y="-614.68"/>
 </segment>
 </net>
 <net name="+3.3V" class="0">
@@ -10600,6 +10863,16 @@ preset at factory</text>
 <wire x1="-452.12" y1="139.7" x2="-449.58" y2="139.7" width="0.1524" layer="91"/>
 <label x="-449.58" y="139.7" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="GND@1"/>
+<wire x1="-411.48" y1="-645.16" x2="-472.44" y2="-645.16" width="0.1524" layer="91"/>
+<label x="-472.44" y="-645.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="GND@2"/>
+<wire x1="-381" y1="-645.16" x2="-327.66" y2="-645.16" width="0.1524" layer="91"/>
+<label x="-327.66" y="-645.16" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="ML_B" class="0">
 <segment>
@@ -10867,14 +11140,19 @@ preset at factory</text>
 <label x="-266.7" y="-441.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X5" gate="G$1" pin="B-4"/>
-<wire x1="-449.58" y1="-538.48" x2="-487.68" y2="-538.48" width="0.1524" layer="91"/>
-<label x="-487.68" y="-538.48" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC4" gate="G$1" pin="SDA"/>
 <wire x1="-424.18" y1="-337.82" x2="-441.96" y2="-337.82" width="0.1524" layer="91"/>
 <label x="-441.96" y="-337.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X5" gate="G$1" pin="B-2"/>
+<wire x1="-449.58" y1="-533.4" x2="-469.9" y2="-533.4" width="0.1524" layer="91"/>
+<label x="-469.9" y="-533.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="SDA"/>
+<wire x1="-381" y1="-614.68" x2="-327.66" y2="-614.68" width="0.1524" layer="91"/>
+<label x="-327.66" y="-614.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL1" class="0">
@@ -10894,14 +11172,19 @@ preset at factory</text>
 <label x="-266.7" y="-447.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X5" gate="G$1" pin="B-3"/>
-<wire x1="-449.58" y1="-535.94" x2="-487.68" y2="-535.94" width="0.1524" layer="91"/>
-<label x="-487.68" y="-535.94" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC4" gate="G$1" pin="SCL"/>
 <wire x1="-424.18" y1="-340.36" x2="-441.96" y2="-340.36" width="0.1524" layer="91"/>
 <label x="-441.96" y="-340.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X5" gate="G$1" pin="B-1"/>
+<wire x1="-449.58" y1="-530.86" x2="-469.9" y2="-530.86" width="0.1524" layer="91"/>
+<label x="-469.9" y="-530.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="SCL"/>
+<wire x1="-381" y1="-619.76" x2="-327.66" y2="-619.76" width="0.1524" layer="91"/>
+<label x="-327.66" y="-619.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$30" class="0">
@@ -11316,12 +11599,22 @@ preset at factory</text>
 <wire x1="-449.58" y1="-226.06" x2="-434.34" y2="-226.06" width="0.1524" layer="91"/>
 <label x="-434.34" y="-226.06" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="X7" gate="G$1" pin="B-1"/>
+<wire x1="-464.82" y1="-302.26" x2="-482.6" y2="-302.26" width="0.1524" layer="91"/>
+<label x="-482.6" y="-302.26" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="CAM_SERVO_ELE" class="0">
 <segment>
 <pinref part="OK3" gate="B" pin="EMIT"/>
 <wire x1="-449.58" y1="-243.84" x2="-434.34" y2="-243.84" width="0.1524" layer="91"/>
 <label x="-434.34" y="-243.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X7" gate="G$1" pin="B-2"/>
+<wire x1="-464.82" y1="-304.8" x2="-482.6" y2="-304.8" width="0.1524" layer="91"/>
+<label x="-482.6" y="-304.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GP0" class="0">
@@ -11433,6 +11726,48 @@ preset at factory</text>
 <pinref part="IC4" gate="G$1" pin="A2"/>
 <wire x1="-424.18" y1="-350.52" x2="-441.96" y2="-350.52" width="0.1524" layer="91"/>
 <label x="-441.96" y="-350.52" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$38" class="0">
+<segment>
+<pinref part="OK3" gate="C" pin="COL"/>
+<wire x1="-449.58" y1="-256.54" x2="-434.34" y2="-256.54" width="0.1524" layer="91"/>
+<label x="-434.34" y="-256.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$39" class="0">
+<segment>
+<pinref part="OK3" gate="C" pin="EMIT"/>
+<wire x1="-449.58" y1="-261.62" x2="-434.34" y2="-261.62" width="0.1524" layer="91"/>
+<label x="-434.34" y="-261.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$43" class="0">
+<segment>
+<pinref part="OK3" gate="D" pin="COL"/>
+<wire x1="-449.58" y1="-274.32" x2="-434.34" y2="-274.32" width="0.1524" layer="91"/>
+<label x="-434.34" y="-274.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$44" class="0">
+<segment>
+<pinref part="OK3" gate="D" pin="EMIT"/>
+<wire x1="-449.58" y1="-279.4" x2="-434.34" y2="-279.4" width="0.1524" layer="91"/>
+<label x="-434.34" y="-279.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SCHUBI" class="0">
+<segment>
+<pinref part="X7" gate="G$1" pin="B-3"/>
+<wire x1="-464.82" y1="-307.34" x2="-482.6" y2="-307.34" width="0.1524" layer="91"/>
+<label x="-482.6" y="-307.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DUBI" class="0">
+<segment>
+<pinref part="X7" gate="G$1" pin="B-4"/>
+<wire x1="-464.82" y1="-309.88" x2="-482.6" y2="-309.88" width="0.1524" layer="91"/>
+<label x="-482.6" y="-309.88" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

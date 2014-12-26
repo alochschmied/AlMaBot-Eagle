@@ -155,6 +155,7 @@ UsedLibrary="/home/alexander/eagle-7.2.0/lbr/ad9834.lbr"
 UsedLibrary="/home/alexander/eagle-7.2.0/lbr/ad9850.lbr"
 UsedLibrary="/home/alexander/eagle-7.2.0/lbr/ad9851.lbr"
 UsedLibrary="/home/alexander/eagle-7.2.0/lbr/ad_quad_switch.lbr"
+UsedLibrary="/home/alexander/eagle-7.2.0/lbr/adafruit.lbr"
 UsedLibrary="/home/alexander/eagle-7.2.0/lbr/ade7758.lbr"
 UsedLibrary="/home/alexander/eagle-7.2.0/lbr/adg451_adg452_adg453.lbr"
 UsedLibrary="/home/alexander/eagle-7.2.0/lbr/adns-2610.lbr"
@@ -1381,11 +1382,10 @@ UsedLibrary="/home/alexander/eagle-7.2.0/lbr/elektro/e-steckverbinder.lbr"
 UsedLibrary="/home/alexander/eagle-7.2.0/lbr/elektro/e-stromversorgungselemente.lbr"
 UsedLibrary="/home/alexander/eagle-7.2.0/lbr/elektro/e-symbole.lbr"
 UsedLibrary="/home/alexander/eagle-7.2.0/lbr/elektro/eib-busch-jaeger.lbr"
-UsedLibrary="/home/alexander/eagle-7.2.0/lbr/adafruit.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="84 14 683 413"
+Loc="-10 14 589 413"
 State=2
 Number=0
 
