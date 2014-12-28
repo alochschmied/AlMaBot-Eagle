@@ -10471,7 +10471,7 @@ here 1001111</text>
 <label x="-358.14" y="487.68" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="+3.3V@H" class="3">
+<net name="+3.3V@H" class="1">
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="-340.36" y1="289.56" x2="-340.36" y2="284.48" width="0.1524" layer="91"/>
@@ -11540,14 +11540,14 @@ here 1001111</text>
 <label x="-292.1" y="355.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VCC@M" class="0">
+<net name="VCC@M" class="2">
 <segment>
 <pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="-297.18" y1="314.96" x2="-292.1" y2="314.96" width="0.1524" layer="91"/>
 <label x="-292.1" y="314.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VCC@L" class="0">
+<net name="VCC@L" class="3">
 <segment>
 <pinref part="R20" gate="G$1" pin="1"/>
 <wire x1="-297.18" y1="302.26" x2="-292.1" y2="302.26" width="0.1524" layer="91"/>
@@ -11567,14 +11567,14 @@ here 1001111</text>
 <label x="-353.06" y="-436.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="+3.3V@M" class="0">
+<net name="+3.3V@M" class="2">
 <segment>
 <pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="-297.18" y1="279.4" x2="-292.1" y2="279.4" width="0.1524" layer="91"/>
 <label x="-292.1" y="279.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="+3.3V@L" class="0">
+<net name="+3.3V@L" class="3">
 <segment>
 <pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="-297.18" y1="266.7" x2="-292.1" y2="266.7" width="0.1524" layer="91"/>
@@ -11608,14 +11608,14 @@ here 1001111</text>
 <junction x="-439.42" y="-477.52"/>
 </segment>
 </net>
-<net name="GND@M" class="0">
+<net name="GND@M" class="2">
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="-424.18" y1="261.62" x2="-424.18" y2="248.92" width="0.1524" layer="91"/>
 <label x="-429.26" y="246.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="GND@L" class="0">
+<net name="GND@L" class="3">
 <segment>
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="-414.02" y1="261.62" x2="-414.02" y2="248.92" width="0.1524" layer="91"/>
@@ -11793,7 +11793,7 @@ here 1001111</text>
 <label x="-502.92" y="238.76" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="+5V@L" class="2">
+<net name="+5V@L" class="3">
 <segment>
 <pinref part="IC2" gate="G$1" pin="VDD2"/>
 <wire x1="-485.14" y1="121.92" x2="-495.3" y2="121.92" width="0.1524" layer="91"/>

@@ -10471,7 +10471,7 @@ here 1001111</text>
 <label x="-358.14" y="487.68" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="+3.3V@H" class="3">
+<net name="+3.3V@H" class="1">
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="-340.36" y1="289.56" x2="-340.36" y2="284.48" width="0.1524" layer="91"/>
@@ -11485,18 +11485,11 @@ here 1001111</text>
 <label x="-434.34" y="-261.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$43" class="0">
+<net name="+5@L" class="0">
 <segment>
 <pinref part="OK3" gate="D" pin="COL"/>
 <wire x1="-449.58" y1="-274.32" x2="-434.34" y2="-274.32" width="0.1524" layer="91"/>
 <label x="-434.34" y="-274.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$44" class="0">
-<segment>
-<pinref part="OK3" gate="D" pin="EMIT"/>
-<wire x1="-449.58" y1="-279.4" x2="-434.34" y2="-279.4" width="0.1524" layer="91"/>
-<label x="-434.34" y="-279.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCHUBI" class="0">
@@ -11527,6 +11520,11 @@ here 1001111</text>
 <wire x1="-381" y1="-624.84" x2="-327.66" y2="-624.84" width="0.1524" layer="91"/>
 <label x="-327.66" y="-624.84" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="OK3" gate="D" pin="EMIT"/>
+<wire x1="-449.58" y1="-279.4" x2="-434.34" y2="-279.4" width="0.1524" layer="91"/>
+<label x="-434.34" y="-279.4" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="+12V@M" class="2">
 <segment>
@@ -11542,14 +11540,14 @@ here 1001111</text>
 <label x="-292.1" y="355.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VCC@M" class="0">
+<net name="VCC@M" class="2">
 <segment>
 <pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="-297.18" y1="314.96" x2="-292.1" y2="314.96" width="0.1524" layer="91"/>
 <label x="-292.1" y="314.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VCC@L" class="0">
+<net name="VCC@L" class="3">
 <segment>
 <pinref part="R20" gate="G$1" pin="1"/>
 <wire x1="-297.18" y1="302.26" x2="-292.1" y2="302.26" width="0.1524" layer="91"/>
@@ -11569,14 +11567,14 @@ here 1001111</text>
 <label x="-353.06" y="-436.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="+3.3V@M" class="0">
+<net name="+3.3V@M" class="2">
 <segment>
 <pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="-297.18" y1="279.4" x2="-292.1" y2="279.4" width="0.1524" layer="91"/>
 <label x="-292.1" y="279.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="+3.3V@L" class="0">
+<net name="+3.3V@L" class="3">
 <segment>
 <pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="-297.18" y1="266.7" x2="-292.1" y2="266.7" width="0.1524" layer="91"/>
@@ -11610,14 +11608,14 @@ here 1001111</text>
 <junction x="-439.42" y="-477.52"/>
 </segment>
 </net>
-<net name="GND@M" class="0">
+<net name="GND@M" class="2">
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="-424.18" y1="261.62" x2="-424.18" y2="248.92" width="0.1524" layer="91"/>
 <label x="-429.26" y="246.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="GND@L" class="0">
+<net name="GND@L" class="3">
 <segment>
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="-414.02" y1="261.62" x2="-414.02" y2="248.92" width="0.1524" layer="91"/>

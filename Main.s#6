@@ -10228,13 +10228,13 @@ Inexpensive i2c i/o expander - 8 general purpose i/o pins with optional pullups<
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.4064" drill="0">
+<class number="0" name="default" width="0.254" drill="0">
 </class>
 <class number="1" name="H" width="1.524" drill="0">
 </class>
 <class number="2" name="M" width="0.762" drill="0">
 </class>
-<class number="3" name="L" width="0.508" drill="0">
+<class number="3" name="L" width="0.254" drill="0">
 </class>
 </classes>
 <parts>

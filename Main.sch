@@ -10230,11 +10230,11 @@ Inexpensive i2c i/o expander - 8 general purpose i/o pins with optional pullups<
 <classes>
 <class number="0" name="default" width="0.4064" drill="0">
 </class>
-<class number="1" name="H" width="1.778" drill="0">
+<class number="1" name="H" width="1.651" drill="0">
 </class>
-<class number="2" name="M" width="1.016" drill="0">
+<class number="2" name="M" width="0.889" drill="0">
 </class>
-<class number="3" name="L" width="0.4064" drill="0">
+<class number="3" name="L" width="0.3556" drill="0">
 </class>
 </classes>
 <parts>
@@ -10323,6 +10323,8 @@ Inexpensive i2c i/o expander - 8 general purpose i/o pins with optional pullups<
 <part name="R20" library="resistor" deviceset="R-EU_" device="0204/2V" value="ZERO"/>
 <part name="R21" library="resistor" deviceset="R-EU_" device="0204/2V" value="ZERO"/>
 <part name="R22" library="resistor" deviceset="R-EU_" device="0204/2V" value="ZERO"/>
+<part name="R23" library="resistor" deviceset="R-EU_" device="0204/2V" value="ZERO"/>
+<part name="R24" library="resistor" deviceset="R-EU_" device="0204/2V" value="ZERO"/>
 </parts>
 <sheets>
 <sheet>
@@ -10460,6 +10462,8 @@ here 1001111</text>
 <instance part="R20" gate="G$1" x="-302.26" y="302.26" rot="R180"/>
 <instance part="R21" gate="G$1" x="-302.26" y="368.3" rot="R180"/>
 <instance part="R22" gate="G$1" x="-302.26" y="355.6" rot="R180"/>
+<instance part="R23" gate="G$1" x="-414.02" y="477.52" rot="R270"/>
+<instance part="R24" gate="G$1" x="-406.4" y="477.52" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -10892,8 +10896,12 @@ here 1001111</text>
 <net name="SDA1" class="0">
 <segment>
 <pinref part="SV1" gate="G$1" pin="3"/>
-<wire x1="-401.32" y1="490.22" x2="-426.72" y2="490.22" width="0.1524" layer="91"/>
+<wire x1="-401.32" y1="490.22" x2="-406.4" y2="490.22" width="0.1524" layer="91"/>
 <label x="-426.72" y="490.22" size="1.778" layer="95"/>
+<pinref part="R24" gate="G$1" pin="1"/>
+<wire x1="-406.4" y1="490.22" x2="-426.72" y2="490.22" width="0.1524" layer="91"/>
+<wire x1="-406.4" y1="490.22" x2="-406.4" y2="482.6" width="0.1524" layer="91"/>
+<junction x="-406.4" y="490.22"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="SDA"/>
@@ -10915,17 +10923,16 @@ here 1001111</text>
 <wire x1="-449.58" y1="-533.4" x2="-469.9" y2="-533.4" width="0.1524" layer="91"/>
 <label x="-469.9" y="-533.4" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="SDA"/>
-<wire x1="-381" y1="-614.68" x2="-327.66" y2="-614.68" width="0.1524" layer="91"/>
-<label x="-327.66" y="-614.68" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="SCL1" class="0">
 <segment>
 <pinref part="SV1" gate="G$1" pin="5"/>
-<wire x1="-401.32" y1="492.76" x2="-426.72" y2="492.76" width="0.1524" layer="91"/>
+<wire x1="-401.32" y1="492.76" x2="-414.02" y2="492.76" width="0.1524" layer="91"/>
 <label x="-426.72" y="492.76" size="1.778" layer="95"/>
+<pinref part="R23" gate="G$1" pin="1"/>
+<wire x1="-414.02" y1="492.76" x2="-426.72" y2="492.76" width="0.1524" layer="91"/>
+<wire x1="-414.02" y1="492.76" x2="-414.02" y2="482.6" width="0.1524" layer="91"/>
+<junction x="-414.02" y="492.76"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="SCL"/>
@@ -10946,11 +10953,6 @@ here 1001111</text>
 <pinref part="X5" gate="G$1" pin="B-1"/>
 <wire x1="-449.58" y1="-530.86" x2="-469.9" y2="-530.86" width="0.1524" layer="91"/>
 <label x="-469.9" y="-530.86" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="SCL"/>
-<wire x1="-381" y1="-619.76" x2="-327.66" y2="-619.76" width="0.1524" layer="91"/>
-<label x="-327.66" y="-619.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$30" class="0">
@@ -11506,7 +11508,7 @@ here 1001111</text>
 <label x="-294.64" y="-312.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="N$1" class="3">
 <segment>
 <pinref part="IC5" gate="G$1" pin="REXT"/>
 <wire x1="-411.48" y1="-609.6" x2="-426.72" y2="-609.6" width="0.1524" layer="91"/>
@@ -11514,7 +11516,7 @@ here 1001111</text>
 <wire x1="-426.72" y1="-609.6" x2="-426.72" y2="-612.14" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="RESET_LEDS" class="0">
+<net name="RESET_LEDS" class="3">
 <segment>
 <pinref part="IC5" gate="G$1" pin="!RESET"/>
 <wire x1="-381" y1="-624.84" x2="-327.66" y2="-624.84" width="0.1524" layer="91"/>
@@ -11862,6 +11864,32 @@ here 1001111</text>
 <pinref part="OK3" gate="B" pin="COL"/>
 <wire x1="-449.58" y1="-238.76" x2="-434.34" y2="-238.76" width="0.1524" layer="91"/>
 <label x="-436.88" y="-238.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SCL1@L" class="3">
+<segment>
+<pinref part="R23" gate="G$1" pin="2"/>
+<wire x1="-414.02" y1="472.44" x2="-414.02" y2="469.9" width="0.1524" layer="91"/>
+<wire x1="-414.02" y1="469.9" x2="-426.72" y2="469.9" width="0.1524" layer="91"/>
+<label x="-426.72" y="469.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="SCL"/>
+<wire x1="-381" y1="-619.76" x2="-327.66" y2="-619.76" width="0.1524" layer="91"/>
+<label x="-327.66" y="-619.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDA1@L" class="3">
+<segment>
+<pinref part="R24" gate="G$1" pin="2"/>
+<wire x1="-406.4" y1="472.44" x2="-406.4" y2="467.36" width="0.1524" layer="91"/>
+<wire x1="-406.4" y1="467.36" x2="-426.72" y2="467.36" width="0.1524" layer="91"/>
+<label x="-426.72" y="467.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="SDA"/>
+<wire x1="-381" y1="-614.68" x2="-327.66" y2="-614.68" width="0.1524" layer="91"/>
+<label x="-327.66" y="-614.68" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
