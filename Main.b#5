@@ -4866,11 +4866,8 @@ design rules under a new name.</description>
 <signal name="N$39">
 <contactref element="OK3" pad="11"/>
 </signal>
-<signal name="N$43">
+<signal name="+5@L">
 <contactref element="OK3" pad="10"/>
-</signal>
-<signal name="N$44">
-<contactref element="OK3" pad="9"/>
 </signal>
 <signal name="SCHUBI">
 <contactref element="X7" pad="B3"/>
@@ -4889,6 +4886,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="RESET_LEDS">
 <contactref element="IC5" pad="17"/>
+<contactref element="OK3" pad="9"/>
+<wire x1="15.535" y1="51.06" x2="30.48" y2="45.72" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+12V@M" class="2">
 <contactref element="R21" pad="1"/>

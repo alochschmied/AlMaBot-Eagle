@@ -11485,18 +11485,11 @@ here 1001111</text>
 <label x="-434.34" y="-261.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$43" class="0">
+<net name="+5@L" class="0">
 <segment>
 <pinref part="OK3" gate="D" pin="COL"/>
 <wire x1="-449.58" y1="-274.32" x2="-434.34" y2="-274.32" width="0.1524" layer="91"/>
 <label x="-434.34" y="-274.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$44" class="0">
-<segment>
-<pinref part="OK3" gate="D" pin="EMIT"/>
-<wire x1="-449.58" y1="-279.4" x2="-434.34" y2="-279.4" width="0.1524" layer="91"/>
-<label x="-434.34" y="-279.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCHUBI" class="0">
@@ -11526,6 +11519,11 @@ here 1001111</text>
 <pinref part="IC5" gate="G$1" pin="!RESET"/>
 <wire x1="-381" y1="-624.84" x2="-327.66" y2="-624.84" width="0.1524" layer="91"/>
 <label x="-327.66" y="-624.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="OK3" gate="D" pin="EMIT"/>
+<wire x1="-449.58" y1="-279.4" x2="-434.34" y2="-279.4" width="0.1524" layer="91"/>
+<label x="-434.34" y="-279.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+12V@M" class="2">
