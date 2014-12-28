@@ -2,24 +2,24 @@ EAGLE AutoRouter Statistics:
 
 Job           : /home/alexander/eagle/AlMaBot/Main.brd
 
-Start at      : 18:56:17 (26.12.14)
-End at        : 18:57:30 (26.12.14)
-Elapsed time  : 00:01:11
+Start at      : 19:06:38 (28.12.14)
+End at        : 19:08:24 (28.12.14)
+Elapsed time  : 00:01:44
 
-Signals       :    96   RoutingGrid: 6 mil  Layers: 2
-Connections   :   170   predefined:  0 ( 0 Vias )
+Signals       :    92   RoutingGrid: 4.5 mil  Layers: 2
+Connections   :   176   predefined:  0 ( 0 Vias )
 
-Router memory :   1555036
+Router memory :   2828280
 
 Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:17  00:00:25  00:00:08  00:00:08  00:00:07  00:00:06
-Number of Ripups  :         0        11         0         0         0         0
-max. Level        :         0         2         0         0         0         0
-max. Total        :         0        41         0         0         0         0
+Time per pass     :  00:00:17  00:00:41  00:00:12  00:00:12  00:00:11  00:00:11
+Number of Ripups  :         0        26         0         0         0         0
+max. Level        :         0         3         0         0         0         0
+max. Total        :         0        28         0         0         0         0
 
-Routed            :        82       168       167       167       168       168
-Vias              :         0        79        65        58        64        56
-Resolution        :    48.2 %    98.8 %    98.2 %    98.2 %    98.8 %    98.8 %
+Routed            :        92       175       174       175       175       175
+Vias              :         0       110        93        74        69        64
+Resolution        :    52.3 %    99.4 %    98.9 %    99.4 %    99.4 %    99.4 %
 
-Final             : 98.8% finished
+Final             : 99.4% finished
