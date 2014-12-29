@@ -9866,7 +9866,7 @@ drill 1.0 mm</description>
 <part name="LSP24" library="solpad" deviceset="LSP10" device=""/>
 <part name="LSP25" library="solpad" deviceset="LSP10" device=""/>
 <part name="LSP26" library="solpad" deviceset="LSP10" device=""/>
-<part name="LSP27" library="solpad" deviceset="LSP10" device=""/>
+<part name="LSP27" library="solpad" deviceset="LSP10" device="" value="GYRO_SCL"/>
 <part name="LSP28" library="solpad" deviceset="LSP10" device=""/>
 </parts>
 <sheets>
@@ -10893,11 +10893,6 @@ here 1001111</text>
 <wire x1="-457.2" y1="-299.72" x2="-500.38" y2="-299.72" width="0.1524" layer="91"/>
 <label x="-500.38" y="-299.72" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="OK1" gate="A" pin="EMIT"/>
-<wire x1="-347.98" y1="-274.32" x2="-332.74" y2="-274.32" width="0.1524" layer="91"/>
-<label x="-332.74" y="-274.32" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="CAM_SERVO_ELE" class="0">
 <segment>
@@ -10909,11 +10904,6 @@ here 1001111</text>
 <pinref part="LSP10" gate="1" pin="MP"/>
 <wire x1="-457.2" y1="-307.34" x2="-500.38" y2="-307.34" width="0.1524" layer="91"/>
 <label x="-500.38" y="-307.34" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="OK1" gate="B" pin="EMIT"/>
-<wire x1="-347.98" y1="-289.56" x2="-332.74" y2="-289.56" width="0.1524" layer="91"/>
-<label x="-332.74" y="-289.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GP0" class="0">
@@ -11053,34 +11043,12 @@ here 1001111</text>
 <wire x1="-347.98" y1="-223.52" x2="-332.74" y2="-223.52" width="0.1524" layer="91"/>
 <label x="-332.74" y="-223.52" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="OK1" gate="C" pin="COL"/>
-<wire x1="-347.98" y1="-299.72" x2="-332.74" y2="-299.72" width="0.1524" layer="91"/>
-<label x="-332.74" y="-299.72" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="N$39" class="0">
 <segment>
 <pinref part="OK3" gate="C" pin="EMIT"/>
 <wire x1="-347.98" y1="-228.6" x2="-332.74" y2="-228.6" width="0.1524" layer="91"/>
 <label x="-332.74" y="-228.6" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="OK1" gate="C" pin="EMIT"/>
-<wire x1="-347.98" y1="-304.8" x2="-332.74" y2="-304.8" width="0.1524" layer="91"/>
-<label x="-332.74" y="-304.8" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="+5@L" class="0">
-<segment>
-<pinref part="OK3" gate="D" pin="COL"/>
-<wire x1="-347.98" y1="-238.76" x2="-332.74" y2="-238.76" width="0.1524" layer="91"/>
-<label x="-332.74" y="-238.76" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="OK1" gate="D" pin="COL"/>
-<wire x1="-347.98" y1="-314.96" x2="-332.74" y2="-314.96" width="0.1524" layer="91"/>
-<label x="-332.74" y="-314.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="3">
@@ -11101,11 +11069,6 @@ here 1001111</text>
 <pinref part="OK3" gate="D" pin="EMIT"/>
 <wire x1="-347.98" y1="-243.84" x2="-332.74" y2="-243.84" width="0.1524" layer="91"/>
 <label x="-332.74" y="-243.84" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="OK1" gate="D" pin="EMIT"/>
-<wire x1="-347.98" y1="-320.04" x2="-332.74" y2="-320.04" width="0.1524" layer="91"/>
-<label x="-332.74" y="-320.04" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="LSP12" gate="1" pin="MP"/>
@@ -11149,14 +11112,14 @@ here 1001111</text>
 <label x="-332.74" y="-208.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="OK1" gate="A" pin="COL"/>
-<wire x1="-347.98" y1="-269.24" x2="-332.74" y2="-269.24" width="0.1524" layer="91"/>
-<label x="-332.74" y="-269.24" size="1.778" layer="95"/>
+<pinref part="OK1" gate="C" pin="COL"/>
+<wire x1="-347.98" y1="-299.72" x2="-332.74" y2="-299.72" width="0.1524" layer="91"/>
+<label x="-332.74" y="-299.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="OK1" gate="B" pin="COL"/>
-<wire x1="-347.98" y1="-284.48" x2="-332.74" y2="-284.48" width="0.1524" layer="91"/>
-<label x="-332.74" y="-284.48" size="1.778" layer="95"/>
+<pinref part="OK1" gate="D" pin="COL"/>
+<wire x1="-347.98" y1="-314.96" x2="-332.74" y2="-314.96" width="0.1524" layer="91"/>
+<label x="-332.74" y="-314.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC@L" class="3">
@@ -11234,6 +11197,11 @@ here 1001111</text>
 <pinref part="IC5" gate="G$1" pin="A0"/>
 <wire x1="-416.56" y1="-614.68" x2="-411.48" y2="-614.68" width="0.1524" layer="91"/>
 <junction x="-416.56" y="-614.68"/>
+</segment>
+<segment>
+<pinref part="OK3" gate="D" pin="COL"/>
+<wire x1="-347.98" y1="-238.76" x2="-332.74" y2="-238.76" width="0.1524" layer="91"/>
+<label x="-332.74" y="-238.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+3.3V@M" class="2">
@@ -11405,14 +11373,14 @@ here 1001111</text>
 <label x="-391.16" y="-289.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="OK1" gate="C" pin="C"/>
-<wire x1="-365.76" y1="-304.8" x2="-391.16" y2="-304.8" width="0.1524" layer="91"/>
-<label x="-391.16" y="-304.8" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="OK1" gate="D" pin="C"/>
 <wire x1="-365.76" y1="-320.04" x2="-391.16" y2="-320.04" width="0.1524" layer="91"/>
 <label x="-391.16" y="-320.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="OK1" gate="C" pin="C"/>
+<wire x1="-365.76" y1="-304.8" x2="-391.16" y2="-304.8" width="0.1524" layer="91"/>
+<label x="-391.16" y="-304.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND@H" class="1">
@@ -11611,18 +11579,28 @@ here 1001111</text>
 <label x="-500.38" y="-337.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$54" class="0">
+<net name="PIEZO_CONT" class="0">
 <segment>
 <pinref part="LSP15" gate="1" pin="MP"/>
 <wire x1="-457.2" y1="-345.44" x2="-500.38" y2="-345.44" width="0.1524" layer="91"/>
 <label x="-500.38" y="-345.44" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="OK1" gate="C" pin="EMIT"/>
+<wire x1="-347.98" y1="-304.8" x2="-332.74" y2="-304.8" width="0.1524" layer="91"/>
+<label x="-332.74" y="-304.8" size="1.778" layer="95"/>
+</segment>
 </net>
-<net name="N$55" class="0">
+<net name="PIEZO_INTVL" class="0">
 <segment>
 <pinref part="LSP16" gate="1" pin="MP"/>
 <wire x1="-457.2" y1="-353.06" x2="-500.38" y2="-353.06" width="0.1524" layer="91"/>
 <label x="-500.38" y="-353.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="OK1" gate="D" pin="EMIT"/>
+<wire x1="-347.98" y1="-320.04" x2="-332.74" y2="-320.04" width="0.1524" layer="91"/>
+<label x="-332.74" y="-320.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$44" class="0">
