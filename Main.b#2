@@ -3603,10 +3603,10 @@ design rules under a new name.</description>
 <element name="UBT" library="solpad" package="LSP10" value="LSP10" x="20.32" y="68.58"/>
 <element name="UAE" library="solpad" package="LSP10" value="LSP10" x="16.51" y="68.58"/>
 <element name="UAT" library="solpad" package="LSP10" value="LSP10" x="16.51" y="64.77"/>
-<element name="P1" library="solpad" package="LSP10" value="LSP10" x="54.61" y="73.66"/>
-<element name="P2" library="solpad" package="LSP10" value="LSP10" x="54.61" y="66.04"/>
-<element name="P3" library="solpad" package="LSP10" value="LSP10" x="54.61" y="68.58"/>
-<element name="P4" library="solpad" package="LSP10" value="LSP10" x="54.61" y="71.12"/>
+<element name="P1" library="solpad" package="LSP10" value="LSP10" x="54.61" y="74.93"/>
+<element name="P2" library="solpad" package="LSP10" value="LSP10" x="58.42" y="74.93"/>
+<element name="P3" library="solpad" package="LSP10" value="LSP10" x="54.61" y="71.12"/>
+<element name="P4" library="solpad" package="LSP10" value="LSP10" x="58.42" y="71.12"/>
 <element name="GYRO_SCL" library="solpad" package="LSP10" value="GYRO_SCL" x="2.54" y="62.23"/>
 <element name="GYRO_SDA" library="solpad" package="LSP10" value="LSP10" x="2.54" y="66.04"/>
 <element name="IC6" library="allegro" package="CB-PFF" value="ACS758LCB-050B-PFF-T" x="83.82" y="76.2">
@@ -3780,22 +3780,22 @@ design rules under a new name.</description>
 <signal name="PIR1">
 <contactref element="SV1" pad="32"/>
 <contactref element="P1" pad="MP"/>
-<wire x1="40.64" y1="76.2" x2="54.61" y2="73.66" width="0" layer="19" extent="1-1"/>
+<wire x1="40.64" y1="76.2" x2="54.61" y2="74.93" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIR2">
 <contactref element="SV1" pad="36"/>
 <contactref element="P2" pad="MP"/>
-<wire x1="54.61" y1="66.04" x2="45.72" y2="76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="58.42" y1="74.93" x2="45.72" y2="76.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIR3">
 <contactref element="SV1" pad="38"/>
 <contactref element="P3" pad="MP"/>
-<wire x1="54.61" y1="68.58" x2="48.26" y2="76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="54.61" y1="71.12" x2="48.26" y2="76.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIR4">
 <contactref element="SV1" pad="40"/>
 <contactref element="P4" pad="MP"/>
-<wire x1="54.61" y1="71.12" x2="50.8" y2="76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="58.42" y1="71.12" x2="50.8" y2="76.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="SV1" pad="28"/>

@@ -3597,12 +3597,12 @@ design rules under a new name.</description>
 <element name="R26" library="resistor" package="R0603" value="120" x="40.64" y="66.04" rot="R90"/>
 <element name="R27" library="resistor" package="R0603" value="120" x="36.83" y="66.04" rot="R270"/>
 <element name="R28" library="resistor" package="R0603" value="120" x="33.02" y="66.04" rot="R90"/>
-<element name="LSP22" library="solpad" package="LSP10" value="LSP10" x="24.13" y="64.77" rot="R90"/>
-<element name="LSP17" library="solpad" package="LSP10" value="LSP10" x="26.67" y="68.58" rot="R90"/>
-<element name="LSP18" library="solpad" package="LSP10" value="LSP10" x="21.59" y="64.77" rot="R90"/>
-<element name="LSP19" library="solpad" package="LSP10" value="LSP10" x="24.13" y="68.58" rot="R90"/>
-<element name="LSP20" library="solpad" package="LSP10" value="LSP10" x="21.59" y="68.58" rot="R90"/>
-<element name="LSP21" library="solpad" package="LSP10" value="LSP10" x="29.21" y="68.58" rot="R90"/>
+<element name="UCE" library="solpad" package="LSP10" value="LSP10" x="24.13" y="64.77" rot="R90"/>
+<element name="UCT" library="solpad" package="LSP10" value="LSP10" x="26.67" y="68.58" rot="R90"/>
+<element name="UBE" library="solpad" package="LSP10" value="LSP10" x="21.59" y="64.77" rot="R90"/>
+<element name="UBT" library="solpad" package="LSP10" value="LSP10" x="24.13" y="68.58" rot="R90"/>
+<element name="UAE" library="solpad" package="LSP10" value="LSP10" x="21.59" y="68.58" rot="R90"/>
+<element name="UAT" library="solpad" package="LSP10" value="LSP10" x="29.21" y="68.58" rot="R90"/>
 <element name="LSP23" library="solpad" package="LSP10" value="LSP10" x="54.61" y="73.66"/>
 <element name="LSP24" library="solpad" package="LSP10" value="LSP10" x="54.61" y="66.04"/>
 <element name="LSP25" library="solpad" package="LSP10" value="LSP10" x="54.61" y="68.58"/>
@@ -4332,14 +4332,14 @@ design rules under a new name.</description>
 </signal>
 <signal name="USM_A_TRIG">
 <contactref element="SV1" pad="21"/>
-<contactref element="LSP21" pad="MP"/>
+<contactref element="UAT" pad="MP"/>
 <wire x1="28.0924" y1="69.6976" x2="28.0924" y2="73.6092" width="0.508" layer="1"/>
 <wire x1="29.21" y1="68.58" x2="28.0924" y2="69.6976" width="0.508" layer="1"/>
 <wire x1="28.0924" y1="73.6092" x2="27.94" y2="73.66" width="0.508" layer="1"/>
 </signal>
 <signal name="USM_B_TRIG">
 <contactref element="SV1" pad="16"/>
-<contactref element="LSP19" pad="MP"/>
+<contactref element="UBT" pad="MP"/>
 <wire x1="20.447" y1="75.2094" x2="20.447" y2="76.0984" width="0.508" layer="1"/>
 <wire x1="21.6916" y1="73.9648" x2="20.447" y2="75.2094" width="0.508" layer="1"/>
 <wire x1="21.6916" y1="70.9422" x2="21.6916" y2="73.9648" width="0.508" layer="1"/>
@@ -4369,21 +4369,21 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$22">
 <contactref element="R7" pad="1"/>
-<contactref element="LSP20" pad="MP"/>
+<contactref element="UAE" pad="MP"/>
 <wire x1="21.5138" y1="68.6308" x2="18.669" y2="68.6308" width="0.508" layer="1"/>
 <wire x1="18.669" y1="68.6308" x2="18.63" y2="68.58" width="0.508" layer="1"/>
 <wire x1="21.5138" y1="68.6308" x2="21.59" y2="68.58" width="0.508" layer="1"/>
 </signal>
 <signal name="N$24">
 <contactref element="R3" pad="1"/>
-<contactref element="LSP18" pad="MP"/>
+<contactref element="UBE" pad="MP"/>
 <wire x1="21.5138" y1="64.897" x2="18.669" y2="64.897" width="0.508" layer="1"/>
 <wire x1="18.669" y1="64.897" x2="18.63" y2="64.77" width="0.508" layer="1"/>
 <wire x1="21.5138" y1="64.897" x2="21.59" y2="64.77" width="0.508" layer="1"/>
 </signal>
 <signal name="N$33">
 <contactref element="R5" pad="1"/>
-<contactref element="LSP22" pad="MP"/>
+<contactref element="UCE" pad="MP"/>
 <wire x1="19.9136" y1="60.6298" x2="19.9136" y2="59.7408" width="0.508" layer="1"/>
 <wire x1="24.003" y1="64.7192" x2="19.9136" y2="60.6298" width="0.508" layer="1"/>
 <wire x1="19.9136" y1="59.7408" x2="19.9" y2="59.69" width="0.508" layer="1"/>
@@ -4391,7 +4391,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="USM_C_TRIG">
 <contactref element="SV1" pad="19"/>
-<contactref element="LSP17" pad="MP"/>
+<contactref element="UCT" pad="MP"/>
 <wire x1="25.4254" y1="69.8754" x2="25.4254" y2="73.6092" width="0.508" layer="1"/>
 <wire x1="26.67" y1="68.6308" x2="25.4254" y2="69.8754" width="0.508" layer="1"/>
 <wire x1="25.4254" y1="73.6092" x2="25.4" y2="73.66" width="0.508" layer="1"/>
