@@ -10048,11 +10048,11 @@ Source: http://www.allegromicro.com/en/Products/Part_Numbers/0758/0758.pdf</desc
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.4064" drill="0">
+<class number="0" name="default" width="0.508" drill="0">
 </class>
-<class number="1" name="H" width="1.27" drill="0">
+<class number="1" name="H" width="1.651" drill="0">
 </class>
-<class number="2" name="M" width="0.889" drill="0">
+<class number="2" name="M" width="1.016" drill="0">
 </class>
 <class number="3" name="L" width="0.254" drill="0">
 </class>
@@ -10133,22 +10133,22 @@ Source: http://www.allegromicro.com/en/Products/Part_Numbers/0758/0758.pdf</desc
 <part name="R22" library="resistor" deviceset="R-EU_" device="0204/2V" value="ZERO"/>
 <part name="R23" library="resistor" deviceset="R-EU_" device="0204/2V" value="ZERO"/>
 <part name="R24" library="resistor" deviceset="R-EU_" device="0204/2V" value="ZERO"/>
-<part name="LSP1" library="solpad" deviceset="LSP10" device=""/>
-<part name="LSP2" library="solpad" deviceset="LSP10" device=""/>
-<part name="LSP3" library="solpad" deviceset="LSP10" device=""/>
-<part name="LSP4" library="solpad" deviceset="LSP10" device=""/>
-<part name="LSP5" library="solpad" deviceset="LSP10" device=""/>
-<part name="LSP6" library="solpad" deviceset="LSP10" device=""/>
-<part name="LSP7" library="solpad" deviceset="LSP10" device=""/>
-<part name="LSP8" library="solpad" deviceset="LSP10" device=""/>
-<part name="LSP9" library="solpad" deviceset="LSP10" device=""/>
-<part name="LSP10" library="solpad" deviceset="LSP10" device=""/>
+<part name="LED0" library="solpad" deviceset="LSP10" device=""/>
+<part name="LED1" library="solpad" deviceset="LSP10" device=""/>
+<part name="LED2" library="solpad" deviceset="LSP10" device=""/>
+<part name="LED3" library="solpad" deviceset="LSP10" device=""/>
+<part name="LED4" library="solpad" deviceset="LSP10" device=""/>
+<part name="LED5" library="solpad" deviceset="LSP10" device=""/>
+<part name="LED6" library="solpad" deviceset="LSP10" device=""/>
+<part name="LED7" library="solpad" deviceset="LSP10" device=""/>
+<part name="CS_AZI" library="solpad" deviceset="LSP10" device=""/>
+<part name="CS_ELE" library="solpad" deviceset="LSP10" device=""/>
 <part name="LSP11" library="solpad" deviceset="LSP10" device=""/>
-<part name="LSP12" library="solpad" deviceset="LSP10" device=""/>
+<part name="RST_LEDS" library="solpad" deviceset="LSP10" device=""/>
 <part name="LSP13" library="solpad" deviceset="LSP10" device=""/>
 <part name="LSP14" library="solpad" deviceset="LSP10" device=""/>
-<part name="LSP15" library="solpad" deviceset="LSP10" device=""/>
-<part name="LSP16" library="solpad" deviceset="LSP10" device=""/>
+<part name="PZ_CONT" library="solpad" deviceset="LSP10" device=""/>
+<part name="PZ_INTVL" library="solpad" deviceset="LSP10" device=""/>
 <part name="OK1" library="optocoupler" deviceset="PC847" device="" value="PC847 (OK)"/>
 <part name="R25" library="resistor" deviceset="R-EU_" device="R0603" value="120"/>
 <part name="R26" library="resistor" deviceset="R-EU_" device="R0603" value="120"/>
@@ -10164,13 +10164,15 @@ Source: http://www.allegromicro.com/en/Products/Part_Numbers/0758/0758.pdf</desc
 <part name="LSP24" library="solpad" deviceset="LSP10" device=""/>
 <part name="LSP25" library="solpad" deviceset="LSP10" device=""/>
 <part name="LSP26" library="solpad" deviceset="LSP10" device=""/>
-<part name="LSP27" library="solpad" deviceset="LSP10" device="" value="GYRO_SCL"/>
-<part name="LSP28" library="solpad" deviceset="LSP10" device=""/>
+<part name="GYRO_SCL" library="solpad" deviceset="LSP10" device="" value="GYRO_SCL"/>
+<part name="GYRO_SDA" library="solpad" deviceset="LSP10" device=""/>
 <part name="IC6" library="allegro" deviceset="ACS758*" device="" technology="LCB-050B-PFF-T"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
-<part name="U$2" library="eagleParts" deviceset="MCP3424-E/ST" device=""/>
+<part name="U$2" library="eagleParts" deviceset="MCP3424-E/ST" device="" value="MCP3424-E/ST (ADC)"/>
 <part name="C13" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="C14" library="rcl" deviceset="C-EU" device="C0805" value="10u"/>
+<part name="ADC3" library="solpad" deviceset="LSP10" device=""/>
+<part name="ADC4" library="solpad" deviceset="LSP10" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10203,7 +10205,7 @@ here 1001111</text>
 <text x="-510.54" y="-185.42" size="1.778" layer="91">PIEZO: http://www.reichelt.de/SUMMER-12V-HL/3/index.html?&amp;ACTION=3&amp;LA=446&amp;ARTICLE=14557&amp;artnr=SUMMER+12V+HL&amp;SEARCH=piezo+</text>
 <text x="-292.1" y="-60.96" size="1.778" layer="91">Ultra Sonics (5V)</text>
 <text x="-452.12" y="-27.94" size="1.778" layer="91">PIRs (5V)</text>
-<text x="-449.58" y="375.92" size="1.778" layer="91" rot="R180">40 mV/A
+<text x="-431.8" y="388.62" size="1.778" layer="91" rot="R180">40 mV/A
 Max. 50A =&gt; 0 ... 2V (Perfect for ADC)</text>
 <text x="-365.76" y="-508" size="1.778" layer="91">Address 1101 A2 A1 A0
 used with floting/open, H and L
@@ -10308,22 +10310,22 @@ here: 1101 110
 <instance part="R22" gate="G$1" x="-269.24" y="355.6" rot="R180"/>
 <instance part="R23" gate="G$1" x="-414.02" y="477.52" rot="R270"/>
 <instance part="R24" gate="G$1" x="-406.4" y="477.52" rot="R270"/>
-<instance part="LSP1" gate="1" x="-421.64" y="-673.1" rot="R180"/>
-<instance part="LSP2" gate="1" x="-419.1" y="-673.1" rot="R180"/>
-<instance part="LSP3" gate="1" x="-416.56" y="-673.1" rot="R180"/>
-<instance part="LSP4" gate="1" x="-414.02" y="-673.1" rot="R180"/>
-<instance part="LSP5" gate="1" x="-378.46" y="-673.1" rot="R180"/>
-<instance part="LSP6" gate="1" x="-375.92" y="-673.1" rot="R180"/>
-<instance part="LSP7" gate="1" x="-373.38" y="-673.1" rot="R180"/>
-<instance part="LSP8" gate="1" x="-370.84" y="-673.1" rot="R180"/>
-<instance part="LSP9" gate="1" x="-454.66" y="-299.72" rot="R270"/>
-<instance part="LSP10" gate="1" x="-454.66" y="-307.34" rot="R270"/>
-<instance part="LSP11" gate="1" x="-454.66" y="-314.96" rot="R270"/>
-<instance part="LSP12" gate="1" x="-454.66" y="-322.58" rot="R270"/>
-<instance part="LSP13" gate="1" x="-454.66" y="-330.2" rot="R270"/>
-<instance part="LSP14" gate="1" x="-454.66" y="-337.82" rot="R270"/>
-<instance part="LSP15" gate="1" x="-454.66" y="-345.44" rot="R270"/>
-<instance part="LSP16" gate="1" x="-454.66" y="-353.06" rot="R270"/>
+<instance part="LED0" gate="1" x="-429.26" y="-673.1" rot="R180"/>
+<instance part="LED1" gate="1" x="-421.64" y="-673.1" rot="R180"/>
+<instance part="LED2" gate="1" x="-414.02" y="-673.1" rot="R180"/>
+<instance part="LED3" gate="1" x="-406.4" y="-673.1" rot="R180"/>
+<instance part="LED4" gate="1" x="-386.08" y="-673.1" rot="R180"/>
+<instance part="LED5" gate="1" x="-378.46" y="-673.1" rot="R180"/>
+<instance part="LED6" gate="1" x="-370.84" y="-673.1" rot="R180"/>
+<instance part="LED7" gate="1" x="-363.22" y="-673.1" rot="R180"/>
+<instance part="CS_AZI" gate="1" x="-406.4" y="-299.72" rot="R270"/>
+<instance part="CS_ELE" gate="1" x="-414.02" y="-307.34" rot="R270"/>
+<instance part="LSP11" gate="1" x="-421.64" y="-314.96" rot="R270"/>
+<instance part="RST_LEDS" gate="1" x="-429.26" y="-322.58" rot="R270"/>
+<instance part="LSP13" gate="1" x="-436.88" y="-330.2" rot="R270"/>
+<instance part="LSP14" gate="1" x="-444.5" y="-337.82" rot="R270"/>
+<instance part="PZ_CONT" gate="1" x="-452.12" y="-345.44" rot="R270"/>
+<instance part="PZ_INTVL" gate="1" x="-457.2" y="-353.06" rot="R270"/>
 <instance part="OK1" gate="A" x="-355.6" y="-271.78"/>
 <instance part="OK1" gate="B" x="-355.6" y="-287.02"/>
 <instance part="OK1" gate="C" x="-355.6" y="-302.26"/>
@@ -10342,13 +10344,15 @@ here: 1101 110
 <instance part="LSP24" gate="1" x="-444.5" y="-12.7" rot="R270"/>
 <instance part="LSP25" gate="1" x="-444.5" y="-15.24" rot="R270"/>
 <instance part="LSP26" gate="1" x="-444.5" y="-17.78" rot="R270"/>
-<instance part="LSP27" gate="1" x="-447.04" y="-530.86" rot="R270"/>
-<instance part="LSP28" gate="1" x="-447.04" y="-533.4" rot="R270"/>
+<instance part="GYRO_SCL" gate="1" x="-447.04" y="-518.16" rot="R270"/>
+<instance part="GYRO_SDA" gate="1" x="-447.04" y="-533.4" rot="R270"/>
 <instance part="IC6" gate="G$1" x="-424.18" y="330.2" rot="R90"/>
 <instance part="C1" gate="G$1" x="-429.26" y="347.98" rot="R180"/>
 <instance part="U$2" gate="A" x="-312.42" y="-457.2"/>
 <instance part="C13" gate="G$1" x="-335.28" y="-490.22" rot="R180"/>
 <instance part="C14" gate="G$1" x="-345.44" y="-490.22" rot="R180"/>
+<instance part="ADC3" gate="1" x="-368.3" y="-454.66" rot="R90"/>
+<instance part="ADC4" gate="1" x="-368.3" y="-462.28" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -10759,7 +10763,7 @@ here: 1101 110
 <segment>
 <wire x1="-449.58" y1="-533.4" x2="-469.9" y2="-533.4" width="0.1524" layer="91"/>
 <label x="-469.9" y="-533.4" size="1.778" layer="95"/>
-<pinref part="LSP28" gate="1" pin="MP"/>
+<pinref part="GYRO_SDA" gate="1" pin="MP"/>
 </segment>
 </net>
 <net name="SCL1" class="0">
@@ -10783,9 +10787,9 @@ here: 1101 110
 <label x="-505.46" y="-213.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-449.58" y1="-530.86" x2="-469.9" y2="-530.86" width="0.1524" layer="91"/>
-<label x="-469.9" y="-530.86" size="1.778" layer="95"/>
-<pinref part="LSP27" gate="1" pin="MP"/>
+<wire x1="-449.58" y1="-518.16" x2="-469.9" y2="-518.16" width="0.1524" layer="91"/>
+<label x="-469.9" y="-518.16" size="1.778" layer="95"/>
+<pinref part="GYRO_SCL" gate="1" pin="MP"/>
 </segment>
 </net>
 <net name="N$30" class="0">
@@ -11171,8 +11175,8 @@ here: 1101 110
 <label x="-332.74" y="-198.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="LSP9" gate="1" pin="MP"/>
-<wire x1="-457.2" y1="-299.72" x2="-500.38" y2="-299.72" width="0.1524" layer="91"/>
+<pinref part="CS_AZI" gate="1" pin="MP"/>
+<wire x1="-408.94" y1="-299.72" x2="-500.38" y2="-299.72" width="0.1524" layer="91"/>
 <label x="-500.38" y="-299.72" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -11183,8 +11187,8 @@ here: 1101 110
 <label x="-332.74" y="-213.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="LSP10" gate="1" pin="MP"/>
-<wire x1="-457.2" y1="-307.34" x2="-500.38" y2="-307.34" width="0.1524" layer="91"/>
+<pinref part="CS_ELE" gate="1" pin="MP"/>
+<wire x1="-416.56" y1="-307.34" x2="-500.38" y2="-307.34" width="0.1524" layer="91"/>
 <label x="-500.38" y="-307.34" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -11353,8 +11357,8 @@ here: 1101 110
 <label x="-332.74" y="-243.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="LSP12" gate="1" pin="MP"/>
-<wire x1="-457.2" y1="-322.58" x2="-500.38" y2="-322.58" width="0.1524" layer="91"/>
+<pinref part="RST_LEDS" gate="1" pin="MP"/>
+<wire x1="-431.8" y1="-322.58" x2="-500.38" y2="-322.58" width="0.1524" layer="91"/>
 <label x="-500.38" y="-322.58" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -11416,7 +11420,7 @@ here: 1101 110
 <wire x1="-429.26" y1="342.9" x2="-439.42" y2="342.9" width="0.1524" layer="91"/>
 <wire x1="-439.42" y1="342.9" x2="-439.42" y2="378.46" width="0.1524" layer="91"/>
 <junction x="-429.26" y="342.9"/>
-<label x="-439.42" y="373.38" size="1.778" layer="95" rot="R90"/>
+<label x="-439.42" y="368.3" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="VCC@L" class="3">
@@ -11566,7 +11570,7 @@ here: 1101 110
 <wire x1="-429.26" y1="353.06" x2="-429.26" y2="360.68" width="0.1524" layer="91"/>
 <wire x1="-429.26" y1="360.68" x2="-419.1" y2="360.68" width="0.1524" layer="91"/>
 <junction x="-419.1" y="360.68"/>
-<label x="-419.1" y="373.38" size="1.778" layer="95" rot="R90"/>
+<label x="-419.1" y="368.3" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="GND@L" class="3">
@@ -11837,91 +11841,91 @@ here: 1101 110
 <segment>
 <pinref part="IC5" gate="G$1" pin="!OUT4"/>
 <wire x1="-381" y1="-655.32" x2="-378.46" y2="-655.32" width="0.1524" layer="91"/>
-<pinref part="LSP5" gate="1" pin="MP"/>
-<wire x1="-378.46" y1="-655.32" x2="-378.46" y2="-670.56" width="0.1524" layer="91"/>
+<pinref part="LED4" gate="1" pin="MP"/>
+<wire x1="-378.46" y1="-655.32" x2="-386.08" y2="-670.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="3">
 <segment>
 <pinref part="IC5" gate="G$1" pin="!OUT3"/>
 <wire x1="-411.48" y1="-655.32" x2="-414.02" y2="-655.32" width="0.1524" layer="91"/>
-<pinref part="LSP4" gate="1" pin="MP"/>
-<wire x1="-414.02" y1="-670.56" x2="-414.02" y2="-655.32" width="0.1524" layer="91"/>
+<pinref part="LED3" gate="1" pin="MP"/>
+<wire x1="-406.4" y1="-670.56" x2="-414.02" y2="-655.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="3">
 <segment>
-<wire x1="-416.56" y1="-670.56" x2="-416.56" y2="-650.24" width="0.1524" layer="91"/>
+<wire x1="-414.02" y1="-670.56" x2="-416.56" y2="-650.24" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="G$1" pin="!OUT2"/>
 <wire x1="-416.56" y1="-650.24" x2="-411.48" y2="-650.24" width="0.1524" layer="91"/>
-<pinref part="LSP3" gate="1" pin="MP"/>
+<pinref part="LED2" gate="1" pin="MP"/>
 </segment>
 </net>
 <net name="N$27" class="3">
 <segment>
-<wire x1="-419.1" y1="-670.56" x2="-419.1" y2="-640.08" width="0.1524" layer="91"/>
+<wire x1="-421.64" y1="-670.56" x2="-419.1" y2="-640.08" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="G$1" pin="!OUT1"/>
 <wire x1="-419.1" y1="-640.08" x2="-411.48" y2="-640.08" width="0.1524" layer="91"/>
-<pinref part="LSP2" gate="1" pin="MP"/>
+<pinref part="LED1" gate="1" pin="MP"/>
 </segment>
 </net>
 <net name="N$28" class="3">
 <segment>
-<wire x1="-421.64" y1="-670.56" x2="-421.64" y2="-635" width="0.1524" layer="91"/>
+<wire x1="-429.26" y1="-670.56" x2="-421.64" y2="-635" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="G$1" pin="!OUT0"/>
 <wire x1="-421.64" y1="-635" x2="-411.48" y2="-635" width="0.1524" layer="91"/>
-<pinref part="LSP1" gate="1" pin="MP"/>
+<pinref part="LED0" gate="1" pin="MP"/>
 </segment>
 </net>
 <net name="N$29" class="3">
 <segment>
 <pinref part="IC5" gate="G$1" pin="!OUT7"/>
 <wire x1="-381" y1="-635" x2="-370.84" y2="-635" width="0.1524" layer="91"/>
-<wire x1="-370.84" y1="-635" x2="-370.84" y2="-670.56" width="0.1524" layer="91"/>
-<pinref part="LSP8" gate="1" pin="MP"/>
+<wire x1="-370.84" y1="-635" x2="-363.22" y2="-670.56" width="0.1524" layer="91"/>
+<pinref part="LED7" gate="1" pin="MP"/>
 </segment>
 </net>
 <net name="N$31" class="3">
 <segment>
-<wire x1="-373.38" y1="-670.56" x2="-373.38" y2="-640.08" width="0.1524" layer="91"/>
+<wire x1="-370.84" y1="-670.56" x2="-373.38" y2="-640.08" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="G$1" pin="!OUT6"/>
 <wire x1="-373.38" y1="-640.08" x2="-381" y2="-640.08" width="0.1524" layer="91"/>
-<pinref part="LSP7" gate="1" pin="MP"/>
+<pinref part="LED6" gate="1" pin="MP"/>
 </segment>
 </net>
 <net name="N$43" class="3">
 <segment>
 <pinref part="IC5" gate="G$1" pin="!OUT5"/>
 <wire x1="-381" y1="-650.24" x2="-375.92" y2="-650.24" width="0.1524" layer="91"/>
-<wire x1="-375.92" y1="-650.24" x2="-375.92" y2="-670.56" width="0.1524" layer="91"/>
-<pinref part="LSP6" gate="1" pin="MP"/>
+<wire x1="-375.92" y1="-650.24" x2="-378.46" y2="-670.56" width="0.1524" layer="91"/>
+<pinref part="LED5" gate="1" pin="MP"/>
 </segment>
 </net>
 <net name="N$50" class="0">
 <segment>
 <pinref part="LSP11" gate="1" pin="MP"/>
-<wire x1="-457.2" y1="-314.96" x2="-500.38" y2="-314.96" width="0.1524" layer="91"/>
+<wire x1="-424.18" y1="-314.96" x2="-500.38" y2="-314.96" width="0.1524" layer="91"/>
 <label x="-500.38" y="-314.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$52" class="0">
 <segment>
 <pinref part="LSP13" gate="1" pin="MP"/>
-<wire x1="-457.2" y1="-330.2" x2="-500.38" y2="-330.2" width="0.1524" layer="91"/>
+<wire x1="-439.42" y1="-330.2" x2="-500.38" y2="-330.2" width="0.1524" layer="91"/>
 <label x="-500.38" y="-330.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$53" class="0">
 <segment>
 <pinref part="LSP14" gate="1" pin="MP"/>
-<wire x1="-457.2" y1="-337.82" x2="-500.38" y2="-337.82" width="0.1524" layer="91"/>
+<wire x1="-447.04" y1="-337.82" x2="-500.38" y2="-337.82" width="0.1524" layer="91"/>
 <label x="-500.38" y="-337.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PIEZO_CONT" class="0">
 <segment>
-<pinref part="LSP15" gate="1" pin="MP"/>
-<wire x1="-457.2" y1="-345.44" x2="-500.38" y2="-345.44" width="0.1524" layer="91"/>
+<pinref part="PZ_CONT" gate="1" pin="MP"/>
+<wire x1="-454.66" y1="-345.44" x2="-500.38" y2="-345.44" width="0.1524" layer="91"/>
 <label x="-500.38" y="-345.44" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -11932,8 +11936,8 @@ here: 1101 110
 </net>
 <net name="PIEZO_INTVL" class="0">
 <segment>
-<pinref part="LSP16" gate="1" pin="MP"/>
-<wire x1="-457.2" y1="-353.06" x2="-500.38" y2="-353.06" width="0.1524" layer="91"/>
+<pinref part="PZ_INTVL" gate="1" pin="MP"/>
+<wire x1="-459.74" y1="-353.06" x2="-500.38" y2="-353.06" width="0.1524" layer="91"/>
 <label x="-500.38" y="-353.06" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -11977,14 +11981,7 @@ here: 1101 110
 <wire x1="-459.74" y1="325.12" x2="-436.88" y2="325.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="CURR_SENS" class="2">
-<segment>
-<pinref part="IC6" gate="G$1" pin="VOUT"/>
-<wire x1="-424.18" y1="340.36" x2="-424.18" y2="378.46" width="0.1524" layer="91"/>
-<label x="-424.18" y="373.38" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
-<net name="SPLY_VLTG_SENS" class="0">
+<net name="SPLY_VLTG_SENS" class="3">
 <segment>
 <pinref part="U$2" gate="A" pin="CH1+"/>
 <wire x1="-330.2" y1="-444.5" x2="-370.84" y2="-444.5" width="0.1524" layer="91"/>
@@ -12000,25 +11997,30 @@ here: 1101 110
 <label x="-452.12" y="279.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SPLY_AMP_SENS" class="0">
+<net name="SPLY_AMP_SENS" class="3">
 <segment>
 <pinref part="U$2" gate="A" pin="CH2+"/>
 <wire x1="-330.2" y1="-447.04" x2="-370.84" y2="-447.04" width="0.1524" layer="91"/>
 <label x="-370.84" y="-447.04" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="N$54" class="0">
 <segment>
-<pinref part="U$2" gate="A" pin="CH3+"/>
-<wire x1="-330.2" y1="-449.58" x2="-370.84" y2="-449.58" width="0.1524" layer="91"/>
-<label x="-370.84" y="-449.58" size="1.778" layer="95"/>
+<pinref part="IC6" gate="G$1" pin="VOUT"/>
+<wire x1="-424.18" y1="340.36" x2="-424.18" y2="378.46" width="0.1524" layer="91"/>
+<label x="-424.18" y="368.3" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="N$55" class="0">
+<net name="N$20" class="3">
+<segment>
+<pinref part="U$2" gate="A" pin="CH3+"/>
+<pinref part="ADC3" gate="1" pin="MP"/>
+<wire x1="-330.2" y1="-449.58" x2="-365.76" y2="-454.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$49" class="3">
 <segment>
 <pinref part="U$2" gate="A" pin="CH4+"/>
-<wire x1="-330.2" y1="-452.12" x2="-370.84" y2="-452.12" width="0.1524" layer="91"/>
-<label x="-370.84" y="-452.12" size="1.778" layer="95"/>
+<pinref part="ADC4" gate="1" pin="MP"/>
+<wire x1="-330.2" y1="-452.12" x2="-365.76" y2="-462.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
