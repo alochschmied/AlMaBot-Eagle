@@ -10201,7 +10201,7 @@ Deafault 0x69= 1101 001</text>
 here 1001111</text>
 <text x="-314.96" y="-627.38" size="1.778" layer="91">RESET: H or L?</text>
 <text x="-441.96" y="-619.76" size="1.778" layer="91">What R?</text>
-<text x="-358.14" y="-259.08" size="1.778" layer="91">PC847: Ic_max=50mA</text>
+<text x="-337.82" y="-259.08" size="1.778" layer="91">PC847: Ic_max=50mA</text>
 <text x="-510.54" y="-185.42" size="1.778" layer="91">PIEZO: http://www.reichelt.de/SUMMER-12V-HL/3/index.html?&amp;ACTION=3&amp;LA=446&amp;ARTICLE=14557&amp;artnr=SUMMER+12V+HL&amp;SEARCH=piezo+</text>
 <text x="-355.6" y="-104.14" size="1.778" layer="91">Ultra Sonics (5V)</text>
 <text x="-452.12" y="-27.94" size="1.778" layer="91">PIRs (5V)</text>
@@ -10211,6 +10211,11 @@ Max. 50A =&gt; 0 ... 2V (Perfect for ADC)</text>
 used with floting/open, H and L
 here: 1101 110
 (ADDR0=ADDR1=H)</text>
+<text x="-508" y="-254" size="1.778" layer="91">IR LEDs
+IR CAM: Angle of View: 54 x 41 degrees
+
+
+</text>
 </plain>
 <instances>
 <instance part="U2" gate="G$1" x="-320.04" y="325.12"/>
@@ -10325,7 +10330,7 @@ here: 1101 110
 <instance part="LSP13" gate="1" x="-441.96" y="-327.66" rot="R270"/>
 <instance part="LSP14" gate="1" x="-449.58" y="-335.28" rot="R270"/>
 <instance part="PZ_CONT" gate="1" x="-457.2" y="-342.9" rot="R270"/>
-<instance part="PZ_INTVL" gate="1" x="-462.28" y="-350.52" rot="R270"/>
+<instance part="PZ_INTVL" gate="1" x="-464.82" y="-350.52" rot="R270"/>
 <instance part="OK1" gate="A" x="-299.72" y="-271.78"/>
 <instance part="OK1" gate="B" x="-299.72" y="-287.02"/>
 <instance part="OK1" gate="C" x="-299.72" y="-302.26"/>
@@ -10729,13 +10734,6 @@ here: 1101 110
 <label x="-360.68" y="535.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="SV1" gate="G$1" pin="28"/>
-<wire x1="-386.08" y1="520.7" x2="-360.68" y2="520.7" width="0.1524" layer="91"/>
-<label x="-360.68" y="520.7" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="SV1" gate="G$1" pin="26"/>
@@ -10830,13 +10828,6 @@ here: 1101 110
 <label x="-426.72" y="515.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$32" class="0">
-<segment>
-<pinref part="SV1" gate="G$1" pin="27"/>
-<wire x1="-401.32" y1="520.7" x2="-426.72" y2="520.7" width="0.1524" layer="91"/>
-<label x="-426.72" y="520.7" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="N$4" class="1">
 <segment>
 <pinref part="Q1" gate="G$1" pin="D"/>
@@ -10928,9 +10919,9 @@ here: 1101 110
 <pinref part="UAT" gate="1" pin="MP"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="21"/>
-<wire x1="-401.32" y1="513.08" x2="-426.72" y2="513.08" width="0.1524" layer="91"/>
-<label x="-426.72" y="513.08" size="1.778" layer="95"/>
+<pinref part="SV1" gate="G$1" pin="29"/>
+<wire x1="-401.32" y1="523.24" x2="-426.72" y2="523.24" width="0.1524" layer="91"/>
+<label x="-426.72" y="523.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USM_B_TRIG" class="0">
@@ -10990,13 +10981,6 @@ here: 1101 110
 <label x="-337.82" y="-60.96" size="1.778" layer="95" rot="R90"/>
 <pinref part="UCT" gate="1" pin="MP"/>
 </segment>
-<segment>
-<pinref part="SV1" gate="G$1" pin="19"/>
-<wire x1="-401.32" y1="510.54" x2="-426.72" y2="510.54" width="0.1524" layer="91"/>
-<label x="-426.72" y="510.54" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$14" class="0">
 <segment>
 <pinref part="SV1" gate="G$1" pin="7"/>
 <wire x1="-401.32" y1="495.3" x2="-426.72" y2="495.3" width="0.1524" layer="91"/>
@@ -11087,13 +11071,6 @@ here: 1101 110
 <pinref part="IC2" gate="G$1" pin="VOA"/>
 <wire x1="-485.14" y1="127" x2="-510.54" y2="127" width="0.1524" layer="91"/>
 <label x="-510.54" y="127" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="SV1" gate="G$1" pin="29"/>
-<wire x1="-401.32" y1="523.24" x2="-426.72" y2="523.24" width="0.1524" layer="91"/>
-<label x="-426.72" y="523.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -11968,7 +11945,7 @@ here: 1101 110
 <net name="PIEZO_INTVL" class="0">
 <segment>
 <pinref part="PZ_INTVL" gate="1" pin="MP"/>
-<wire x1="-464.82" y1="-350.52" x2="-505.46" y2="-350.52" width="0.1524" layer="91"/>
+<wire x1="-467.36" y1="-350.52" x2="-505.46" y2="-350.52" width="0.1524" layer="91"/>
 <label x="-505.46" y="-350.52" size="1.778" layer="95"/>
 </segment>
 <segment>
