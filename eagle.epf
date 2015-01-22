@@ -1385,7 +1385,7 @@ UsedLibrary="/home/alexander/eagle-7.2.0/lbr/elektro/eib-busch-jaeger.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="-10 14 589 413"
+Loc="-10 362 589 761"
 State=2
 Number=0
 
