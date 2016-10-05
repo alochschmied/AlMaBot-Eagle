@@ -3,7 +3,7 @@ EAGLE AutoRouter Statistics:
 Job           : /home/alexander/eagle/AlMaBot/Main.brd
 
 Start at      : 20:51:33 (12.01.15)
-End at        : 20:53:34 (12.01.15)
+End at        : 22:12:18 (12.03.16)
 Elapsed time  : 00:01:59
 
 Signals       :   104   RoutingGrid: 7 mil  Layers: 2
@@ -22,4 +22,4 @@ Routed            :        96       223       226       228       229       229
 Vias              :         0       104       113        97        94        86
 Resolution        :    49.0 %    97.7 %    98.9 %    99.6 %   100.0 %   100.0 %
 
-Final             : 
+Final             : 100.0% finished
