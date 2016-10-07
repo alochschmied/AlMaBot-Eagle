@@ -1,5 +1,5 @@
 [Eagle]
-Version="07 02 00"
+Version="07 07 00"
 Platform="Linux"
 Serial="62191E841E-LSR-WLM-1EL"
 Globals="Globals"
@@ -1385,7 +1385,7 @@ UsedLibrary="/home/alexander/eagle-7.2.0/lbr/elektro/eib-busch-jaeger.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="-10 352 589 751"
+Loc="0 352 599 751"
 State=2
 Number=0
 
