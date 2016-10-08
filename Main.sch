@@ -15385,7 +15385,7 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <classes>
 <class number="0" name="default" width="0.508" drill="0">
 </class>
-<class number="1" name="H" width="1.27" drill="0">
+<class number="1" name="H" width="1.651" drill="0">
 </class>
 <class number="2" name="M" width="1.016" drill="0">
 </class>
@@ -15416,7 +15416,7 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <part name="D11" library="diode" deviceset="ES2D" device="" value="ES 2BA"/>
 <part name="FRAME3" library="frames" deviceset="DINA4_L" device="" value="Raspberry Pi B plus Connector"/>
 <part name="FRAME4" library="frames" deviceset="DINA4_L" device="" value="TBD"/>
-<part name="X3" library="con-ria-59" deviceset="AKL59-02" device="" value="Battery"/>
+<part name="X3" library="con-ria-59" deviceset="AKL59-02" device="" value="-  12V  +"/>
 <part name="X1" library="con-ria-59" deviceset="AKL59-08" device="" value="Motors"/>
 <part name="Q1" library="transistor-power" deviceset="IRF9530" device=""/>
 <part name="R1" library="resistor" deviceset="R-EU_" device="R0805" value="100k"/>
@@ -15999,7 +15999,7 @@ IR CAM: Angle of View: 54 x 41 degrees
 <label x="-360.68" y="535.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SDA1" class="0">
+<net name="SDA1" class="3">
 <segment>
 <pinref part="SV1" gate="G$1" pin="3"/>
 <label x="-426.72" y="490.22" size="1.778" layer="95"/>
@@ -16031,7 +16031,7 @@ IR CAM: Angle of View: 54 x 41 degrees
 <label x="-289.56" y="-439.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SCL1" class="0">
+<net name="SCL1" class="3">
 <segment>
 <pinref part="SV1" gate="G$1" pin="5"/>
 <label x="-426.72" y="492.76" size="1.778" layer="95"/>

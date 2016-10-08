@@ -15446,11 +15446,11 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <part name="R12" library="resistor" deviceset="R-EU_" device="R0603" value="120"/>
 <part name="R13" library="resistor" deviceset="R-EU_" device="R0603" value="120"/>
 <part name="X2" library="con-ria-59" deviceset="AKL59-04" device=""/>
-<part name="IC4" library="adafruit" deviceset="MCP2300X" device="/P" value="MCP2300X/P (GPIO Exp.)"/>
+<part name="IC4" library="adafruit" deviceset="MCP2300X" device="/P" value="MCP2300X/P"/>
 <part name="C11" library="rcl" deviceset="C-EU" device="025-040X050" value="10uF Tant."/>
 <part name="C12" library="rcl" deviceset="C-EU" device="025-040X050" value="10uF Tant."/>
 <part name="FRAME7" library="frames" deviceset="DINA4_L" device="" value="lala"/>
-<part name="IC5" library="TLC59108" deviceset="TLC59108" device="" value="TLC59108 (LED Dr.)"/>
+<part name="IC5" library="TLC59108" deviceset="TLC59108" device="" value="TLC59108"/>
 <part name="R14" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
 <part name="R15" library="resistor" deviceset="R-EU_" device="0204/2V" value="ZERO"/>
 <part name="R16" library="resistor" deviceset="R-EU_" device="0204/2V" value="ZERO"/>
@@ -15489,9 +15489,9 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <part name="P2" library="solpad" deviceset="LSP10" device=""/>
 <part name="P3" library="solpad" deviceset="LSP10" device=""/>
 <part name="P4" library="solpad" deviceset="LSP10" device=""/>
-<part name="GYRO_SCL" library="solpad" deviceset="LSP10" device="" value="GYRO_SCL"/>
-<part name="GYRO_SDA" library="solpad" deviceset="LSP10" device=""/>
-<part name="IC6" library="allegro" deviceset="ACS758*" device="" technology="LCB-050B-PFF-T"/>
+<part name="GY_SCL" library="solpad" deviceset="LSP10" device="" value="GYRO_SCL"/>
+<part name="GY_SDA" library="solpad" deviceset="LSP10" device=""/>
+<part name="IC6" library="allegro" deviceset="ACS758*" device="" technology="LCB-050B-PFF-T" value="ACS758LCB"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="U$2" library="eagleParts" deviceset="MCP3424-E/ST" device="" value="MCP3424-E/ST (ADC)"/>
 <part name="C13" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
@@ -15676,8 +15676,8 @@ IR CAM: Angle of View: 54 x 41 degrees
 <instance part="P2" gate="1" x="-424.18" y="-12.7" rot="R270"/>
 <instance part="P3" gate="1" x="-431.8" y="-15.24" rot="R270"/>
 <instance part="P4" gate="1" x="-439.42" y="-17.78" rot="R270"/>
-<instance part="GYRO_SCL" gate="1" x="-447.04" y="-518.16" rot="R270"/>
-<instance part="GYRO_SDA" gate="1" x="-447.04" y="-533.4" rot="R270"/>
+<instance part="GY_SCL" gate="1" x="-447.04" y="-518.16" rot="R270"/>
+<instance part="GY_SDA" gate="1" x="-447.04" y="-533.4" rot="R270"/>
 <instance part="IC6" gate="G$1" x="-426.72" y="330.2" rot="R90"/>
 <instance part="C1" gate="G$1" x="-431.8" y="347.98" rot="R180"/>
 <instance part="U$2" gate="A" x="-312.42" y="-457.2"/>
@@ -16018,7 +16018,7 @@ IR CAM: Angle of View: 54 x 41 degrees
 <segment>
 <wire x1="-449.58" y1="-533.4" x2="-469.9" y2="-533.4" width="0.1524" layer="91"/>
 <label x="-469.9" y="-533.4" size="1.778" layer="95"/>
-<pinref part="GYRO_SDA" gate="1" pin="MP"/>
+<pinref part="GY_SDA" gate="1" pin="MP"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="SDA"/>
@@ -16050,7 +16050,7 @@ IR CAM: Angle of View: 54 x 41 degrees
 <segment>
 <wire x1="-449.58" y1="-518.16" x2="-469.9" y2="-518.16" width="0.1524" layer="91"/>
 <label x="-469.9" y="-518.16" size="1.778" layer="95"/>
-<pinref part="GYRO_SCL" gate="1" pin="MP"/>
+<pinref part="GY_SCL" gate="1" pin="MP"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="SCL"/>
