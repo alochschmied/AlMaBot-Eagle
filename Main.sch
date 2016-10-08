@@ -6064,39 +6064,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="supply1">
-<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
- GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
- Please keep in mind, that these devices are necessary for the
- automatic wiring of the supply signals.&lt;p&gt;
- The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
- In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
- &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="GND">
-<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="GND" prefix="GND">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="con-lsta">
 <description>&lt;b&gt;Female Headers etc.&lt;/b&gt;&lt;p&gt;
 Naming:&lt;p&gt;
@@ -15435,15 +15402,11 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <part name="U1" library="SparkFun-PowerIC" deviceset="L298" device=""/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
-<part name="GND@H" library="supply1" deviceset="GND" device=""/>
 <part name="SV1" library="con-lsta" deviceset="FE20-2" device="" value="Raspberry Pi B Plus Connector"/>
-<part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="D2" library="diode" deviceset="ES2D" device="" value="ES 2BA"/>
 <part name="D3" library="diode" deviceset="ES2D" device="" value="ES 2BA"/>
 <part name="D4" library="diode" deviceset="ES2D" device="" value="ES 2BA"/>
 <part name="D7" library="diode" deviceset="ES2D" device="" value="ES 2BA"/>
-<part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="U4" library="SparkFun-PowerIC" deviceset="L298" device=""/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
@@ -15451,8 +15414,6 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <part name="D9" library="diode" deviceset="ES2D" device="" value="ES 2BA"/>
 <part name="D10" library="diode" deviceset="ES2D" device="" value="ES 2BA"/>
 <part name="D11" library="diode" deviceset="ES2D" device="" value="ES 2BA"/>
-<part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME3" library="frames" deviceset="DINA4_L" device="" value="Raspberry Pi B plus Connector"/>
 <part name="FRAME4" library="frames" deviceset="DINA4_L" device="" value="TBD"/>
 <part name="X3" library="con-ria-59" deviceset="AKL59-02" device="" value="Battery"/>
@@ -15541,7 +15502,6 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <part name="C14" library="rcl" deviceset="C-EU" device="C0805" value="10u"/>
 <part name="ADC3" library="solpad" deviceset="LSP10" device=""/>
 <part name="ADC4" library="solpad" deviceset="LSP10" device=""/>
-<part name="R29" library="resistor" deviceset="R-EU_" device="0204/2V" value="ZERO"/>
 <part name="G0" library="solpad" deviceset="LSP10" device=""/>
 <part name="G1" library="solpad" deviceset="LSP10" device=""/>
 <part name="G2" library="solpad" deviceset="LSP10" device=""/>
@@ -15610,15 +15570,11 @@ IR CAM: Angle of View: 54 x 41 degrees
 <instance part="U1" gate="G$1" x="-373.38" y="162.56"/>
 <instance part="C5" gate="G$1" x="-408.94" y="154.94"/>
 <instance part="C6" gate="G$1" x="-398.78" y="154.94"/>
-<instance part="GND@H" gate="1" x="-401.32" y="254"/>
 <instance part="SV1" gate="G$1" x="-393.7" y="513.08"/>
-<instance part="GND4" gate="1" x="-345.44" y="490.22"/>
 <instance part="D2" gate="G$1" x="-309.88" y="172.72" rot="R90"/>
 <instance part="D3" gate="G$1" x="-327.66" y="172.72" rot="R90"/>
 <instance part="D4" gate="G$1" x="-327.66" y="152.4" rot="R90"/>
 <instance part="D7" gate="G$1" x="-309.88" y="152.4" rot="R90"/>
-<instance part="GND2" gate="1" x="-327.66" y="142.24"/>
-<instance part="GND5" gate="1" x="-309.88" y="142.24"/>
 <instance part="U4" gate="G$1" x="-373.38" y="96.52"/>
 <instance part="C7" gate="G$1" x="-408.94" y="88.9"/>
 <instance part="C8" gate="G$1" x="-398.78" y="88.9"/>
@@ -15626,8 +15582,6 @@ IR CAM: Angle of View: 54 x 41 degrees
 <instance part="D9" gate="G$1" x="-327.66" y="106.68" rot="R90"/>
 <instance part="D10" gate="G$1" x="-327.66" y="86.36" rot="R90"/>
 <instance part="D11" gate="G$1" x="-309.88" y="86.36" rot="R90"/>
-<instance part="GND7" gate="1" x="-327.66" y="76.2"/>
-<instance part="GND8" gate="1" x="-309.88" y="76.2"/>
 <instance part="FRAME3" gate="G$1" x="-513.08" y="408.94"/>
 <instance part="FRAME3" gate="G$2" x="-350.52" y="408.94"/>
 <instance part="FRAME4" gate="G$1" x="-513.08" y="-172.72"/>
@@ -15740,7 +15694,6 @@ IR CAM: Angle of View: 54 x 41 degrees
 <instance part="ADC3" gate="1" x="-368.3" y="-454.66" rot="R90"/>
 <instance part="ADC4" gate="1" x="-368.3" y="-462.28" rot="R90"/>
 <instance part="IC3" gate="P" x="-429.26" y="177.8"/>
-<instance part="R29" gate="G$1" x="-401.32" y="266.7" rot="R90"/>
 <instance part="G0" gate="1" x="-378.46" y="-215.9" rot="R270"/>
 <instance part="G1" gate="1" x="-378.46" y="-220.98" rot="R270"/>
 <instance part="G2" gate="1" x="-378.46" y="-226.06" rot="R270"/>
@@ -15857,70 +15810,9 @@ IR CAM: Angle of View: 54 x 41 degrees
 </net>
 <net name="GND" class="3">
 <segment>
-<pinref part="SV1" gate="G$1" pin="6"/>
-<pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="-386.08" y1="492.76" x2="-383.54" y2="492.76" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="G$1" pin="30"/>
-<wire x1="-383.54" y1="492.76" x2="-345.44" y2="492.76" width="0.1524" layer="91"/>
-<wire x1="-386.08" y1="523.24" x2="-383.54" y2="523.24" width="0.1524" layer="91"/>
-<wire x1="-383.54" y1="523.24" x2="-383.54" y2="510.54" width="0.1524" layer="91"/>
-<junction x="-383.54" y="492.76"/>
-<pinref part="SV1" gate="G$1" pin="34"/>
-<wire x1="-383.54" y1="510.54" x2="-383.54" y2="502.92" width="0.1524" layer="91"/>
-<wire x1="-383.54" y1="502.92" x2="-383.54" y2="492.76" width="0.1524" layer="91"/>
-<wire x1="-386.08" y1="528.32" x2="-383.54" y2="528.32" width="0.1524" layer="91"/>
-<wire x1="-383.54" y1="528.32" x2="-383.54" y2="523.24" width="0.1524" layer="91"/>
-<junction x="-383.54" y="523.24"/>
-<pinref part="SV1" gate="G$1" pin="20"/>
-<wire x1="-386.08" y1="510.54" x2="-383.54" y2="510.54" width="0.1524" layer="91"/>
-<junction x="-383.54" y="510.54"/>
-<pinref part="SV1" gate="G$1" pin="14"/>
-<wire x1="-386.08" y1="502.92" x2="-383.54" y2="502.92" width="0.1524" layer="91"/>
-<junction x="-383.54" y="502.92"/>
-<pinref part="SV1" gate="G$1" pin="9"/>
-<wire x1="-401.32" y1="497.84" x2="-403.86" y2="497.84" width="0.1524" layer="91"/>
-<wire x1="-403.86" y1="497.84" x2="-403.86" y2="518.16" width="0.1524" layer="91"/>
-<wire x1="-403.86" y1="518.16" x2="-403.86" y2="535.94" width="0.1524" layer="91"/>
-<wire x1="-403.86" y1="535.94" x2="-403.86" y2="543.56" width="0.1524" layer="91"/>
-<wire x1="-403.86" y1="543.56" x2="-383.54" y2="543.56" width="0.1524" layer="91"/>
-<wire x1="-383.54" y1="543.56" x2="-383.54" y2="528.32" width="0.1524" layer="91"/>
-<junction x="-383.54" y="528.32"/>
-<pinref part="SV1" gate="G$1" pin="25"/>
-<wire x1="-401.32" y1="518.16" x2="-403.86" y2="518.16" width="0.1524" layer="91"/>
-<junction x="-403.86" y="518.16"/>
-<pinref part="SV1" gate="G$1" pin="39"/>
-<wire x1="-401.32" y1="535.94" x2="-403.86" y2="535.94" width="0.1524" layer="91"/>
-<junction x="-403.86" y="535.94"/>
-</segment>
-<segment>
-<pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="D4" gate="G$1" pin="A"/>
-<wire x1="-327.66" y1="144.78" x2="-327.66" y2="149.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="D7" gate="G$1" pin="A"/>
-<wire x1="-309.88" y1="144.78" x2="-309.88" y2="149.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND7" gate="1" pin="GND"/>
-<pinref part="D10" gate="G$1" pin="A"/>
-<wire x1="-327.66" y1="78.74" x2="-327.66" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND8" gate="1" pin="GND"/>
-<pinref part="D11" gate="G$1" pin="A"/>
-<wire x1="-309.88" y1="78.74" x2="-309.88" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="IC2" gate="G$1" pin="VIA"/>
 <wire x1="-452.12" y1="127" x2="-439.42" y2="127" width="0.1524" layer="91"/>
 <label x="-439.42" y="127" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="GND@H" gate="1" pin="GND"/>
-<pinref part="R29" gate="G$1" pin="1"/>
-<wire x1="-401.32" y1="256.54" x2="-401.32" y2="261.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ML_B" class="0">
@@ -15936,7 +15828,7 @@ IR CAM: Angle of View: 54 x 41 degrees
 <wire x1="-388.62" y1="177.8" x2="-355.6" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="ML_OUT_B" class="2">
+<net name="ML_OUT_B" class="1">
 <segment>
 <pinref part="D3" gate="G$1" pin="A"/>
 <pinref part="D4" gate="G$1" pin="C"/>
@@ -15964,7 +15856,7 @@ IR CAM: Angle of View: 54 x 41 degrees
 <label x="-426.72" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="ML_OUT_A" class="2">
+<net name="ML_OUT_A" class="1">
 <segment>
 <pinref part="D2" gate="G$1" pin="A"/>
 <pinref part="D7" gate="G$1" pin="C"/>
@@ -16011,7 +15903,7 @@ IR CAM: Angle of View: 54 x 41 degrees
 <wire x1="-388.62" y1="111.76" x2="-355.6" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MR_OUT_A" class="2">
+<net name="MR_OUT_A" class="1">
 <segment>
 <pinref part="D8" gate="G$1" pin="A"/>
 <pinref part="D11" gate="G$1" pin="C"/>
@@ -16045,7 +15937,7 @@ IR CAM: Angle of View: 54 x 41 degrees
 <label x="-426.72" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="MR_OUT_B" class="2">
+<net name="MR_OUT_B" class="1">
 <segment>
 <pinref part="D9" gate="G$1" pin="A"/>
 <pinref part="D10" gate="G$1" pin="C"/>
@@ -16247,28 +16139,28 @@ IR CAM: Angle of View: 54 x 41 degrees
 <wire x1="-383.54" y1="490.22" x2="-386.08" y2="490.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="2">
+<net name="N$7" class="1">
 <segment>
 <pinref part="X1" gate="-1" pin="1"/>
 <wire x1="-373.38" y1="60.96" x2="-386.08" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="F3" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$26" class="2">
+<net name="N$26" class="1">
 <segment>
 <pinref part="X1" gate="-3" pin="1"/>
 <wire x1="-373.38" y1="50.8" x2="-386.08" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="F4" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$34" class="2">
+<net name="N$34" class="1">
 <segment>
 <pinref part="X1" gate="-5" pin="1"/>
 <wire x1="-373.38" y1="40.64" x2="-386.08" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="F5" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$36" class="2">
+<net name="N$36" class="1">
 <segment>
 <pinref part="X1" gate="-7" pin="1"/>
 <wire x1="-373.38" y1="30.48" x2="-386.08" y2="30.48" width="0.1524" layer="91"/>
@@ -17013,6 +16905,42 @@ IR CAM: Angle of View: 54 x 41 degrees
 <junction x="-421.64" y="360.68"/>
 <label x="-421.64" y="368.3" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="6"/>
+<wire x1="-386.08" y1="492.76" x2="-383.54" y2="492.76" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="G$1" pin="30"/>
+<wire x1="-383.54" y1="492.76" x2="-345.44" y2="492.76" width="0.1524" layer="91"/>
+<wire x1="-386.08" y1="523.24" x2="-383.54" y2="523.24" width="0.1524" layer="91"/>
+<wire x1="-383.54" y1="523.24" x2="-383.54" y2="510.54" width="0.1524" layer="91"/>
+<junction x="-383.54" y="492.76"/>
+<pinref part="SV1" gate="G$1" pin="34"/>
+<wire x1="-383.54" y1="510.54" x2="-383.54" y2="502.92" width="0.1524" layer="91"/>
+<wire x1="-383.54" y1="502.92" x2="-383.54" y2="492.76" width="0.1524" layer="91"/>
+<wire x1="-386.08" y1="528.32" x2="-383.54" y2="528.32" width="0.1524" layer="91"/>
+<wire x1="-383.54" y1="528.32" x2="-383.54" y2="523.24" width="0.1524" layer="91"/>
+<junction x="-383.54" y="523.24"/>
+<pinref part="SV1" gate="G$1" pin="20"/>
+<wire x1="-386.08" y1="510.54" x2="-383.54" y2="510.54" width="0.1524" layer="91"/>
+<junction x="-383.54" y="510.54"/>
+<pinref part="SV1" gate="G$1" pin="14"/>
+<wire x1="-386.08" y1="502.92" x2="-383.54" y2="502.92" width="0.1524" layer="91"/>
+<junction x="-383.54" y="502.92"/>
+<pinref part="SV1" gate="G$1" pin="9"/>
+<wire x1="-401.32" y1="497.84" x2="-403.86" y2="497.84" width="0.1524" layer="91"/>
+<wire x1="-403.86" y1="497.84" x2="-403.86" y2="518.16" width="0.1524" layer="91"/>
+<wire x1="-403.86" y1="518.16" x2="-403.86" y2="535.94" width="0.1524" layer="91"/>
+<wire x1="-403.86" y1="535.94" x2="-403.86" y2="543.56" width="0.1524" layer="91"/>
+<wire x1="-403.86" y1="543.56" x2="-383.54" y2="543.56" width="0.1524" layer="91"/>
+<wire x1="-383.54" y1="543.56" x2="-383.54" y2="528.32" width="0.1524" layer="91"/>
+<junction x="-383.54" y="528.32"/>
+<pinref part="SV1" gate="G$1" pin="25"/>
+<wire x1="-401.32" y1="518.16" x2="-403.86" y2="518.16" width="0.1524" layer="91"/>
+<junction x="-403.86" y="518.16"/>
+<pinref part="SV1" gate="G$1" pin="39"/>
+<wire x1="-401.32" y1="535.94" x2="-403.86" y2="535.94" width="0.1524" layer="91"/>
+<junction x="-403.86" y="535.94"/>
+<label x="-345.44" y="492.76" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GND@L" class="3">
 <segment>
@@ -17218,8 +17146,7 @@ IR CAM: Angle of View: 54 x 41 degrees
 <junction x="-355.6" y="309.88"/>
 <wire x1="-500.38" y1="309.88" x2="-457.2" y2="309.88" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="-457.2" y1="309.88" x2="-401.32" y2="309.88" width="0.1524" layer="91"/>
-<wire x1="-401.32" y1="309.88" x2="-386.08" y2="309.88" width="0.1524" layer="91"/>
+<wire x1="-457.2" y1="309.88" x2="-386.08" y2="309.88" width="0.1524" layer="91"/>
 <wire x1="-386.08" y1="309.88" x2="-375.92" y2="309.88" width="0.1524" layer="91"/>
 <wire x1="-375.92" y1="309.88" x2="-365.76" y2="309.88" width="0.1524" layer="91"/>
 <wire x1="-365.76" y1="309.88" x2="-355.6" y2="309.88" width="0.1524" layer="91"/>
@@ -17240,14 +17167,31 @@ IR CAM: Angle of View: 54 x 41 degrees
 <wire x1="-375.92" y1="271.78" x2="-375.92" y2="309.88" width="0.1524" layer="91"/>
 <junction x="-375.92" y="309.88"/>
 <pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="-365.76" y1="271.78" x2="-365.76" y2="309.88" width="0.1524" layer="91"/>
 <junction x="-365.76" y="309.88"/>
+<wire x1="-365.76" y1="271.78" x2="-365.76" y2="309.88" width="0.1524" layer="91"/>
 <wire x1="-386.08" y1="309.88" x2="-386.08" y2="256.54" width="0.1524" layer="91"/>
 <junction x="-386.08" y="309.88"/>
-<pinref part="R29" gate="G$1" pin="2"/>
-<wire x1="-401.32" y1="271.78" x2="-401.32" y2="309.88" width="0.1524" layer="91"/>
-<junction x="-401.32" y="309.88"/>
 <label x="-383.54" y="256.54" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="D4" gate="G$1" pin="A"/>
+<wire x1="-327.66" y1="144.78" x2="-327.66" y2="149.86" width="0.1524" layer="91"/>
+<label x="-327.66" y="144.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D7" gate="G$1" pin="A"/>
+<wire x1="-309.88" y1="144.78" x2="-309.88" y2="149.86" width="0.1524" layer="91"/>
+<label x="-309.88" y="144.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D10" gate="G$1" pin="A"/>
+<wire x1="-327.66" y1="78.74" x2="-327.66" y2="83.82" width="0.1524" layer="91"/>
+<label x="-327.66" y="78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D11" gate="G$1" pin="A"/>
+<wire x1="-309.88" y1="78.74" x2="-309.88" y2="83.82" width="0.1524" layer="91"/>
+<label x="-309.88" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL1@L" class="3">
